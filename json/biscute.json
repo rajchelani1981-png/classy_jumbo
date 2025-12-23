@@ -1,0 +1,265 @@
+{
+    "bannerImage" : "/assets/image/sliding/landing page sliding-1.jpg",
+    "list": [
+        {
+            "id" : "1",
+            "category": "Cookies",
+            "brand" : "Yummy",
+            "flavour" : "Orange",
+            "sub_flavour" : "Orange Flavoured Sandwich",
+            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
+            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
+            "images": [
+                "/assets/image/sliding/landing page sliding-1.jpg",
+                "/assets/image/products/orange-2.jpg"
+            ],
+            "net_weight": "75g",
+            "pack_size": "5",
+            "shelf_life_months": 9,
+            "ingredients": [
+                "Wheat flour",
+                "Sugar",
+                "Edible vegetable oil",
+                "Orange flavour"
+            ],
+            "allergens": ["gluten"],
+            "fssai_license": "12345678901234",
+            "country_of_origin": "India",
+            "discount_percentage": 33,
+            "tax_percentage": 5,
+            "price_valid_from": "2025-01-01",
+            "mrp" : 30,
+            "price" : 20,
+            "currency" : "INR",
+            "minimum_quantity" : 30,
+            "sku": "YUM-CK-ORG-001",
+            "status": "active",
+            "stock_quantity": 500,
+            "is_featured": true,
+            "is_new": false,
+            "category_slug": "cookies",
+            "sub_category": "sandwich-biscuits",
+            "tags": ["orange", "cream", "sweet"],
+            "available" : [
+                {
+                    "name": "Amazon",
+                    "logo": "/assets/image/logos/amazon.png",
+                    "url": "https://amazon.in/"
+                },
+                {
+                    "name": "Amazon",
+                    "logo": "/assets/image/logos/amazon.png",
+                    "url": "https://amazon.in/"
+                }
+            ]
+        },
+        {
+            "id" : "2",
+            "category": "Crunch",
+            "brand" : "Yummy",
+            "flavour" : "Orange",
+            "sub_flavour" : "Orange Flavoured Sandwich",
+            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
+            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
+            "images": [
+                "/assets/image/sliding/landing page sliding-1.jpg",
+                "/assets/image/products/orange-2.jpg"
+            ],
+            "net_weight": "75g",
+            "pack_size": "5",
+            "shelf_life_months": 9,
+            "ingredients": [
+                "Wheat flour",
+                "Sugar",
+                "Edible vegetable oil",
+                "Orange flavour"
+            ],
+            "allergens": ["gluten"],
+            "fssai_license": "12345678901234",
+            "country_of_origin": "India",
+            "discount_percentage": 33,
+            "tax_percentage": 5,
+            "price_valid_from": "2025-01-01",
+            "mrp" : 30,
+            "price" : 20,
+            "currency" : "INR",
+            "minimum_quantity" : 30,
+            "sku": "YUM-CK-ORG-001",
+            "status": "active",
+            "stock_quantity": 500,
+            "is_featured": true,
+            "is_new": false,
+            "category_slug": "cookies",
+            "sub_category": "sandwich-biscuits",
+            "tags": ["orange", "cream", "sweet"],
+            "available" : [
+                {
+                    "name": "Amazon",
+                    "logo": "/assets/image/logos/amazon.png",
+                    "url": "https://amazon.in/"
+                },
+                {
+                    "name": "Amazon",
+                    "logo": "/assets/image/logos/amazon.png",
+                    "url": "https://amazon.in/"
+                }
+            ]
+        },
+        {
+            "id" : "3",
+            "category": "Cooky",
+            "brand" : "Yummy",
+            "flavour" : "Orange",
+            "sub_flavour" : "Orange Flavoured Sandwich",
+            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
+            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
+            "images": [
+                "/assets/image/sliding/landing page sliding-1.jpg",
+                "/assets/image/products/orange-2.jpg"
+            ],
+            "net_weight": "75g",
+            "pack_size": "5",
+            "shelf_life_months": 9,
+            "ingredients": [
+                "Wheat flour",
+                "Sugar",
+                "Edible vegetable oil",
+                "Orange flavour"
+            ],
+            "allergens": ["gluten"],
+            "fssai_license": "12345678901234",
+            "country_of_origin": "India",
+            "discount_percentage": 33,
+            "tax_percentage": 5,
+            "price_valid_from": "2025-01-01",
+            "mrp" : 30,
+            "price" : 20,
+            "currency" : "INR",
+            "minimum_quantity" : 30,
+            "sku": "YUM-CK-ORG-001",
+            "status": "active",
+            "stock_quantity": 500,
+            "is_featured": true,
+            "is_new": false,
+            "category_slug": "cookies",
+            "sub_category": "sandwich-biscuits",
+            "tags": ["orange", "cream", "sweet"],
+            "available" : [
+                {
+                    "name": "Amazon",
+                    "logo": "/assets/image/logos/amazon.png",
+                    "url": "https://amazon.in/"
+                },
+                {
+                    "name": "Amazon",
+                    "logo": "/assets/image/logos/amazon.png",
+                    "url": "https://amazon.in/"
+                }
+            ]
+        },
+        {
+            "id" : "4",
+            "category": "Cookies",
+            "brand" : "Yummy",
+            "flavour" : "Orange",
+            "sub_flavour" : "Orange Flavoured Sandwich",
+            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
+            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
+            "images": [
+                "/assets/image/sliding/landing page sliding-1.jpg",
+                "/assets/image/products/orange-2.jpg"
+            ],
+            "net_weight": "75g",
+            "pack_size": "5",
+            "shelf_life_months": 9,
+            "ingredients": [
+                "Wheat flour",
+                "Sugar",
+                "Edible vegetable oil",
+                "Orange flavour"
+            ],
+            "allergens": ["gluten"],
+            "fssai_license": "12345678901234",
+            "country_of_origin": "India",
+            "discount_percentage": 33,
+            "tax_percentage": 5,
+            "price_valid_from": "2025-01-01",
+            "mrp" : 30,
+            "price" : 20,
+            "currency" : "INR",
+            "minimum_quantity" : 30,
+            "sku": "YUM-CK-ORG-001",
+            "status": "active",
+            "stock_quantity": 500,
+            "is_featured": true,
+            "is_new": false,
+            "category_slug": "cookies",
+            "sub_category": "sandwich-biscuits",
+            "tags": ["orange", "cream", "sweet"],
+            "available" : [
+                {
+                    "name": "Amazon",
+                    "logo": "/assets/image/logos/amazon.png",
+                    "url": "https://amazon.in/"
+                },
+                {
+                    "name": "Amazon",
+                    "logo": "/assets/image/logos/amazon.png",
+                    "url": "https://amazon.in/"
+                }
+            ]
+        },
+        {
+            "id" : "5",
+            "category": "Cookies",
+            "brand" : "Yummy",
+            "flavour" : "Orange",
+            "sub_flavour" : "Orange Flavoured Sandwich",
+            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
+            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
+            "images": [
+                "/assets/image/sliding/landing page sliding-1.jpg",
+                "/assets/image/products/orange-2.jpg"
+            ],
+            "net_weight": "75g",
+            "pack_size": "5",
+            "shelf_life_months": 9,
+            "ingredients": [
+                "Wheat flour",
+                "Sugar",
+                "Edible vegetable oil",
+                "Orange flavour"
+            ],
+            "allergens": ["gluten"],
+            "fssai_license": "12345678901234",
+            "country_of_origin": "India",
+            "discount_percentage": 33,
+            "tax_percentage": 5,
+            "price_valid_from": "2025-01-01",
+            "mrp" : 30,
+            "price" : 20,
+            "currency" : "INR",
+            "minimum_quantity" : 30,
+            "sku": "YUM-CK-ORG-001",
+            "status": "active",
+            "stock_quantity": 500,
+            "is_featured": true,
+            "is_new": false,
+            "category_slug": "cookies",
+            "sub_category": "sandwich-biscuits",
+            "tags": ["orange", "cream", "sweet"],
+            "available" : [
+                {
+                    "name": "Amazon",
+                    "logo": "/assets/image/logos/amazon.png",
+                    "url": "https://amazon.in/"
+                },
+                {
+                    "name": "Amazon",
+                    "logo": "/assets/image/logos/amazon.png",
+                    "url": "https://amazon.in/"
+                }
+            ]
+        }
+    ]
+}

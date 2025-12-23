@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="productDetail"></div>
+    <script>
+        const productId = new URLSearchParams(window.location.search).get("id");
+
+fetch("/data/products.json")
+  .then(res => res.json())
+  .then(products => {
+    const product = products.find(p => p.id == productId);
+    if (!product) return;
+
+    document.getElementById("productDetail").innerHTML = `
+      <h1>${product.sub_flavour}</h1>
+      <img src="${product.images[0]}">
+      <p>${product.description}</p>
+      <p>MRP: ₹${product.mrp}</p>
+      <p>Price: ₹${product.price}</p>
+
+      <h3>Available On</h3>
+      ${product.available.map(a =>
+        `<a href="${a.url}" target="_blank">
+          <img src="${a.logo}" alt="${a.name}">
+        </a>`
+      ).join("")}
+    `;
+  });
+
+    </script>
+</body>
+</html>

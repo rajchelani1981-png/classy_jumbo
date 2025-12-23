@@ -1,12 +1,5 @@
 [
     {
-        "img": "/assets/image/sliding/landing page sliding-1.jpg",
-        "heading" : "Classy Jumbo",
-        "subheading" : "Since 2005"
-    },
-    {
-        "img" : "/assets/image/sliding/Classy.jpeg",
-        "heading" : "Master Jumbo",
-        "subheading" : "Since 2005"
+        "img": "/assets/image/sliding/landing page sliding-1.jpg"
     }
 ]

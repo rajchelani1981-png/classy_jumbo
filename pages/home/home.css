@@ -20,7 +20,9 @@
 .slide img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;      /* 🔥 THIS FIXES ALL SPACES */
+  object-position: center;
+  display: block;         /* remove inline-image gaps */
 }
 
 /* Text overlay */
@@ -133,4 +135,153 @@
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* HERO */
+.cj2-hero {
+  background: #fff8e1;
+  padding: 100px 0;
+}
+
+.cj2-hero-inner {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.cj2-hero-text h1 {
+  font-size: 54px;
+  line-height: 1.1;
+  color: #222;
+}
+
+.cj2-hero-text span {
+  color: #d32f2f;
+}
+
+.cj2-hero-text p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #555;
+  max-width: 520px;
+}
+
+.cj2-actions {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+}
+
+/* BUTTONS */
+.cj2-btn-primary {
+  background: #d32f2f;
+  color: #fff;
+  padding: 14px 32px;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.cj2-btn-secondary {
+  border: 2px solid #d32f2f;
+  color: #d32f2f;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+/* HERO IMAGE */
+.cj2-hero-image img {
+  width: 100%;
+  max-width: 380px;
+  border-radius: 16px;
+}
+
+/* HIGHLIGHTS */
+.cj2-highlights {
+  padding: 80px 0;
+  background: #fff;
+}
+
+.cj2-highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.cj2-card {
+  background: #fafafa;
+  padding: 30px;
+  border-radius: 14px;
+  text-align: center;
+}
+
+/* MOST LOVED */
+.cj2-loved {
+  background: #f2aa0d;
+  padding: 70px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.cj2-loved h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* VIDEO */
+.cj2-video {
+  padding: 80px 0;
+  background: #fff8e1;
+}
+
+.cj2-video-box video {
+  width: 100%;
+  max-width: 900px;
+  display: block;
+  margin: auto;
+  border-radius: 16px;
+}
+
+/* WHY */
+.cj2-why {
+  padding: 80px 0;
+  background: #fff;
+}
+
+.cj2-why-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  text-align: center;
+}
+
+/* CTA */
+.cj2-cta {
+  background: #d32f2f;
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.cj2-cta h2 {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .cj2-hero-inner,
+  .cj2-highlight-grid,
+  .cj2-why-grid {
+    grid-template-columns: 1fr;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.cj2-video-grid {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
 }

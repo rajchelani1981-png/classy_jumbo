@@ -46,6 +46,39 @@ let companyLogoLoad = async () => {
   navbarLogo.innerHTML = `<img src="${companyDataForLogo.logo}" alt="Company Logo" />`;
 }
 
+let menuPart = (data, menuKey) =>{
+  let ul = document.createElement("ul");
+  ul.className = "submenu";
+
+  data.forEach(m =>{
+    let li = document.createElement("li");
+    let a = document.createElement("a");
+
+    if(a.href)
+      a.href = m.route;
+    
+    a.dataset.menu = menuKey;
+    a.textContent = m.title;
+    
+    li.append(a);
+
+    if(m.submenu){
+      li.className = "dropdown";
+      a.className = "nav-link";
+
+      // empty the li tag
+      li.innerHTML = "";
+      li.append(a);
+
+      let subSubmenu = menuPart(m.submenu, menuKey); 
+
+      li.append(subSubmenu);
+    }
+    ul.append(li);
+  }); 
+  return ul;
+}
+
 let loadMenuData = async () =>{
   let navMenu = document.getElementsByClassName("nav-menu")[0];
   
@@ -63,30 +96,13 @@ let loadMenuData = async () =>{
     if(e.submenu){
       li.classList.add("dropdown");
       
-      // li.innerHTML = `
-      //   <div class="nav-link-wrap">
-      //     <a href="${e.route}" class="nav-link" data-menu="${parts[0]}">${e.title}</a>
-      //     <span class="submenu-toggle"></span>
-      //   </div>
-      //   <ul class="submenu">
-      //     ${e.submenu.map(sub =>
-      //       `<li><a href="${sub.route}" data-menu="${parts[0]}">${sub.title}</a></li>`
-      //     ).join("")}
-      //   </ul>
-      // `;
-
-
-      li.innerHTML = `
-        <a href="${e.route}" class="nav-link" data-menu="${parts[0]}">${e.title}</a>
-        <ul class="submenu">
-          ${e.submenu.map(sub =>
-            `<li><a href="${sub.route}" data-menu="${parts[0]}">${sub.title}</a></li>`
-          ).join("")}
-        </ul>
-      `;
+      let subMenuData = e.submenu;
+      
+      li.innerHTML = `<a href="${e.route ? e.route : ""}" class="nav-link" data-menu="${parts[0]}">${e.title}</a>`;
+      li.append(menuPart(subMenuData, parts[0]));
     }
     else{
-      li.innerHTML = `<a href="${e.route}" class="nav-link" data-menu="${parts[0]}" >${e.title}</a>`;
+      li.innerHTML = `<a href="${e.route ? e.route : ""}" class="nav-link" data-menu="${parts[0]}" >${e.title}</a>`;
     }
     navMenu.append(li);
   });
@@ -106,7 +122,6 @@ function setupSubmenuToggle() {
   });
 }
 
-
 let navbarHtmlCodeLoad = async () =>{
   // Load navbar
   fetch(htmlCodeLink)
@@ -118,6 +133,22 @@ let navbarHtmlCodeLoad = async () =>{
       companyLogoLoad();
       setupHamburger();
     });
+}
+
+let navigateThePage = (parts) =>{
+  let page = "/pages";
+  for(let i=0; i < parts.length; i++){
+    page += `/${parts[i]}`;
+
+    if(i == 0 && i == parts.length -1){
+      page += `/${parts[i]}`;
+    }
+    if(i == parts.length -1){
+      page += ".html";
+    }
+  }
+
+  return page;
 }
 
 // Click handling
@@ -136,12 +167,10 @@ function setupNav() {
       // NORMAL NAVIGATION
       let href = this.getAttribute("href");
       let parts = href.replace("#/", "").split("/");
-
-      const pagePart = parts[0];
-      const subPagePart = parts[1];
-
-      const page = `/pages/${pagePart}/${subPagePart || pagePart}.html`;
+      let page = navigateThePage(parts);
       const menu = this.dataset.menu;
+
+      console.log("page", page);
 
       loadPage(page, menu);
       closeMobileMenu();   // CLOSE MENU AFTER CLICK
@@ -164,6 +193,9 @@ function loadPage(page, menu) {
       if(typeof companyInformationForPrivacyPolicy === "function"){
         companyInformationForPrivacyPolicy();
       }
+      if(typeof companyInformationForContact == "function"){
+        companyInformationForContact();
+      }
     });
 }
 
@@ -172,11 +204,11 @@ async function handleRoute() {
   const hash = location.hash || "#/home";
 
   const parts = hash.replace("#/", "").split("/");
+  let page = navigateThePage(parts);
+  // const page = parts[0];        // buy / rent / home
+  // const subPage = parts[1];     // apartments / villas
 
-  const page = parts[0];        // buy / rent / home
-  const subPage = parts[1];     // apartments / villas
-
-  loadPage(`/pages/${page}/${subPage || page}.html`, page);
+  loadPage(page, parts[0]);
 }
 
 // Hamburger
@@ -221,6 +253,17 @@ document.addEventListener("click", e => {
   }
 });
 
+document.querySelectorAll(".nav-item.dropdown > .nav-link")
+  .forEach(link => {
+    link.addEventListener("click", e => {
+      if (window.innerWidth <= 768) {
+        e.preventDefault();
+        link.parentElement.classList.toggle("open");
+      }
+    });
+  });
+
+
 
 // Handle refresh + back/forward
 window.addEventListener("hashchange", handleRoute);
@@ -228,3 +271,4 @@ window.addEventListener("DOMContentLoaded", handleRoute);
 
 //navbar data
 navbarHtmlCodeLoad();
+

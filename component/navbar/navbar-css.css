@@ -183,3 +183,92 @@ body {
   background: #ffffff;
   border-bottom: 2px solid #d32f2f;
 }
+
+.dropdown > .submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+
+.dropdown:hover > .submenu {
+  display: block;
+}
+
+
+
+
+.nav-item.dropdown {
+  position: relative;
+}
+
+.nav-item.dropdown > .submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 220px;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  display: none;
+  z-index: 1000;
+}
+
+.nav-item.dropdown:hover > .submenu {
+  display: block;
+}
+
+/* SUB-SUBMENU */
+.submenu .dropdown {
+  position: relative;
+}
+
+.submenu .dropdown > .submenu {
+  top: 0;
+  left: 100%;
+}
+
+.nav-item.dropdown {
+  position: relative;
+}
+
+.nav-item.dropdown > .submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 200px;
+  background: #fff;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  display: none;
+  z-index: 1000;
+}
+
+.nav-item.dropdown:hover > .submenu {
+  display: block;
+}
+
+.site-header,
+.navbar,
+.nav-menu,
+.container {
+  overflow: visible !important;
+}
+
+.submenu {
+  position: absolute;
+  z-index: 9999;
+}
+
+.hero-slider,
+.slide {
+  position: relative;
+  z-index: 1;
+}
+
+.site-header {
+  position: relative;
+  z-index: 100;
+}
+
+.submenu {
+  z-index: 1000;
+}

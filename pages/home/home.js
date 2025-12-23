@@ -89,4 +89,102 @@ async function initHeroSlider() {
     current = (current + 1) % slides.length;
     activateSlide(current);
   }, 4500);
+
+  videoFunctionInit();
+  loadHomeActionAndHeroImage();
+}
+
+/* ===============================
+   VIDEO PLAYLISTS (PER BLOCK)
+================================ */
+let videoPlaylists =  null;
+let videoLink = "/json/landing_page_video_trending_data.json";
+
+let fetchVideo = async () =>{
+  try{
+    let response = await fetch(videoLink);
+    let data = await response.json();
+
+    if(data)
+      videoPlaylists = data;
+  }
+  catch (error){
+    console.error("error fetching the video", error);
+  }
+}
+
+/* ===============================
+   INITIALIZE PLAYLIST PLAYBACK
+================================ */
+
+let videoFunctionInit = async () =>{
+  if (!videoPlaylists)
+    await fetchVideo();
+
+  document.querySelectorAll(".cj2-video-box").forEach(videoBox => {
+    const video = videoBox.querySelector("video");
+    const playlistKey = videoBox.dataset.playlist;
+    const playlist = videoPlaylists[playlistKey];
+
+    if (!playlist || playlist.length === 0) return;
+
+    let currentIndex = 0;
+
+    // Load & play video
+    function playVideo(index) {
+      video.src = playlist[index];
+      video.load();
+      video.play().catch(() => {});
+    }
+
+    // When video ends → play next
+    video.addEventListener("ended", () => {
+      currentIndex++;
+      if (currentIndex >= playlist.length) {
+        currentIndex = 0; // loop back
+      }
+      playVideo(currentIndex);
+    });
+
+    // Start first video
+    playVideo(currentIndex);
+  });
+
+  console.log("hey");
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      const video = entry.target.querySelector("video");
+      if (entry.isIntersecting) {
+        video.play().catch(() => {});
+      } else {
+        video.pause();
+      }
+    });
+  }, { threshold: 0.3 });
+
+  document.querySelectorAll(".cj2-video-box").forEach(box => observer.observe(box));
+}
+
+let loadHomeActionAndHeroImage = async () =>{
+  if(!menuData)
+    await fetchMenu();
+
+  if(!companyDataForLogo)
+    await fetchCompanyInformation();
+
+  let productMenu = menuData.find( pr => pr.type == "product" );
+  let contactMenu = menuData.find( co => co.type == "contact" );
+
+  document.querySelectorAll(".product-link").forEach(e =>{
+    e.href = productMenu.route;
+  });
+
+  document.querySelectorAll(".contact-link").forEach(e =>{
+    e.href = contactMenu.route;
+  });
+
+  document.querySelectorAll(".hero-image").forEach(e =>{
+    e.src = companyDataForLogo.hero_image;
+  });
 }

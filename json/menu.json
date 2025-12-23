@@ -5,11 +5,22 @@
     },
     {
         "title": "Product",
+        "type" : "product",
         "route": "#/product",
         "submenu": [
             {
                 "title": "Biscute",
-                "route": "#/product/biscute"
+                "route": "#/product/biscute",
+                "submenu" : [
+                    {
+                        "title" : "Cream",
+                        "route" : "#/product/biscute/cream"
+                    },
+                    {
+                        "title" : "Cookies",
+                        "route" : "#/product/biscute/cookies"
+                    }
+                ]
             },
             {
                 "title": "Chips",
@@ -27,6 +38,21 @@
     },
     {
         "title": "Contact",
+        "type" : "contact",
         "route": "#/contact"
+    },
+    {
+        "title" : "More",
+        "route" : "#/more",
+        "submenu" : [
+            {
+                "title" : "Award",
+                "route" : "#/more/award"
+            },
+            {
+                "title" : "Exhibition",
+                "route" : "#/more/exhibition"
+            }
+        ]
     }
 ]

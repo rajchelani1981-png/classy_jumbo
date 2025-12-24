@@ -1,0 +1,27 @@
+{
+    "page_title" : "Exhibition",
+    "bannerImage" : "/assets/image/sliding/landing page sliding-2.jpg",
+    "list" : [
+        {
+            "id" : 1,
+            "image": "/assets/image/sliding/landing page sliding-2.jpg",
+            "title" : "Best Quality Product Award",
+            "year" : 2005,
+            "description" : "Recognized for delivering consistently high-quality food products with excellent taste and safety standards."
+        },
+        {
+            "id" : 2,
+            "image": "/assets/image/sliding/landing page sliding-2.jpg",
+            "title" : "Best Quality Product Award",
+            "year" : 2005,
+            "description" : "Recognized for delivering consistently high-quality food products with excellent taste and safety standards."
+        },
+        {
+            "id" : 3,
+            "image": "/assets/image/sliding/landing page sliding-2.jpg",
+            "title" : "Best Quality Product Award",
+            "year" : 2005,
+            "description" : "Recognized for delivering consistently high-quality food products with excellent taste and safety standards."
+        }
+    ]
+}

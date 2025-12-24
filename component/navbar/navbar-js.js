@@ -54,7 +54,7 @@ let menuPart = (data, menuKey) =>{
     let li = document.createElement("li");
     let a = document.createElement("a");
 
-    if(a.href)
+    if(m.route)
       a.href = m.route;
     
     a.dataset.menu = menuKey;
@@ -136,17 +136,7 @@ let navbarHtmlCodeLoad = async () =>{
 }
 
 let navigateThePage = (parts) =>{
-  let page = "/pages";
-  for(let i=0; i < parts.length; i++){
-    page += `/${parts[i]}`;
-
-    if(i == 0 && i == parts.length -1){
-      page += `/${parts[i]}`;
-    }
-    if(i == parts.length -1){
-      page += ".html";
-    }
-  }
+  let page = `/pages/${parts[0]}/${parts[0]}.html`;
 
   return page;
 }
@@ -195,6 +185,15 @@ function loadPage(page, menu) {
       }
       if(typeof companyInformationForContact == "function"){
         companyInformationForContact();
+      }
+      if (typeof loadTheProductData == "function"){
+        loadTheProductData();
+      }
+      if(typeof loadTheMoreData == "function"){
+        loadTheMoreData();
+      }
+      if(typeof loadTheProductDetailData == "function"){
+        loadTheProductDetailData();
       }
     });
 }

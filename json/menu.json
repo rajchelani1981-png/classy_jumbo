@@ -7,6 +7,7 @@
         "title": "Product",
         "type" : "product",
         "route": "#/product",
+        "bannerImage" : "/assets/image/sliding/landing page sliding-1.jpg",
         "submenu": [
             {
                 "title": "Biscute",
@@ -14,11 +15,11 @@
                 "submenu" : [
                     {
                         "title" : "Cream",
-                        "route" : "#/product/biscute/cream"
+                        "route" : "#/product/biscute/category-cream"
                     },
                     {
                         "title" : "Cookies",
-                        "route" : "#/product/biscute/cookies"
+                        "route" : "#/product/biscute/category-cookies"
                     }
                 ]
             },
@@ -44,6 +45,7 @@
     {
         "title" : "More",
         "route" : "#/more",
+        "bannerImage" : "/assets/image/sliding/landing page sliding-1.jpg",
         "submenu" : [
             {
                 "title" : "Award",

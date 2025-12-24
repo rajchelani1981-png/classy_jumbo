@@ -1,275 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Biscuits</title>
-  <style>
-    body {
-      font-family: "Poppins", sans-serif;
-      margin: 0;
-      background: #fafafa;
-    }
-
-    /* CATEGORY TABS */
-    .category-tabs {
-      display: flex;
-      justify-content: center;
-      border-bottom: 1px solid #ddd;
-      background: #fff;
-    }
-
-    .category-tabs button {
-      padding: 18px 40px;
-      background: none;
-      border: none;
-      font-size: 14px;
-      letter-spacing: 1px;
-      cursor: pointer;
-      color: #777;
-      border-bottom: 3px solid transparent;
-    }
-
-    .category-tabs button.active {
-      color: #000;
-      border-bottom-color: #a94d75;
-    }
-
-    /* GRID */
-    .product-grid {
-      max-width: 1400px;
-      margin: 40px auto;
-      padding: 0 30px;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 40px;
-    }
-
-    /* CARD */
-    .product-card {
-      background: #fff;
-      text-align: center;
-      padding: 30px;
-      box-shadow: 0 10px 30px rgba(0,0,0,.08);
-      cursor: pointer;
-      transition: transform .3s;
-    }
-
-    .product-card:hover {
-      transform: translateY(-6px);
-    }
-
-    .product-card img {
-      max-width: 100%;
-      height: 180px;
-      object-fit: contain;
-    }
-
-    .product-card h3 {
-      margin: 20px 0 5px;
-      font-size: 16px;
-    }
-
-    .product-card span {
-      font-size: 13px;
-      color: #888;
-    }
-
-    /* ===== PAGE BANNER ===== */
-    .page-banner {
-      width: 100%;
-      background: #f5f5f5;
-      overflow: hidden;
-    }
-
-    .page-banner img {
-      width: 100%;
-      /* height: 320px; */
-      object-fit: fit;
-      display: block;
-    }
-
-    @media (max-width: 768px) {
-      .page-banner img {
-        height: 180px;
-      }
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <title>Product Detail</title>
+  <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
+
+
 <body>
-  <!-- BANNER -->
-  <section class="page-banner">
-    
-  </section>
 
-<!-- CATEGORY TABS -->
-<div class="category-tabs">
-  <button data-category="" class="active">ALL BISCUITS</button>
-  
-  <button data-category="cream">CREAM</button>
-  <button data-category="health">HEALTH</button>
-  <button data-category="sweet">SWEET</button>
-  <button data-category="crackers">CRACKERS</button>
-  <button data-category="cream">CREAM</button>
-  <button data-category="health">HEALTH</button>
-  <button data-category="sweet">SWEET</button>
-</div>
-
-<!-- PRODUCT GRID -->
-<div class="product-grid" id="productGrid"></div>
-
-<script>
-  // first - folder same for html file, second-file (json), ...filter with filter key
-  let pageObj = {};
-  let filterSequenceWithKey = ["category", "flavour"];
-
-  let fetchJsonDataLink = () => {
-    const hash = location.hash;
-    let jsonDataPageLink = "/json";
-    const parts = hash.replace("#/", "").split("/");
-
-    jsonDataPageLink += `/${parts[1]}.json`;
-    return jsonDataPageLink;
-  }
-
-  let fetchProductData = async (dataPageLink) =>{
-    try{
-      let response = await fetch(dataPageLink);
-      let data = await response.json();
-
-      if(data)
-        pageObj[dataPageLink] = data;
-    }
-    catch (error){
-      console.log("error", error);
-    }
-  }
-
-  let filteredData = (key, value, data) => {
-    return data.filter( e => e[key].toUpperCase() == value.toUpperCase());
-  }
-
-  let filtersTheData = (data) => {
-    const hash = location.hash;
-    const parts = hash.replace("#/", "").split("/");
-    
-    for(let i = 2; i < parts.length; i++){
-      let filter = parts[i].split("-");
-
-      let key = filter[0];
-      let value = filter[1];
-
-      if(key && value && data)
-        data = filteredData(key, value, data);
-    }
-    return data;
-  }
-
-  let loadBannerImage = (imageLink) => {
-    document.querySelector(".page-banner").innerHTML = `<img src="${imageLink}" alt="image">`;
-  }
-
-  let productDataArrange = (data) => {
-    const hash = location.hash;
-    const parts = hash.replace("#/", "").split("/");
-
-    const grid = document.getElementById("productGrid");
-    grid.innerHTML = "";
-    data.forEach(p => {
-        grid.innerHTML += `
-          <div class="product-card" onclick="location.href='#/productDetail/${parts[1]}/id-${p.id}'">
-            <img src="${p.thumbnail}" alt="${p.sub_flavour}">
-            <h3>${p.brand}</h3>
-            <span>${p.category}</span>
-          </div>
-        `;
-      });
-  }
-
-  //fetch category list
-  let fetchCategory = (data, filterKey) =>{
-    let list = new Set();
-
-    for(let i=0; i < data.length; i++){
-      list.add(data[i][filterKey]);
-    }
-    return list;
-  }
-
-  function syncTabs(currentCategory) {
-    let tabs = document.querySelectorAll(".category-tabs button");
-    tabs.forEach(b => {
-      b.classList.toggle("active", b.dataset.category === currentCategory);
-    });
-  }
-
-  let filterOptionLoad = (data, filterKey) => {
-    let categoryTabs = document.querySelector(".category-tabs");
-    categoryTabs.innerHTML = "";
-
-    data.forEach(e => {
-      let button = document.createElement("button");
-
-      button.dataset.category = `${filterKey}-${e}`;
-      button.textContent = e.toUpperCase();
-      button.addEventListener("click", () => {
-        updateTheHashWithPreviousData(`/${filterKey}-${e}`);
-        loadTheProductData();
-        syncTabs(`${filterKey}-${e}`);
-      });
-
-      categoryTabs.append(button);
-    });
-  }
-
-  let loadTheProductData = async () => {
-    let dataPageLink = fetchJsonDataLink();
-    
-    if (!pageObj[dataPageLink]){
-      await fetchProductData(dataPageLink);
-    }
-    let data = pageObj[dataPageLink];
-
-    loadBannerImage(data.bannerImage)
-
-    data = filtersTheData(data.list);
-    productDataArrange(data);
-
-    // arrange for filter
-    let categories = new Set();
-    let keyIndex = 0;
-    
-    for(let i=0; i < filterSequenceWithKey.length; i++){
-      categories = fetchCategory(data, filterSequenceWithKey[i]);
-
-      if(categories.size > 1){
-        keyIndex = i;
-
-        break;
-      }
-    }
-
-    filterOptionLoad(categories, filterSequenceWithKey[keyIndex]);
-  }
-
-loadTheProductData();
+  <!-- HEADER -->
+  <header class="site-header">
+    <!-- reuse your existing navbar -->
+  </header>
 
   
-  //expected changeFilter = "/key-value/key-value"
-  //for isolate filter
-  function updateTheHashWithIsolateData(changeFilter) {
-    let hash = location.hash;
-    let parts = hash.replace("#/", "").split("/");
-    location.hash = `#/${parts[0]}/${parts[1]}${changeFilter}`;
-  }
 
-  //with previous filter
-  function updateTheHashWithPreviousData(changeFilter) {
-    location.hash = location.hash + changeFilter;
-  }
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <!-- reuse your existing footer -->
+  </footer>
 
-
-
-
-</script>
+  <script>
+    let product = {
+      "id": "1",
+      "category": "Cookies",
+      "brand": "Yummy",
+      "flavour": "Orange",
+      "sub_flavour": "Orange Flavoured Sandwich",
+      "description": "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
+      "thumbnail": "/assets/image/sliding/landing page sliding-1.jpg",
+      "images": ["/assets/image/sliding/landing page sliding-1.jpg", "/assets/image/sliding/landing page sliding-2.jpg"],
+      "net_weight": "75g",
+      "pack_size": "5",
+      "shelf_life_months": 9,
+      "ingredients": ["Wheat flour", "Sugar", "Edible vegetable oil", "Orange flavour"],
+      "allergens": ["gluten"],
+      "fssai_license": "12345678901234",
+      "country_of_origin": "India",
+      "discount_percentage": 33,
+      "tax_percentage": 5,
+      "price_valid_from": "2025-01-01",
+      "mrp": 30,
+      "price": 20,
+      "currency": "INR",
+      "minimum_quantity": 30,
+      "sku": "YUM-CK-ORG-001",
+      "status": "active",
+      "stock_quantity": 500,
+      "is_featured": true,
+      "is_new": false,
+      "category_slug": "cookies",
+      "sub_category": "sandwich-biscuits",
+      "tags": ["orange", "cream", "sweet"],
+      "available": [{
+        "name": "Amazon",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8eSb4lGANjKmXnj-qOz6dX-tvglN7u-0STA&s",
+        "url": "https://amazon.in/"
+      }, {
+        "name": "Amazon",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-ear6tLG-5_mPMoXZt9_V0GikgHnxFObsog&s",
+        "url": "https://amazon.in/"
+      }]
+    };
+    
+    renderProduct(product);
+  </script>
 </body>
+
 </html>

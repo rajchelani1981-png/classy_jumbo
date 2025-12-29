@@ -1,9 +1,49 @@
-<!-- BANNER -->
-  <!-- <section class="page-banner">
-    <img src="/assets/image/banners/product-banner.jpg" alt="Product Banner">
-  </section> -->
+<!-- ENQUIRY MODAL -->
+  <div class="enquiry-overlay" id="enquiryOverlay">
+    <div class="enquiry-modal">
 
-  <!-- PRODUCT DETAIL -->
-  <section class="product-detail">
-    <div class="product-container" id="productDetail"></div>
-  </section>
+      <button class="close-btn" id="closeEnquiry">×</button>
+
+      <h2>Product Enquiry</h2>
+
+      <form id="enquiryForm" action="https://formsubmit.co/rajchelani1981@gmail.com" method="POST">
+        <input type="text" name="product" value="Classy Jam – Raspberry" readonly>
+
+        <input type="text" name="name" placeholder="Your Name" required>
+
+        <input type="email" name="email" placeholder="Email Address" required>
+
+        <input type="tel" name="phone" placeholder="Phone Number" required>
+
+        <textarea name="message" placeholder="Your enquiry..." rows="4"></textarea>
+
+        <!-- FormSubmit extras -->
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_subject" value="New Product Enquiry Message">
+          <input type="hidden" name="_template" value="table">
+
+        <button type="submit">Submit Enquiry</button>
+      </form>
+      <p id="form-status" class="form-status"></p>
+    </div>
+  </div>
+
+<div class="page">
+  <div class="product">
+
+  </div>
+</div>
+
+<section class="related-products">
+  <h2>Related Products</h2>
+
+  <div class="slider-wrapper">
+    <button class="slider-btn prev" id="prevBtn">‹</button>
+
+    <div class="slider" id="relatedSlider">
+      <!-- cards injected by JS -->
+    </div>
+
+    <button class="slider-btn next" id="nextBtn">›</button>
+  </div>
+</section>

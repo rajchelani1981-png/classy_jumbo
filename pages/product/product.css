@@ -7,9 +7,11 @@ body {
 /* CATEGORY TABS */
 .category-tabs {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 0px 20px;
     border-bottom: 1px solid #ddd;
     background: #fff;
+    overflow: auto;
 }
 
 .category-tabs button {
@@ -77,13 +79,8 @@ body {
 
 .page-banner img {
     width: 100%;
-    height: 420px;
+    height: auto;
     object-fit: fit;
     display: block;
-}
 
-@media (max-width: 768px) {
-    .page-banner img {
-    height: 180px;
-    }
 }

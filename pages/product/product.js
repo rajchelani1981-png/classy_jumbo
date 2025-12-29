@@ -32,6 +32,10 @@
     return data.filter( e => e[key].toUpperCase() == value.toUpperCase());
   }
 
+  let filteredRelatedData = (key, value, data) => {
+    return data.filter( e => e[key].toUpperCase() != value.toUpperCase());
+  }
+
   let filtersTheData = (data) => {
     const hash = location.hash;
     const parts = hash.replace("#/", "").split("/");
@@ -48,8 +52,29 @@
     return data;
   }
 
+  let filtersOtherRelatedData = (data) => {
+    const hash = location.hash;
+    const parts = hash.replace("#/", "").split("/");
+    
+    for(let i = 2; i < parts.length; i++){
+      let filter = parts[i].split("-");
+
+      let key = filter[0];
+      let value = filter[1];
+
+      if(key && value && data)
+        data = filteredRelatedData(key, value, data);
+    }
+    return data;
+  }
+
   let loadBannerImage = (imageLink) => {
-    document.querySelector(".page-banner").innerHTML = `<img src="${imageLink}" alt="image">`;
+    document.querySelector(".page-banner").innerHTML = `
+    <picture>
+      ${imageLink.mobile_img ? `<source media="(max-width: 768px)" srcset="${imageLink.mobile_img}">` : ""}
+      ${imageLink.tablet_img ? `<source media="(max-width: 1024px)" srcset="${imageLink.tablet_img}">` : ""}
+      <img src="${imageLink.img}">
+    </picture>`;
   }
 
   let productDataArrange = (data) => {
@@ -62,8 +87,8 @@
         grid.innerHTML += `
           <div class="product-card" onclick="location.href='#/productDetail/${parts[1]}/id-${p.id}'">
             <img src="${p.thumbnail}" alt="${p.sub_flavour}">
-            <h3>${p.brand}</h3>
-            <span>${p.category}</span>
+            <h3>${p.flavour}</h3>
+            <span>${p.brand}</span>
           </div>
         `;
       });

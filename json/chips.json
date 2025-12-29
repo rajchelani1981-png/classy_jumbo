@@ -1,5 +1,33 @@
 {
     "bannerImage" : "/assets/image/sliding/landing page sliding-1.jpg",
+    "packaging": [
+        {
+            "box_contains": "120 * 16g (MRP 5 rupees), 60 * 32g (MRP 10 rupees)",
+            "box_material" : "Carton",
+            "item_package_material" : "Glass Jar",
+            "item_package_contain" : 1,
+            "item_count_type" : "Pouch",
+            "box_dimensions_cm": {
+                "length": 8,
+                "width": 8,
+                "height": 11
+            },
+            "box_weight_g": 520
+        },
+        {
+            "box_contains": "120 * 16g (MRP 5 rupees), 60 * 32g (MRP 10 rupees)",
+            "box_material" : "Carton",
+            "item_package_material" : "Glass Jar",
+            "item_package_contain" : 1,
+            "item_count_type" : "Pouch",
+            "box_dimensions_cm": {
+                "length": 8,
+                "width": 8,
+                "height": 11
+            },
+            "box_weight_g": 520
+        }
+    ],
     "list": [
         {
             "id" : "1",

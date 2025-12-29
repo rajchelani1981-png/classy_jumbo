@@ -1,8 +1,27 @@
 {
-    "bannerImage" : "/assets/image/sliding/jam/jam_desktop.jpg",
+    "bannerImage" : {
+        "img": "/assets/image/sliding/jam/jam_desktop.jpg",
+        "tablet_img" : "/assets/image/sliding/jam/jam_tablet.jpg",
+        "mobile_img" : "/assets/image/sliding/jam/jam_mobile.jpg"
+    },
+    "packaging": [
+        {
+            "box_contains": "12",
+            "box_material" : "Carton",
+            "item_package_material" : "Glass Jar",
+            "item_package_contain" : 1,
+            "item_count_type" : "Jar",
+            "box_dimensions_cm": {
+                "length": 8,
+                "width": 8,
+                "height": 11
+            },
+            "box_weight_g": 520
+        }
+    ],
     "list": [
         {
-            "id" : "jm-1",
+            "id" : "jm1",
             "category": "Jam",
             "brand" : "Classy Jam",
             "flavour" : "Orange",
@@ -19,7 +38,7 @@
             "tags": ["orange", "jam", "sweet"]
         },
         {
-            "id" : "jm-2",
+            "id" : "jm2",
             "category": "Jam",
             "brand" : "Classy Jam",
             "flavour" : "Apricot",
@@ -36,7 +55,7 @@
             "tags": ["apricot", "jam", "sweet"]
         },
         {
-            "id" : "jm-3",
+            "id" : "jm3",
             "category": "Jam",
             "brand" : "Classy Jam",
             "flavour" : "Blueberry",
@@ -53,7 +72,7 @@
             "tags": ["blueberry", "jam", "sweet"]
         },
         {
-            "id" : "jm-4",
+            "id" : "jm4",
             "category": "Jam",
             "brand" : "Classy Jam",
             "flavour" : "Cherry",
@@ -70,7 +89,7 @@
             "tags": ["cherry", "jam", "sweet"]
         },
         {
-            "id" : "jm-5",
+            "id" : "jm5",
             "category": "Jam",
             "brand" : "Classy Jam",
             "flavour" : "Mango",
@@ -87,7 +106,7 @@
             "tags": ["mango", "jam", "sweet"]
         },
         {
-            "id" : "jm-6",
+            "id" : "jm6",
             "category": "Jam",
             "brand" : "Classy Jam",
             "flavour" : "Mix Fruits",
@@ -104,21 +123,55 @@
             "tags": ["mix fruits", "jam", "sweet"]
         },
         {
-            "id" : "jm-7",
+            "id" : "jm7",
             "category": "Jam",
             "brand" : "Classy Jam",
-            "flavour" : ,
-            "sub_flavour" : "Mix Fruits Flavoured",
-            "description" : "Made from a delightful blend of carefully selected fruits, Classy Mixed Fruit Jam offers a rich medley of natural sweetness and fruity freshness. Smooth, flavourful, and perfectly balanced, it’s an ideal spread for breakfast, desserts, and everyday indulgence.",
-            "thumbnail" : "/assets/image/product/jam/mix_fruits.png",
+            "flavour" : "Pineapple",
+            "sub_flavour" : "Pineapple Flavoured",
+            "description" : "Made from the tropical goodness of ripe pineapples, Classy Pineapple Jam delivers a refreshing balance of sweet and tangy flavours. Its smooth texture and bright fruity taste make it a perfect spread for toast, desserts, and delightful everyday treats.",
+            "thumbnail" : "/assets/image/product/jam/pineapple.png",
             "images": [
-                "/assets/image/product/jam/mix_fruits.png"
+                "/assets/image/product/jam/pineapple.png"
             ],
             "net_weight": "370g",
             "pack_size": "1",
             "shelf_life_months": 12,
             "country_of_origin": "India",
-            "tags": ["mix fruits", "jam", "sweet"]
+            "tags": ["pineapple", "jam", "sweet"]
+        },
+        {
+            "id" : "jm8",
+            "category": "Jam",
+            "brand" : "Classy Jam",
+            "flavour" : "Raspberry",
+            "sub_flavour" : "Raspberry Flavoured",
+            "description" : "Made from juicy, hand-picked raspberries, Classy Raspberry Jam delivers a delightful blend of rich berry sweetness and gentle tartness. Smooth, vibrant, and full of flavour, it’s perfect for spreading on toast, pairing with desserts, or adding a fruity touch to everyday treats.",
+            "thumbnail" : "/assets/image/product/jam/raspberry.png",
+            "images": [
+                "/assets/image/product/jam/raspberry.png"
+            ],
+            "net_weight": "370g",
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": ["raspberry", "jam", "sweet"]
+        },
+        {
+            "id" : "jm9",
+            "category": "Jam",
+            "brand" : "Classy Jam",
+            "flavour" : "Strawberry",
+            "sub_flavour" : "Strawberry Flavoured",
+            "description" : "Made from ripe, juicy strawberries, Classy Strawberry Jam offers a delicious balance of natural sweetness and fruity freshness. Smooth, vibrant, and irresistibly tasty, it’s the perfect spread for breakfast, desserts, and everyday moments of indulgence.",
+            "thumbnail" : "/assets/image/product/jam/strawberry.png",
+            "images": [
+                "/assets/image/product/jam/strawberry.png"
+            ],
+            "net_weight": "370g",
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": ["strawberry", "jam", "sweet"]
         }
     ]
 }

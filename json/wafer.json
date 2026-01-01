@@ -1,265 +1,183 @@
 {
-    "bannerImage" : "/assets/image/sliding/landing page sliding-1.jpg",
+    "bannerImage" : {
+    },
+    "packaging": [
+        {
+            "box_contains": "48",
+            "box_material" : "Carton",
+            "item_package_material" : "Pouch",
+            "item_package_contain" : 1,
+            "item_count_type" : "Pouch",
+            "product_weight" : "85g",
+            "currency" : "INR",
+            "box_dimensions_cm": {
+                "length": 8,
+                "width": 8,
+                "height": 11
+            },
+            "box_weight_g": 520
+        }
+    ],
     "list": [
         {
-            "id" : "1",
-            "category": "Cookies",
-            "brand" : "Yummy",
-            "flavour" : "Orange",
-            "sub_flavour" : "Orange Flavoured Sandwich",
-            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
-            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
+            "id" : "wa1",
+            "category": "Wafer",
+            "brand" : "Classy Wafer",
+            "flavour" : "Cheese Cream",
+            "sub_flavour" : "Cheese Cream Wafer",
+            "description" : "Crispy wafer layers filled with smooth, rich cheese cream, delivering a perfectly balanced savory crunch. A classy, light, and tasty snack ideal for anytime enjoyment.",
+            "thumbnail" : "/assets/image/product/wafer/cheese cream.png",
             "images": [
-                "/assets/image/sliding/landing page sliding-1.jpg",
-                "/assets/image/products/orange-2.jpg"
+                "/assets/image/product/wafer/cheese cream.png"
             ],
-            "net_weight": "75g",
-            "pack_size": "5",
-            "shelf_life_months": 9,
-            "ingredients": [
-                "Wheat flour",
-                "Sugar",
-                "Edible vegetable oil",
-                "Orange flavour"
-            ],
-            "allergens": ["gluten"],
-            "fssai_license": "12345678901234",
+            "pack_size": "1",
+            "shelf_life_months": 12,
             "country_of_origin": "India",
-            "discount_percentage": 33,
-            "tax_percentage": 5,
-            "price_valid_from": "2025-01-01",
-            "mrp" : 30,
-            "price" : 20,
-            "currency" : "INR",
-            "minimum_quantity" : 30,
-            "sku": "YUM-CK-ORG-001",
-            "status": "active",
-            "stock_quantity": 500,
-            "is_featured": true,
-            "is_new": false,
-            "category_slug": "cookies",
-            "sub_category": "sandwich-biscuits",
-            "tags": ["orange", "cream", "sweet"],
-            "available" : [
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                },
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                }
-            ]
+            "tags": [ "Classy Wafer", "Cheese Cream Wafer", "Cheese Wafer Biscuit", "Crispy Wafer", "Cream Wafer", "Cheese Snack", "Savory Wafer", "Light Snack", "Tea Time Snack", "Crunchy Biscuit", "Wafer Snack", "Indian Snacks" ]
         },
         {
-            "id" : "2",
-            "category": "Crunch",
-            "brand" : "Yummy",
-            "flavour" : "Orange",
-            "sub_flavour" : "Orange Flavoured Sandwich",
-            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
-            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
+            "id" : "wa2",
+            "category": "Wafer",
+            "brand" : "Classy Wafer",
+            "flavour" : "Chocolate",
+            "sub_flavour" : "Chocolate Wafer",
+            "description" : "Chocolate Wafer offers a delightful combination of crisp, light wafer sheets and a smooth, rich chocolate cream filling. Each bite delivers a balanced chocolate flavor that melts gently while maintaining a satisfying crunch. Perfect for quick snacking, travel, or a sweet break during the day, this wafer is crafted to provide consistent taste and quality in every pack.",
+            "thumbnail" : "/assets/image/product/wafer/chocolate.png",
             "images": [
-                "/assets/image/sliding/landing page sliding-1.jpg",
-                "/assets/image/products/orange-2.jpg"
+                "/assets/image/product/wafer/chocolate.png"
             ],
-            "net_weight": "75g",
-            "pack_size": "5",
-            "shelf_life_months": 9,
-            "ingredients": [
-                "Wheat flour",
-                "Sugar",
-                "Edible vegetable oil",
-                "Orange flavour"
-            ],
-            "allergens": ["gluten"],
-            "fssai_license": "12345678901234",
+            "pack_size": "1",
+            "shelf_life_months": 12,
             "country_of_origin": "India",
-            "discount_percentage": 33,
-            "tax_percentage": 5,
-            "price_valid_from": "2025-01-01",
-            "mrp" : 30,
-            "price" : 20,
-            "currency" : "INR",
-            "minimum_quantity" : 30,
-            "sku": "YUM-CK-ORG-001",
-            "status": "active",
-            "stock_quantity": 500,
-            "is_featured": true,
-            "is_new": false,
-            "category_slug": "cookies",
-            "sub_category": "sandwich-biscuits",
-            "tags": ["orange", "cream", "sweet"],
-            "available" : [
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                },
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                }
-            ]
+            "tags": [ "Classy Wafer", "Chocolate Wafer", "Chocolate Cream Wafer", "Crispy Wafer", "Cream Wafer Biscuit", "Chocolate Snack", "Sweet Wafer", "Light Snack", "Tea Time Snack" ]
         },
         {
-            "id" : "3",
-            "category": "Cooky",
-            "brand" : "Yummy",
-            "flavour" : "Orange",
-            "sub_flavour" : "Orange Flavoured Sandwich",
-            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
-            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
+            "id" : "wa3",
+            "category": "Wafer",
+            "brand" : "Classy Wafer",
+            "flavour" : "Cookies And Cream",
+            "sub_flavour" : "Cookies And Cream Wafer",
+            "description" : "Cookies And Cream Wafer features crispy, light wafer layers filled with smooth cream blended with crunchy cookie bits. The combination of sweet cream and cookie crunch creates a balanced and enjoyable flavor that is perfect for quick snacking, travel, or satisfying sweet cravings anytime during the day.",
+            "thumbnail" : "/assets/image/product/wafer/cookies and cream.png",
             "images": [
-                "/assets/image/sliding/landing page sliding-1.jpg",
-                "/assets/image/products/orange-2.jpg"
+                "/assets/image/product/wafer/cookies and cream.png"
             ],
-            "net_weight": "75g",
-            "pack_size": "5",
-            "shelf_life_months": 9,
-            "ingredients": [
-                "Wheat flour",
-                "Sugar",
-                "Edible vegetable oil",
-                "Orange flavour"
-            ],
-            "allergens": ["gluten"],
-            "fssai_license": "12345678901234",
+            "pack_size": "1",
+            "shelf_life_months": 12,
             "country_of_origin": "India",
-            "discount_percentage": 33,
-            "tax_percentage": 5,
-            "price_valid_from": "2025-01-01",
-            "mrp" : 30,
-            "price" : 20,
-            "currency" : "INR",
-            "minimum_quantity" : 30,
-            "sku": "YUM-CK-ORG-001",
-            "status": "active",
-            "stock_quantity": 500,
-            "is_featured": true,
-            "is_new": false,
-            "category_slug": "cookies",
-            "sub_category": "sandwich-biscuits",
-            "tags": ["orange", "cream", "sweet"],
-            "available" : [
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                },
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                }
-            ]
+            "tags": [ "Classy Wafer", "Cookies And Cream Wafer", "Cookies & Cream Wafer", "Cream Wafer Biscuit", "Crispy Wafer", "Sweet Wafer", "Cookie Flavored Snack", "Light Snack", "Tea Time Snack" ]
         },
         {
-            "id" : "4",
-            "category": "Cookies",
-            "brand" : "Yummy",
-            "flavour" : "Orange",
-            "sub_flavour" : "Orange Flavoured Sandwich",
-            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
-            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
+            "id" : "wa4",
+            "category": "Wafer",
+            "brand" : "Classy Wafer",
+            "flavour" : "Mango",
+            "sub_flavour" : "Mango Wafer",
+            "description" : "Mango Wafer brings together crispy, light wafer layers and a smooth mango-flavored cream filling inspired by the refreshing taste of ripe mangoes. The sweet and fruity flavor pairs perfectly with the crunchy wafer texture, making it an enjoyable snack for quick breaks and on-the-go moments.",
+            "thumbnail" : "/assets/image/product/wafer/mango.png",
             "images": [
-                "/assets/image/sliding/landing page sliding-1.jpg",
-                "/assets/image/products/orange-2.jpg"
+                "/assets/image/product/wafer/mango.png"
             ],
-            "net_weight": "75g",
-            "pack_size": "5",
-            "shelf_life_months": 9,
-            "ingredients": [
-                "Wheat flour",
-                "Sugar",
-                "Edible vegetable oil",
-                "Orange flavour"
-            ],
-            "allergens": ["gluten"],
-            "fssai_license": "12345678901234",
+            "pack_size": "1",
+            "shelf_life_months": 12,
             "country_of_origin": "India",
-            "discount_percentage": 33,
-            "tax_percentage": 5,
-            "price_valid_from": "2025-01-01",
-            "mrp" : 30,
-            "price" : 20,
-            "currency" : "INR",
-            "minimum_quantity" : 30,
-            "sku": "YUM-CK-ORG-001",
-            "status": "active",
-            "stock_quantity": 500,
-            "is_featured": true,
-            "is_new": false,
-            "category_slug": "cookies",
-            "sub_category": "sandwich-biscuits",
-            "tags": ["orange", "cream", "sweet"],
-            "available" : [
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                },
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                }
-            ]
+            "tags": [ "Classy Wafer", "Mango Wafer", "Mango Cream Wafer", "Fruit Flavored Wafer", "Crispy Wafer", "Sweet Wafer", "Light Snack", "Tea Time Snack" ]
         },
         {
-            "id" : "5",
-            "category": "Cookies",
-            "brand" : "Yummy",
+            "id" : "wa5",
+            "category": "Wafer",
+            "brand" : "Classy Wafer",
             "flavour" : "Orange",
-            "sub_flavour" : "Orange Flavoured Sandwich",
-            "description" : "Beat the heat this summer, as you relish the flavours of the freshest oranges with these creamy, delicious biscuits. Taste the tanginess of the orange and the sweetness of the cream as you bite into these flavour-packed, creamy biscuits.",
-            "thumbnail" : "/assets/image/sliding/landing page sliding-1.jpg",
+            "sub_flavour" : "Orange Wafer",
+            "description" : "Orange Wafer blends crispy, light wafer layers with a smooth orange-flavored cream filling that delivers a refreshing citrus taste. The sweet and mildly tangy orange flavor pairs perfectly with the crunchy wafer texture, making it a pleasant snack for quick breaks and on-the-go enjoyment.",
+            "thumbnail" : "/assets/image/product/wafer/orange.png",
             "images": [
-                "/assets/image/sliding/landing page sliding-1.jpg",
-                "/assets/image/products/orange-2.jpg"
+                "/assets/image/product/wafer/orange.png"
             ],
-            "net_weight": "75g",
-            "pack_size": "5",
-            "shelf_life_months": 9,
-            "ingredients": [
-                "Wheat flour",
-                "Sugar",
-                "Edible vegetable oil",
-                "Orange flavour"
-            ],
-            "allergens": ["gluten"],
-            "fssai_license": "12345678901234",
+            "pack_size": "1",
+            "shelf_life_months": 12,
             "country_of_origin": "India",
-            "discount_percentage": 33,
-            "tax_percentage": 5,
-            "price_valid_from": "2025-01-01",
-            "mrp" : 30,
-            "price" : 20,
-            "currency" : "INR",
-            "minimum_quantity" : 30,
-            "sku": "YUM-CK-ORG-001",
-            "status": "active",
-            "stock_quantity": 500,
-            "is_featured": true,
-            "is_new": false,
-            "category_slug": "cookies",
-            "sub_category": "sandwich-biscuits",
-            "tags": ["orange", "cream", "sweet"],
-            "available" : [
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                },
-                {
-                    "name": "Amazon",
-                    "logo": "/assets/image/logos/amazon.png",
-                    "url": "https://amazon.in/"
-                }
-            ]
+            "tags": [ "Classy Wafer", "Orange Wafer", "Orange Cream Wafer", "Citrus Flavored Wafer", "Crispy Wafer", "Sweet Wafer", "Light Snack", "Tea Time Snack" ]
+        },
+        {
+            "id" : "wa6",
+            "category": "Wafer",
+            "brand" : "Classy Wafer",
+            "flavour" : "Oreo And Cream",
+            "sub_flavour" : "Oreo And Cream Wafer",
+            "description" : "Oreo And Cream Wafer combines crispy, light wafer layers with a smooth cream filling infused with rich chocolate cookie flavor. The balance of crunchy wafers and creamy sweetness delivers a satisfying bite, making it a perfect choice for quick snacks, travel, or anytime sweet cravings.",
+            "thumbnail" : "/assets/image/product/wafer/oreo and cream.png",
+            "images": [
+                "/assets/image/product/wafer/oreo and cream.png"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "Classy Wafer", "Oreo And Cream Wafer", "Oreo Cream Wafer", "Chocolate Cookie Wafer", "Crispy Wafer", "Sweet Wafer", "Light Snack", "Tea Time Snack" ]
+        },
+        {
+            "id" : "wa7",
+            "category": "Wafer",
+            "brand" : "Classy Wafer",
+            "flavour" : "Peanut Butter",
+            "sub_flavour" : "Peanut Butter Wafer",
+            "description" : "Peanut Butter Wafer combines crispy, light wafer layers with a smooth and nutty peanut butter–flavored cream filling. The rich roasted peanut taste blends perfectly with the crunchy wafer texture, making it a satisfying snack for quick bites, travel, or anytime hunger cravings.",
+            "thumbnail" : "/assets/image/product/wafer/peanut butter.png",
+            "images": [
+                "/assets/image/product/wafer/peanut butter.png"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "Classy Wafer", "Peanut Butter Wafer", "Peanut Butter Cream Wafer", "Nut Flavored Wafer", "Crispy Wafer", "Sweet Wafer", "Light Snack", "Tea Time Snack" ]
+        },
+        {
+            "id" : "wa8",
+            "category": "Wafer",
+            "brand" : "Classy Wafer",
+            "flavour" : "Pineapple",
+            "sub_flavour" : "Pineapple Wafer",
+            "description" : "Pineapple Wafer combines crispy, light wafer layers with a smooth pineapple-flavored cream filling that offers a refreshing sweet and tangy taste. The tropical pineapple flavor pairs well with the crunchy wafer texture, making it a delightful snack for quick breaks and on-the-go enjoyment.",
+            "thumbnail" : "/assets/image/product/wafer/pineapple.png",
+            "images": [
+                "/assets/image/product/wafer/pineapple.png"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "Classy Wafer", "Pineapple Wafer", "Pineapple Cream Wafer", "Fruit Flavored Wafer", "Crispy Wafer", "Sweet Wafer", "Light Snack", "Tea Time Snack" ]
+        },
+        {
+            "id" : "wa9",
+            "category": "Wafer",
+            "brand" : "Classy Wafer",
+            "flavour" : "Strawberry",
+            "sub_flavour" : "Strawberry Wafer",
+            "description" : "Strawberry Wafer combines crispy, light wafer layers with a smooth strawberry-flavored cream filling that delivers a pleasant fruity sweetness. The fresh strawberry taste pairs perfectly with the crunchy wafer texture, making it a delightful snack for quick breaks, travel, or anytime cravings.",
+            "thumbnail" : "/assets/image/product/wafer/strawberry.png",
+            "images": [
+                "/assets/image/product/wafer/strawberry.png"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "Classy Wafer", "Strawberry Wafer", "Strawberry Cream Wafer", "Fruit Flavored Wafer", "Crispy Wafer", "Sweet Wafer", "Light Snack", "Tea Time Snack" ]
+        },
+        {
+            "id" : "wa10",
+            "category": "Wafer",
+            "brand" : "Classy Wafer",
+            "flavour" : "Vanilla",
+            "sub_flavour" : "Vanilla Wafer",
+            "description" : "Vanilla Wafer features crispy, light wafer layers filled with smooth vanilla-flavored cream. The mild and creamy vanilla taste blends perfectly with the crunchy wafer texture, making it a comforting and enjoyable snack for quick breaks, travel, or everyday indulgence.",
+            "thumbnail" : "/assets/image/product/wafer/vanilla.png",
+            "images": [
+                "/assets/image/product/wafer/vanilla.png"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "Classy Wafer", "Vanilla Wafer", "Vanilla Cream Wafer", "Classic Flavor Wafer", "Crispy Wafer", "Sweet Wafer", "Light Snack", "Tea Time Snack" ]
         }
     ]
 }

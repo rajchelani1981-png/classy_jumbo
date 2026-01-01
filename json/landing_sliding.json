@@ -23,5 +23,15 @@
         "img": "/assets/image/sliding/peanut-butter/peanut-butter_desktop.jpg",
         "tablet_img" : "/assets/image/sliding/peanut-butter/peanut-butter_tablet.jpg",
         "mobile_img" : "/assets/image/sliding/peanut-butter/peanut-butter_mobile.jpg"
+    },
+    {
+        "img": "/assets/image/sliding/cereals/cereals_desktop.jpg",
+        "tablet_img" : "/assets/image/sliding/cereals/cereals_tablet.jpg",
+        "mobile_img" : "/assets/image/sliding/cereals/cereals_mobile.jpg"
+    },
+    {
+        "img": "/assets/image/sliding/products/products_desktop.jpg",
+        "tablet_img" : "/assets/image/sliding/products/products_tablet.jpg",
+        "mobile_img" : "/assets/image/sliding/products/products_mobile.jpg"
     }
 ]

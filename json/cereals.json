@@ -1,6 +1,8 @@
 {
     "bannerImage" : {
-        
+        "img": "/assets/image/sliding/cereals/cereals_desktop.jpg",
+        "tablet_img" : "/assets/image/sliding/cereals/cereals_tablet.jpg",
+        "mobile_img" : "/assets/image/sliding/cereals/cereals_mobile.jpg"
     },
     "packaging": [
         {
@@ -31,6 +33,7 @@
             "images": [
                 "/assets/image/product/cereals/choco flakes.png"
             ],
+            "net_weight" : "375g",
             "pack_size": "1",
             "shelf_life_months": 12,
             "country_of_origin": "India",
@@ -47,6 +50,7 @@
             "images": [
                 "/assets/image/product/cereals/corn flakes.png"
             ],
+            "net_weight" : "375g",
             "pack_size": "1",
             "shelf_life_months": 12,
             "country_of_origin": "India",

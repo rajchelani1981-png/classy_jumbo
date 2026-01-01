@@ -58,6 +58,35 @@
   }
 }
 
+.image-marquee {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background: #000; /* optional */
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: scrollImage 60s linear infinite;
+}
+
+.marquee-track img {
+  height: 500px; /* adjust as needed */
+  width: auto;
+  flex-shrink: 0;
+}
+
+/* Infinite scrolling */
+@keyframes scrollImage {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
 /* Mobile */
 @media (max-width: 768px) {
   .hero-slider {

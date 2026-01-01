@@ -100,6 +100,127 @@
   margin-bottom: 15px;
 }
 
+.about-founders {
+  padding: 80px 0;
+  background: #fafafa;
+  text-align: center;
+}
+
+.about-founders h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.founders-subtitle {
+  max-width: 700px;
+  margin: 0 auto 50px;
+  color: #666;
+  font-size: 16px;
+}
+
+.founders-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.founder-card {
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.founder-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.founder-card img {
+  width: 100%;
+  /* height: 120px; */
+  object-fit: cover;
+  border-radius: 20px;
+  /* margin-bottom: 15px; */
+}
+
+.founder-card h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.founder-card span {
+  display: block;
+  font-size: 14px;
+  color: #ee6c0a;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.founder-card p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.founders-grid {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  position: relative;
+}
+
+/* Common card styling */
+.founder-card {
+  width: 300px;
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+/* LEFT founder */
+.founder-card:nth-child(1) {
+  margin-top: 80px;
+}
+
+/* CENTER founder (UP) */
+.founder-card:nth-child(2) {
+  margin-top: 0;
+  transform: scale(1.05);
+  z-index: 2;
+}
+
+/* RIGHT founder */
+.founder-card:nth-child(3) {
+  margin-top: 80px;
+}
+
+/* Image alignment */
+.founder-card img {
+  display: block;
+  margin: 0 auto 15px;
+  max-height: 280px;
+  object-fit: contain;
+}
+
+/* Mobile fallback */
+@media (max-width: 992px) {
+  .founders-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .founder-card {
+    margin-top: 0 !important;
+    transform: none !important;
+  }
+}
+
+
 /* RESPONSIVE */
 @media (max-width: 900px) {
   .about-grid,

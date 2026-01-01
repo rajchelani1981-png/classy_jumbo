@@ -179,7 +179,7 @@ let loadTheProductDetailData = async () => {
     slider.innerHTML = loopData.map(p => `
       <div class="related-card" onclick="location.href='#/productDetail/${parts[1]}/id-${p.id}'">
         <img src="${p.thumbnail}">
-        <h4>${p.flavour}</h4>
+        <h4>${p.sub_flavour}</h4>
         <span>${p.brand}</span>
       </div>
     `).join("");
@@ -299,8 +299,8 @@ let loadTheProductDetailData = async () => {
           <ul>
             <li><strong>Contains:</strong> ${e.item_package_material} of ${product.flavour} ${product.category == product.flavour ? "" : product.category}</li>
             <li><strong>Packaging:</strong> ${e.item_package_material} with outer ${e.box_material}</li>
-            <li><strong>Carton Packaging:</strong> ${e.box_contains} ${e.item_count_type} × ${e.product_weight} ${e.product_mrp ? `(${e.product_mrp} ₹ / ${e.item_count_type})` : "" }</li>
-            <li><strong>Per Piece Weight:</strong> ${e.product_weight}</li>
+            <li><strong>Carton Packaging:</strong> ${e.box_contains} ${e.item_count_type} × ${product.net_weight ? product.net_weight : e.product_weight} ${e.product_mrp ? `(${e.product_mrp} ₹ / ${e.item_count_type})` : "" }</li>
+            <li><strong>Per Piece Weight:</strong> ${product.net_weight ? product.net_weight : e.product_weight}</li>
           </ul>
         </div>
       `).join("");
@@ -333,7 +333,7 @@ let loadTheProductDetailData = async () => {
 
       <!-- PRODUCT INFO -->
       <div class="info">
-        <h1>${product.brand} - ${product.flavour}</h1>
+        <h1>${product.brand == "Classy" ? `${product.brand} - ${product.sub_flavour}` : `${product.brand} - ${product.flavour}`}</h1>
         <div class="meta">${metaData}</div>
 
         <p class="desc">

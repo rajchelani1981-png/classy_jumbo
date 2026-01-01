@@ -2,6 +2,7 @@ let companyInformationForContact = async () => {
     companyAddressLoad();
     companyMailLinkLoad();
     companyPhoneLinkLoad();
+    parentCompanyName();
     contactFormInit();
 }
 

@@ -49,13 +49,14 @@ function renderFooter(data, menu) {
 
           <!-- Address -->
           <div class="footer-col">
-            <h4>Address</h4>
+            <h4>Address</h4><br>
+            <strong>${data.parent_company_name}</strong>
             <p>${data.address}</p>
           </div>
 
           <!-- Contact -->
           <div class="footer-col">
-            <h4>Contact</h4>
+            <h4>Customer Support</h4>
             <p>📞 <a href="tel:${contact.phone}">${contact.phone}</a></p>
             <p>✉️ <a href="mailto:${contact.email}">${contact.email}</a></p>
           </div>

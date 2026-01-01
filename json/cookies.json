@@ -25,7 +25,7 @@
         {
             "id" : "coo1",
             "category": "Cookies",
-            "brand" : "Classy Cookies",
+            "brand" : "Classy",
             "flavour" : "Almond",
             "sub_flavour" : "Almond Cookies",
             "description" : "Baked to perfection with crunchy almond bits, Almond Cookies offer a delightful balance of nutty richness and buttery sweetness. Crisp on the outside and full of flavour, they make a perfect companion for tea-time, snacking, or sharing moments of indulgence.",
@@ -41,7 +41,7 @@
         {
             "id" : "coo2",
             "category": "Cookies",
-            "brand" : "Classy Cookies",
+            "brand" : "Classy",
             "flavour" : "Cashew Pista",
             "sub_flavour" : "Cashew Pista Cookies",
             "description" : "Enriched with the richness of cashews and the delicate crunch of pista, Cashew Pista Cookies deliver a deliciously nutty flavour in every bite. Perfectly baked and irresistibly crisp, they’re an ideal treat for tea-time indulgence or anytime snacking.",
@@ -57,7 +57,7 @@
         {
             "id" : "coo3",
             "category": "Cookies",
-            "brand" : "Classy Cookies",
+            "brand" : "Classy",
             "flavour" : "Cashew",
             "sub_flavour" : "Cashew Cookies",
             "description" : "Made with rich, crunchy cashews and baked to golden perfection, Cashew Cookies offer a smooth, nutty flavour with every bite. Crisp, buttery, and delightfully satisfying, they’re perfect for tea-time treats or anytime indulgence.",
@@ -73,7 +73,7 @@
         {
             "id" : "coo4",
             "category": "Cookies",
-            "brand" : "Classy Cookies",
+            "brand" : "Classy",
             "flavour" : "Dry Fruit",
             "sub_flavour" : "Dry Fruit Cookies",
             "description" : "Loaded with a generous mix of premium dry fruits, Dry Fruit Cookies offer a rich, nutty taste and delightful crunch in every bite. Perfectly baked and full of wholesome goodness, they make a satisfying treat for tea-time or anytime indulgence.",
@@ -89,7 +89,7 @@
         {
             "id" : "coo5",
             "category": "Cookies",
-            "brand" : "Classy Cookies",
+            "brand" : "Classy",
             "flavour" : "Pista",
             "sub_flavour" : "Pista Cookies",
             "description" : "Baked with the delicate flavour and crunch of premium pista, Pista Cookies offer a smooth, nutty taste in every bite. Crisp, aromatic, and perfectly balanced, they’re an ideal companion for tea-time indulgence or anytime snacking.",
@@ -105,7 +105,7 @@
         {
             "id" : "coo6",
             "category": "Cookies",
-            "brand" : "Classy Cookies",
+            "brand" : "Classy",
             "flavour" : "Tutti Frutti",
             "sub_flavour" : "Tutti Frutti Cookies",
             "description" : "Bursting with colourful tutti frutti bits and a delightful sweetness, Tutti Frutti Cookies offer a cheerful crunch in every bite. Perfectly baked and full of flavour, they make a fun and tasty treat for tea-time, kids’ snacks, or anytime indulgence.",

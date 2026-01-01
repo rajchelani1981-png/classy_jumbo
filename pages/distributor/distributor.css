@@ -145,14 +145,14 @@
   display: flex;
   gap: 30px;
   width: 200%;
-  animation: marquee 30s linear infinite;
+  animation: countries 30s linear infinite;
 }
 
 .network-ticker:hover .network-track {
   animation-play-state: paused;
 }
 
-@keyframes marquee {
+@keyframes countries {
   from {
     transform: translateX(0);
   }

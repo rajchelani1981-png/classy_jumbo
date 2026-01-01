@@ -4,24 +4,22 @@
     "list" : [
         {
             "id" : 1,
-            "image": "/assets/image/sliding/landing page sliding-2.jpg",
-            "title" : "Best Quality Product Award",
-            "year" : 2005,
-            "description" : "Recognized for delivering consistently high-quality food products with excellent taste and safety standards."
+            "image": "/assets/image/Exhibition/sial exhibition paris/1.jpg",
+            "title" : "Sial Exhibition (Paris) 2018",
+            "description" : "Engaging business discussions at SIAL Paris, showcasing our product portfolio and exploring international partnerships with global buyers and distributors in one of the world’s leading food exhibitions.",
+            "detail_description" : "Our participation at the SIAL Paris Exhibition reflects our strong commitment to global expansion and international trade. During the event, we engaged in in-depth discussions with international buyers, distributors, and industry professionals, presenting our diverse product range and exploring new market opportunities. SIAL Paris provided an excellent platform to strengthen relationships, understand global food trends, and reinforce our brand presence in the international FMCG market."
         },
         {
             "id" : 2,
-            "image": "/assets/image/sliding/landing page sliding-2.jpg",
-            "title" : "Best Quality Product Award",
-            "year" : 2005,
-            "description" : "Recognized for delivering consistently high-quality food products with excellent taste and safety standards."
+            "image": "/assets/image/Exhibition/aahar/2026/aahar.jpg",
+            "title" : "Aahar Exhibition 2026 (Upcoming Event)",
+            "description" : "Venue : Pragati Maidan, Delhi</br>Date: 10 - 14 March 2026"
         },
         {
             "id" : 3,
-            "image": "/assets/image/sliding/landing page sliding-2.jpg",
-            "title" : "Best Quality Product Award",
-            "year" : 2005,
-            "description" : "Recognized for delivering consistently high-quality food products with excellent taste and safety standards."
+            "image": "/assets/image/Exhibition/food and beverage west africa/fb.png",
+            "title" : "Food And Beverage West Africa 2026 (Upcoming Event)",
+            "description" : "Venue : Landmark Centre, Lagos, Nigeria </br>Date: 9 - 11 June 2026"
         }
     ]
 }

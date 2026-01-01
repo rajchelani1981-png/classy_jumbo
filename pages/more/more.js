@@ -29,7 +29,6 @@ let moreDataArrange = (data) =>{
             </div>
 
             <h3 class="more-title">${e.title}</h3>
-            <p class="award-year">${e.year}</p>
             <p class="more-description">
                 ${e.description}
             </p>

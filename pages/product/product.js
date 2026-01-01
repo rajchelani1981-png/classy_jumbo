@@ -84,8 +84,14 @@
     const grid = document.getElementById("productGrid");
     grid.innerHTML = "";
     data.forEach(p => {
-        grid.innerHTML += `
-          <div class="product-card" onclick="location.href='#/productDetail/${parts[1]}/id-${p.id}'">
+      let pageLink = p.pageLink;
+
+      if(pageLink){
+        pageLink = pageLink.replace(/^.*\/json\/|\.json$/g, "");
+      }
+      
+      grid.innerHTML += `
+          <div class="product-card" onclick="location.href='#/productDetail/${pageLink ? pageLink : parts[1]}/id-${p.id}'">
             <img src="${p.thumbnail}" alt="${p.sub_flavour}">
             <h3>${p.flavour}</h3>
             <span>${p.brand}</span>
@@ -149,6 +155,12 @@
     });
   }
 
+  let fetchJsonDataLinkByLink = (link) => {
+    const parts = link.replace("#/", "").split("/");
+
+    return `/json/${parts[1]}.json`;
+  }
+
   let loadTheProductData = async () => {
     let dataPageLink = fetchJsonDataLink();
     let bannerImage = null;
@@ -179,15 +191,15 @@
     loadBannerImage(bannerImage)
 
     if(flag){
-      data = filtersTheData(list);
-      productDataArrange(data);
+      let filteredData = filtersTheData(list);
+      productDataArrange(filteredData);
 
       // arrange for filter
       let categories = new Set();
       let keyIndex = 0;
       
       for(let i=0; i < filterSequenceWithKey.length; i++){
-        categories = fetchCategory(data, filterSequenceWithKey[i]);
+        categories = fetchCategory(filteredData, filterSequenceWithKey[i]);
         keyIndex = i;
 
         if(categories.size > 1){
@@ -199,6 +211,24 @@
     }
     else{
       loadSubmenu(list);
+      //data stroage
+      let productDataList = [];
+
+      //data collect
+      for(let i=0; i<list.length; i++){
+        let pageLink = fetchJsonDataLinkByLink(list[i].route);
+
+        if (!pageObj[pageLink]){
+          await fetchProductData(pageLink);
+        }
+        let allProductListWithPageLink = pageObj[pageLink].list.map(item => ({
+          ...item,
+          "pageLink" : pageLink
+        }));
+        productDataList.push(...allProductListWithPageLink);
+      }
+      
+      productDataArrange(productDataList);
     }
   }
 

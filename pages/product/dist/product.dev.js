@@ -8,6 +8,12 @@ function _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.
 
 function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }
 
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 // first - folder same for html file, second-file (json), ...filter with filter key
 var pageObj = {};
 var filterSequenceWithKey = ["category", "flavour"];
@@ -23,8 +29,7 @@ var fetchJsonDataLink = function fetchJsonDataLink() {
 };
 
 var fetchProductData = function fetchProductData(dataPageLink) {
-  var response, _data;
-
+  var response, data;
   return regeneratorRuntime.async(function fetchProductData$(_context) {
     while (1) {
       switch (_context.prev = _context.next) {
@@ -39,8 +44,8 @@ var fetchProductData = function fetchProductData(dataPageLink) {
           return regeneratorRuntime.awrap(response.json());
 
         case 6:
-          _data = _context.sent;
-          if (_data) pageObj[dataPageLink] = _data;
+          data = _context.sent;
+          if (data) pageObj[dataPageLink] = data;
           _context.next = 13;
           break;
 
@@ -107,7 +112,13 @@ var productDataArrange = function productDataArrange(data) {
   var grid = document.getElementById("productGrid");
   grid.innerHTML = "";
   data.forEach(function (p) {
-    grid.innerHTML += "\n          <div class=\"product-card\" onclick=\"location.href='#/productDetail/".concat(parts[1], "/id-").concat(p.id, "'\">\n            <img src=\"").concat(p.thumbnail, "\" alt=\"").concat(p.sub_flavour, "\">\n            <h3>").concat(p.flavour, "</h3>\n            <span>").concat(p.brand, "</span>\n          </div>\n        ");
+    var pageLink = p.pageLink;
+
+    if (pageLink) {
+      pageLink = pageLink.replace(/^.*\/json\/|\.json$/g, "");
+    }
+
+    grid.innerHTML += "\n          <div class=\"product-card\" onclick=\"location.href='#/productDetail/".concat(pageLink ? pageLink : parts[1], "/id-").concat(p.id, "'\">\n            <img src=\"").concat(p.thumbnail, "\" alt=\"").concat(p.sub_flavour, "\">\n            <h3>").concat(p.flavour, "</h3>\n            <span>").concat(p.brand, "</span>\n          </div>\n        ");
   });
 }; //fetch category list
 
@@ -161,12 +172,17 @@ var loadSubmenu = function loadSubmenu(list) {
   });
 };
 
-var loadTheProductData = function loadTheProductData() {
-  var dataPageLink, bannerImage, list, flag, _data2, productHash, productMenu, categories, keyIndex, i;
+var fetchJsonDataLinkByLink = function fetchJsonDataLinkByLink(link) {
+  var parts = link.replace("#/", "").split("/");
+  return "/json/".concat(parts[1], ".json");
+};
 
-  return regeneratorRuntime.async(function loadTheProductData$(_context2) {
+var loadTheProductData = function loadTheProductData() {
+  var dataPageLink, bannerImage, list, flag, data, productHash, productMenu, _filteredData, categories, keyIndex, i, productDataList, _loop, _i;
+
+  return regeneratorRuntime.async(function loadTheProductData$(_context3) {
     while (1) {
-      switch (_context2.prev = _context2.next) {
+      switch (_context3.prev = _context3.next) {
         case 0:
           dataPageLink = fetchJsonDataLink();
           bannerImage = null;
@@ -174,32 +190,32 @@ var loadTheProductData = function loadTheProductData() {
           flag = true;
 
           if (!dataPageLink) {
-            _context2.next = 13;
+            _context3.next = 13;
             break;
           }
 
           if (pageObj[dataPageLink]) {
-            _context2.next = 8;
+            _context3.next = 8;
             break;
           }
 
-          _context2.next = 8;
+          _context3.next = 8;
           return regeneratorRuntime.awrap(fetchProductData(dataPageLink));
 
         case 8:
-          _data2 = pageObj[dataPageLink];
-          bannerImage = _data2.bannerImage;
-          list = _data2.list;
-          _context2.next = 21;
+          data = pageObj[dataPageLink];
+          bannerImage = data.bannerImage;
+          list = data.list;
+          _context3.next = 21;
           break;
 
         case 13:
           if (menuData) {
-            _context2.next = 16;
+            _context3.next = 16;
             break;
           }
 
-          _context2.next = 16;
+          _context3.next = 16;
           return regeneratorRuntime.awrap(fetchMenu());
 
         case 16:
@@ -215,12 +231,12 @@ var loadTheProductData = function loadTheProductData() {
           loadBannerImage(bannerImage);
 
           if (!flag) {
-            _context2.next = 39;
+            _context3.next = 39;
             break;
           }
 
-          data = filtersTheData(list);
-          productDataArrange(data); // arrange for filter
+          _filteredData = filtersTheData(list);
+          productDataArrange(_filteredData); // arrange for filter
 
           categories = new Set();
           keyIndex = 0;
@@ -228,36 +244,89 @@ var loadTheProductData = function loadTheProductData() {
 
         case 28:
           if (!(i < filterSequenceWithKey.length)) {
-            _context2.next = 36;
+            _context3.next = 36;
             break;
           }
 
-          categories = fetchCategory(data, filterSequenceWithKey[i]);
+          categories = fetchCategory(_filteredData, filterSequenceWithKey[i]);
           keyIndex = i;
 
           if (!(categories.size > 1)) {
-            _context2.next = 33;
+            _context3.next = 33;
             break;
           }
 
-          return _context2.abrupt("break", 36);
+          return _context3.abrupt("break", 36);
 
         case 33:
           i++;
-          _context2.next = 28;
+          _context3.next = 28;
           break;
 
         case 36:
           filterOptionLoad(categories, filterSequenceWithKey[keyIndex]);
-          _context2.next = 40;
+          _context3.next = 50;
           break;
 
         case 39:
-          loadSubmenu(list);
+          loadSubmenu(list); //data stroage
 
-        case 40:
+          productDataList = []; //data collect
+
+          _loop = function _loop(_i) {
+            var pageLink, allProductListWithPageLink;
+            return regeneratorRuntime.async(function _loop$(_context2) {
+              while (1) {
+                switch (_context2.prev = _context2.next) {
+                  case 0:
+                    pageLink = fetchJsonDataLinkByLink(list[_i].route);
+
+                    if (pageObj[pageLink]) {
+                      _context2.next = 4;
+                      break;
+                    }
+
+                    _context2.next = 4;
+                    return regeneratorRuntime.awrap(fetchProductData(pageLink));
+
+                  case 4:
+                    allProductListWithPageLink = pageObj[pageLink].list.map(function (item) {
+                      return _objectSpread({}, item, {
+                        "pageLink": pageLink
+                      });
+                    });
+                    productDataList.push.apply(productDataList, _toConsumableArray(allProductListWithPageLink));
+
+                  case 6:
+                  case "end":
+                    return _context2.stop();
+                }
+              }
+            });
+          };
+
+          _i = 0;
+
+        case 43:
+          if (!(_i < list.length)) {
+            _context3.next = 49;
+            break;
+          }
+
+          _context3.next = 46;
+          return regeneratorRuntime.awrap(_loop(_i));
+
+        case 46:
+          _i++;
+          _context3.next = 43;
+          break;
+
+        case 49:
+          productDataArrange(productDataList);
+
+        case 50:
         case "end":
-          return _context2.stop();
+          return _context3.stop();
       }
     }
   });

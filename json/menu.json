@@ -7,14 +7,14 @@
         "title": "Product",
         "type" : "product",
         "route": "#/product",
-        "bannerImage" : "/assets/image/sliding/landing page sliding-1.jpg",
+        "bannerImage" : {
+            "img": "/assets/image/sliding/products/products_desktop.jpg",
+            "tablet_img" : "/assets/image/sliding/products/products_tablet.jpg",
+            "mobile_img" : "/assets/image/sliding/products/products_mobile.jpg"
+        },
         "submenu": [
             {
-                "title": "Biscute",
-                "route": "#/product/biscute"
-            },
-            {
-                "title": "Cookies",
+                "title": "Handmade Cookies",
                 "route": "#/product/cookies",
                 "submenu" : [
                     {
@@ -45,7 +45,49 @@
             },
             {
                 "title": "Wafer",
-                "route": "#/product/wafer"
+                "route": "#/product/wafer",
+                "submenu" : [
+                    {
+                        "title" : "Cheese Cream Wafer",
+                        "route" : "#/product/wafer/flavour-cheese cream"
+                    },
+                    {
+                        "title" : "Chocolate Wafer",
+                        "route" : "#/product/wafer/flavour-chocolate"
+                    },
+                    {
+                        "title" : "Cookies & Cream Wafer",
+                        "route" : "#/product/wafer/flavour-cookies and cream"
+                    },
+                    {
+                        "title" : "Mango Wafer",
+                        "route" : "#/product/wafer/flavour-mango"
+                    },
+                    {
+                        "title" : "Orange Wafer",
+                        "route" : "#/product/wafer/flavour-orange"
+                    },
+                    {
+                        "title" : "Oreo & Cream Wafer",
+                        "route" : "#/product/wafer/flavour-oreo and cream"
+                    },
+                    {
+                        "title" : "Peanut Butter Wafer",
+                        "route" : "#/product/wafer/flavour-peanut butter"
+                    },
+                    {
+                        "title" : "Pineapple Wafer",
+                        "route" : "#/product/wafer/flavour-Pineapple"
+                    },
+                    {
+                        "title" : "Strawberry Wafer",
+                        "route" : "#/product/wafer/flavour-strawberry"
+                    },
+                    {
+                        "title" : "Vanilla Wafer",
+                        "route" : "#/product/wafer/flavour-vanilla"
+                    }
+                ]
             },
             {
                 "title": "Jam",
@@ -185,7 +227,7 @@
         ]
     },
     {
-        "title": "About",
+        "title": "About Us",
         "route": "#/about"
     },
     {

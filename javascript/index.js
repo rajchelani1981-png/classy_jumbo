@@ -47,3 +47,12 @@ let companyPhoneLinkLoad = async () =>{
         e.innerHTML = `<a href="tel:${contactInfo.phone}">${contactInfo.phone}</a>`
     });
 }
+
+let parentCompanyName = async () =>{
+    if(!companyDataForLogo)
+        await fetchCompanyInformation();
+    
+    document.querySelectorAll(".parent-company-name").forEach(e => {
+        e.innerHTML = companyDataForLogo.parent_company_name;
+    });
+}

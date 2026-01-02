@@ -314,3 +314,33 @@
   gap: 40px;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
 }
+
+/* VIDEO SLIDE FIX */
+.slide video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;        /* 🔥 FULL COVER like hero image */
+  object-position: center;
+  display: block;
+  background: #000;
+}
+
+/* Remove default controls spacing */
+.slide video::-webkit-media-controls {
+  display: none !important;
+}
+
+.slide picture,
+.slide video {
+  position: absolute;
+  inset: 0;
+}
+
+.slide video {
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+.slide.active video {
+  opacity: 1;
+}

@@ -51,16 +51,23 @@ let loadSlidingHtmlData = (data) => {
   data.forEach(e => {
     landingSlidingSelector.innerHTML += `
       <div class="slide">
-        <picture>
-        ${e.mobile_img ? `<source media="(max-width: 768px)" srcset="${e.mobile_img}">` : ""}
-          ${e.tablet_img ? `<source media="(max-width: 1024px)" srcset="${e.tablet_img}">` : ""}
-          <img src="${e.img}">
-        </picture>
+        ${e.video_desktop ? `<video autoplay muted loop playsinline>
+            <source src="${e.video_desktop}" type="${e.type}">
+          </video>` 
+          : 
+          `
+          <picture>
+            ${e.mobile_img ? `<source media="(max-width: 768px)" srcset="${e.mobile_img}">` : ""}
+            ${e.tablet_img ? `<source media="(max-width: 1024px)" srcset="${e.tablet_img}">` : ""}
+            <img src="${e.img}">
+          </picture>
 
-        <div class="slide-content">
-          ${e.heading ? `<h1 class="char-animate">${e.heading}</h1>` : ``}
-          ${e.subheading ? `<p class="char-animate delay-1">${e.subheading}</p>` : ``}
-        </div>
+          <div class="slide-content">
+            ${e.heading ? `<h1 class="char-animate">${e.heading}</h1>` : ``}
+            ${e.subheading ? `<p class="char-animate delay-1">${e.subheading}</p>` : ``}
+          </div>
+          `}
+        
       </div>
     `;
   });
@@ -94,6 +101,7 @@ async function initHeroSlider() {
 
   videoFunctionInit();
   loadHomeActionAndHeroImage();
+  document.querySelectorAll(".slide video").forEach(v => v.pause());
 }
 
 /* ===============================

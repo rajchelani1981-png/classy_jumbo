@@ -3,25 +3,23 @@
     "bannerImage" : "/assets/image/sliding/landing page sliding-2.jpg",
     "list" : [
         {
-            "id" : 1,
-            "image": "/assets/image/sliding/landing page sliding-2.jpg",
-            "title" : "Best Quality Product Award",
-            "year" : 2005,
-            "description" : "Recognized for delivering consistently high-quality food products with excellent taste and safety standards."
-        },
-        {
-            "id" : 2,
-            "image": "/assets/image/sliding/landing page sliding-2.jpg",
-            "title" : "Best Quality Product Award",
-            "year" : 2005,
-            "description" : "Recognized for delivering consistently high-quality food products with excellent taste and safety standards."
-        },
-        {
-            "id" : 3,
-            "image": "/assets/image/sliding/landing page sliding-2.jpg",
-            "title" : "Best Quality Product Award",
-            "year" : 2005,
-            "description" : "Recognized for delivering consistently high-quality food products with excellent taste and safety standards."
+            "id" : "aw1",
+            "thumb_img": "/assets/image/Awards/Global Leadership Awards/2025/Global Leadership Awards-4.jpeg",
+            "images" : [
+                "/assets/image/Awards/Global Leadership Awards/2025/Global Leadership Awards-1.jpeg",
+                "/assets/image/Awards/Global Leadership Awards/2025/Global Leadership Awards-2.jpeg",
+                "/assets/image/Awards/Global Leadership Awards/2025/Global Leadership Awards-3.jpeg",
+                "/assets/image/Awards/Global Leadership Awards/2025/Global Leadership Awards-4.jpeg",
+                "/assets/image/Awards/Global Leadership Awards/2025/Global Leadership Awards-5.jpeg",
+                "/assets/image/Awards/Global Leadership Awards/2025/Global Leadership Awards-6.jpeg"
+            ],
+            "videos" : [
+                "assets/video/Awards/Global Leadership Awards/2025/Global Leadership Awards-1.mp4",
+                "assets/video/Awards/Global Leadership Awards/2025/Global Leadership Awards-2.mp4"
+            ],
+            "title" : "Global Leadership Awards (2025)",
+            "description" : "Under the Global Leadership Awards (2025), the Best International Food Brand of the Year 2025 was awarded to Harish Chelani, Founder & CEO of JumboMaster Group of Companies Pvt Ltd, in recognition of building a leading international food brand with a strong presence in India as well as global markets, particularly serving the NRI segment worldwide.",
+            "detail_description" : "The Global Leadership Awards (2025) celebrate visionary leaders whose enterprises demonstrate excellence in global reach, innovation, and sustained business impact. Within this esteemed platform, the Best International Food Brand of the Year 2025 category recognizes organizations that have successfully built strong international brands while maintaining a solid domestic foundation. <br>In 2025, this distinguished honor was conferred upon Mr. Harish Chelani, Founder & CEO of JumboMaster Group of Companies Pvt Ltd and its associated ventures. The award acknowledges his exceptional leadership in establishing one of India’s biggest food export brands, serving the global NRI market while simultaneously operating and expanding within India. <br>Under Mr. Chelani’s strategic direction, the JumboMaster Group has developed a robust presence across domestic Indian markets alongside a wide international distribution network. His focus on quality, scalability, and consumer trust has enabled the brand to connect Indian food products with global audiences, reinforcing India’s reputation in the international food trade. <br>This recognition under the Global Leadership Awards (2025) highlights Mr. Harish Chelani’s dual impact—strengthening the Indian market while driving international growth—and affirms his role as a global business leader in the food export industry."
         }
     ]
 }

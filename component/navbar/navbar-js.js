@@ -169,6 +169,9 @@ function loadPage(page, menu) {
       if(typeof loadTheProductDetailData == "function"){
         loadTheProductDetailData();
       }
+      if(typeof moreDetailInit == "function"){
+        moreDetailInit();
+      }
       if(typeof distributorMethod == "function"){
         distributorMethod();
         indiaMap();

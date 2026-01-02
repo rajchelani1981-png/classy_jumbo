@@ -23,9 +23,10 @@ let moreDataArrange = (data) =>{
     awardContainer.innerHTML = "";
 
     data.forEach( e => {
+        console.log(e);
         let card = `<div class="award-card">
             <div class="award-image">
-                <img src="${e.image}" alt="${e.title}">
+                <img src="${e.thumb_img}" alt="${e.title}">
             </div>
 
             <h3 class="more-title">${e.title}</h3>

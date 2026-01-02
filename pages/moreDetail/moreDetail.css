@@ -1,0 +1,154 @@
+:root {
+    --primary: #f26a1b;
+    --secondary: #d8432e;
+    --dark: #1f1f1f;
+    --light: #ffffff;
+    --bg: #fffaf3;
+}
+
+
+
+
+/* ================= HERO ================= */
+.more-hero {
+    background: linear-gradient(90deg, var(--primary), var(--secondary));
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.more-hero h1 {
+    margin: 0 0 10px;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.more-hero p {
+    max-width: 900px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* ================= CONTAINER ================= */
+.more-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+/* ================= SLIDER ================= */
+.more-slider-wrapper {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+    overflow: hidden;
+}
+
+.more-slider {
+    position: relative;
+    width: 100%;
+    height: 520px;
+    background: #000;
+}
+
+.more-slides {
+    display: flex;
+    height: 100%;
+    transition: transform 0.6s ease;
+}
+
+.more-slide {
+    min-width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+}
+
+.more-slide img,
+.more-slide video {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* ================= NAV BUTTONS ================= */
+.more-nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    z-index: 10;
+}
+
+.more-nav-btn:hover {
+    background: rgba(0,0,0,0.8);
+}
+
+.more-prev { left: 15px; }
+.more-next { right: 15px; }
+
+/* ================= THUMBNAILS ================= */
+.more-thumbs {
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    overflow-x: auto;
+    background: #fff;
+}
+
+.more-thumb {
+    width: 90px;
+    height: 60px;
+    flex-shrink: 0;
+    cursor: pointer;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 2px solid transparent;
+}
+
+.more-thumb.active {
+    border-color: var(--primary);
+}
+
+.more-thumb img,
+.more-thumb video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ================= CONTENT ================= */
+.more-content {
+    margin-top: 40px;
+}
+
+.more-content h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: var(--dark);
+}
+
+.more-content p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+    .more-slider {
+        height: 360px;
+    }
+
+    .more-hero h1 {
+        font-size: 30px;
+    }
+}

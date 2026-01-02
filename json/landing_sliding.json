@@ -33,5 +33,10 @@
         "img": "/assets/image/sliding/products/products_desktop.jpg",
         "tablet_img" : "/assets/image/sliding/products/products_tablet.jpg",
         "mobile_img" : "/assets/image/sliding/products/products_mobile.jpg"
+    },
+    {
+        "img": "/assets/image/sliding/wafer/wafer_desktop.jpg",
+        "tablet_img" : "/assets/image/sliding/wafer/wafe_tablet.jpg",
+        "mobile_img" : "/assets/image/sliding/wafer/wafe_mobile.jpg"
     }
 ]

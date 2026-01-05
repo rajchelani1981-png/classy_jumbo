@@ -2,7 +2,10 @@
     "bannerImage" : {
         "img": "/assets/image/sliding/nuddles/nuddles_desktop.jpg",
         "tablet_img" : "/assets/image/sliding/nuddles/nuddles_tablet.jpg",
-        "mobile_img" : "/assets/image/sliding/nuddles/nuddles_mobile.jpg"
+        "mobile_img" : "/assets/image/sliding/nuddles/nuddles_mobile.jpg",
+        "img_webp" : "/assets/image/sliding/nuddles/webp/nuddles_desktop.webp",
+        "tablet_webp" : "/assets/image/sliding/nuddles/webp/nuddles_tablet.webp",
+        "mobile_webp" : "/assets/image/sliding/nuddles/webp/nuddles_mobile.webp"
     },
     "packaging": [
         {
@@ -30,9 +33,9 @@
             "flavour" : "Curry",
             "sub_flavour" : "Curry Noodles",
             "description" : "Infused with a rich blend of aromatic curry spices, Curry Noodles deliver a warm, comforting flavour with every slurp. Quick to prepare and full of bold taste, they’re the perfect choice for a satisfying meal or a spicy snack anytime.",
-            "thumbnail" : "/assets/image/product/nuddles/curry.png",
+            "thumbnail" : "/assets/image/product/nuddles/webp/curry.webp",
             "images": [
-                "/assets/image/product/nuddles/curry.png"
+                "/assets/image/product/nuddles/webp/curry.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -46,9 +49,9 @@
             "flavour" : "Masala",
             "sub_flavour" : "Masala Noodles",
             "description" : "Made with a classic blend of aromatic Indian masala spices, Masala Noodles deliver a rich, spicy, and satisfying flavour in every bite. Quick to cook and full of desi taste, they’re perfect for a comforting meal or a flavour-packed snack anytime.",
-            "thumbnail" : "/assets/image/product/nuddles/masala.png",
+            "thumbnail" : "/assets/image/product/nuddles/webp/masala.webp",
             "images": [
-                "/assets/image/product/nuddles/masala.png"
+                "/assets/image/product/nuddles/webp/masala.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -62,9 +65,9 @@
             "flavour" : "Vegetable",
             "sub_flavour" : "Vegetable Noodles",
             "description" : "Packed with the goodness of garden-fresh vegetables and mild, savoury seasoning, Vegetable Instant Noodles offer a light yet satisfying flavour in every bite. Quick to prepare and comforting to enjoy, they’re a wholesome choice for a tasty meal anytime.",
-            "thumbnail" : "/assets/image/product/nuddles/vegetable.png",
+            "thumbnail" : "/assets/image/product/nuddles/webp/vegetable.webp",
             "images": [
-                "/assets/image/product/nuddles/vegetable.png"
+                "/assets/image/product/nuddles/webp/vegetable.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,

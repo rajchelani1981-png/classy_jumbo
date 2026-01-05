@@ -10,7 +10,10 @@
         "bannerImage" : {
             "img": "/assets/image/sliding/products/products_desktop.jpg",
             "tablet_img" : "/assets/image/sliding/products/products_tablet.jpg",
-            "mobile_img" : "/assets/image/sliding/products/products_mobile.jpg"
+            "mobile_img" : "/assets/image/sliding/products/products_mobile.jpg",
+            "img_webp" : "/assets/image/sliding/products/webp/products_desktop.webp",
+            "tablet_webp" : "/assets/image/sliding/products/webp/products_tablet.webp",
+            "mobile_webp" : "/assets/image/sliding/products/webp/products_mobile.webp"
         },
         "submenu": [
             {

@@ -1,4 +1,4 @@
-// first - folder same for html file, second-file (json), ...filter with filter key
+  // first - folder same for html file, second-file (json), ...filter with filter key
   let pageObj = {};
   let filterSequenceWithKey = ["category", "flavour"];
 
@@ -71,34 +71,79 @@
   let loadBannerImage = (imageLink) => {
     document.querySelector(".page-banner").innerHTML = `
     <picture>
+      ${imageLink.mobile_webp ? `<source media="(max-width: 768px)" type="image/webp" srcset="${imageLink.mobile_webp}">` : ""}
       ${imageLink.mobile_img ? `<source media="(max-width: 768px)" srcset="${imageLink.mobile_img}">` : ""}
+      ${imageLink.tablet_webp ? `<source media="(max-width: 1024px)" type="image/webp" srcset="${imageLink.tablet_webp}">` : ""}
       ${imageLink.tablet_img ? `<source media="(max-width: 1024px)" srcset="${imageLink.tablet_img}">` : ""}
-      <img src="${imageLink.img}">
+      <source type="image/webp" srcset="${imageLink.img_webp}">
+      <img src="${imageLink.img}" loading="lazy">
     </picture>`;
   }
 
-  let productDataArrange = (data) => {
+  let appendProducts = (data, grid) => {
     const hash = location.hash;
     const parts = hash.replace("#/", "").split("/");
 
+    const fragment = document.createDocumentFragment();
+
+    data.forEach(p => {
+      let pageLink = p.pageLink
+        ? p.pageLink.replace(/^.*\/json\/|\.json$/g, "")
+        : parts[1];
+
+      const card = document.createElement("div");
+      card.className = "product-card";
+      card.dataset.link = `#/productDetail/${pageLink}/id-${p.id}`;
+
+      card.innerHTML = `
+        <img
+          data-src="${p.thumbnail}"
+          class="lazy-img"
+          alt="${p.sub_flavour}" >
+        <h3>${p.flavour}</h3>
+        <span>${p.brand}</span>
+      `;
+
+      fragment.appendChild(card);
+    });
+
+    grid.appendChild(fragment);
+
+    // Observe newly added images
+    grid.querySelectorAll(".lazy-img").forEach(img => imgObserver.observe(img));
+  };
+
+  const idle = window.requestIdleCallback || function (cb) {
+    return setTimeout(cb, 1);
+  };
+
+  const imgObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const img = entry.target;
+        img.src = img.dataset.src;
+        imgObserver.unobserve(img);
+      }
+    });
+  });
+
+
+  let productDataArrange = (data) => {
     const grid = document.getElementById("productGrid");
     grid.innerHTML = "";
-    data.forEach(p => {
-      let pageLink = p.pageLink;
 
-      if(pageLink){
-        pageLink = pageLink.replace(/^.*\/json\/|\.json$/g, "");
-      }
-      
-      grid.innerHTML += `
-          <div class="product-card" onclick="location.href='#/productDetail/${pageLink ? pageLink : parts[1]}/id-${p.id}'">
-            <img src="${p.thumbnail}" alt="${p.sub_flavour}">
-            <h3>${p.flavour}</h3>
-            <span>${p.brand}</span>
-          </div>
-        `;
+    if (data.length > 12) {
+      appendProducts(data.slice(0, 12), grid);
+
+      idle(() => {
+        appendProducts(data.slice(12), grid);
       });
-  }
+    } else {
+      appendProducts(data, grid);
+    }
+  };
+
+
 
   //fetch category list
   let fetchCategory = (data, filterKey) =>{
@@ -230,6 +275,14 @@
       
       productDataArrange(productDataList);
     }
+
+    document.getElementById("productGrid").addEventListener("click", (e) => {
+      const card = e.target.closest(".product-card");
+      if (!card) return;
+
+      location.hash = card.dataset.link;
+    });
+
   }
 
   

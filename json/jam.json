@@ -2,7 +2,10 @@
     "bannerImage" : {
         "img": "/assets/image/sliding/jam/jam_desktop.jpg",
         "tablet_img" : "/assets/image/sliding/jam/jam_tablet.jpg",
-        "mobile_img" : "/assets/image/sliding/jam/jam_mobile.jpg"
+        "mobile_img" : "/assets/image/sliding/jam/jam_mobile.jpg",
+        "img_webp" : "/assets/image/sliding/jam/webp/jam_desktop.webp",
+        "tablet_webp" : "/assets/image/sliding/jam/webp/jam_tablet.webp",
+        "mobile_webp" : "/assets/image/sliding/jam/webp/jam_mobile.webp"
     },
     "packaging": [
         {
@@ -28,9 +31,9 @@
             "flavour" : "Orange",
             "sub_flavour" : "Orange Flavoured",
             "description" : "Classy Orange Jam is made from the goodness of juicy, sun-ripened oranges, offering a perfect balance of sweetness and citrusy tang. Its smooth, rich texture and refreshing flavour make every bite vibrant and delicious. Ideal for spreading on bread, pairing with desserts, or adding a fruity twist to your favorite recipes, Classy Orange Jam brings a burst of freshness to every moment.",
-            "thumbnail" : "/assets/image/product/jam/orange.png",
+            "thumbnail" : "/assets/image/product/jam/webp/orange.webp",
             "images": [
-                "/assets/image/product/jam/orange.png"
+                "/assets/image/product/jam/webp/orange.webp"
             ],
             "net_weight": "370g",
             "pack_size": "1",
@@ -45,9 +48,9 @@
             "flavour" : "Apricot",
             "sub_flavour" : "Apricot Flavoured",
             "description" : "Classy Apricot Jam is crafted from luscious, golden apricots to deliver a naturally sweet and mildly tangy taste. With its smooth texture and rich fruity aroma, it spreads effortlessly and adds a delightful touch to every bite. Perfect for breakfast breads, desserts, or creative recipes, Classy Apricot Jam brings the wholesome goodness of apricots to your table in a deliciously satisfying way.",
-            "thumbnail" : "/assets/image/product/jam/apricot.png",
+            "thumbnail" : "/assets/image/product/jam/webp/apricot.webp",
             "images": [
-                "/assets/image/product/jam/apricot.png"
+                "/assets/image/product/jam/webp/apricot.webp"
             ],
             "net_weight": "370g",
             "pack_size": "1",
@@ -62,9 +65,9 @@
             "flavour" : "Blueberry",
             "sub_flavour" : "Blueberry Flavoured",
             "description" : "Made from luscious, ripe blueberries, Classy Blueberry Jam offers a rich, fruity sweetness with a gentle tang. Its smooth texture and deep berry flavour make it perfect for spreading on toast, pairing with desserts, or adding a burst of indulgence to your everyday meals.",
-            "thumbnail" : "/assets/image/product/jam/blueberry.png",
+            "thumbnail" : "/assets/image/product/jam/webp/blueberry.webp",
             "images": [
-                "/assets/image/product/jam/blueberry.png"
+                "/assets/image/product/jam/webp/blueberry.webp"
             ],
             "net_weight": "370g",
             "pack_size": "1",
@@ -79,9 +82,9 @@
             "flavour" : "Cherry",
             "sub_flavour" : "Cherry Flavoured",
             "description" : "Crafted from succulent, ripe cherries, Classy Cherry Jam delivers a delightful balance of sweetness and gentle tartness. Its rich colour, smooth texture, and vibrant fruity taste make it a perfect spread for breakfast, desserts, and delightful everyday treats.",
-            "thumbnail" : "/assets/image/product/jam/cherry.png",
+            "thumbnail" : "/assets/image/product/jam/webp/cherry.webp",
             "images": [
-                "/assets/image/product/jam/cherry.png"
+                "/assets/image/product/jam/webp/cherry.webp"
             ],
             "net_weight": "370g",
             "pack_size": "1",
@@ -96,9 +99,9 @@
             "flavour" : "Mango",
             "sub_flavour" : "Mango Flavoured",
             "description" : "Made from the richness of sun-ripened mangoes, Classy Mango Jam delivers a naturally sweet, tropical flavour with a smooth and luscious texture. Perfect for spreading on toast, pairing with desserts, or adding a fruity twist to your favorite snacks, it brings the true taste of mango in every spoonful.",
-            "thumbnail" : "/assets/image/product/jam/mango.png",
+            "thumbnail" : "/assets/image/product/jam/webp/mango.webp",
             "images": [
-                "/assets/image/product/jam/mango.png"
+                "/assets/image/product/jam/webp/mango.webp"
             ],
             "net_weight": "370g",
             "pack_size": "1",
@@ -113,9 +116,9 @@
             "flavour" : "Mix Fruits",
             "sub_flavour" : "Mix Fruits Flavoured",
             "description" : "Made from a delightful blend of carefully selected fruits, Classy Mixed Fruit Jam offers a rich medley of natural sweetness and fruity freshness. Smooth, flavourful, and perfectly balanced, it’s an ideal spread for breakfast, desserts, and everyday indulgence.",
-            "thumbnail" : "/assets/image/product/jam/mix_fruits.png",
+            "thumbnail" : "/assets/image/product/jam/webp/mix_fruits.webp",
             "images": [
-                "/assets/image/product/jam/mix_fruits.png"
+                "/assets/image/product/jam/webp/mix_fruits.webp"
             ],
             "net_weight": "370g",
             "pack_size": "1",
@@ -130,9 +133,9 @@
             "flavour" : "Pineapple",
             "sub_flavour" : "Pineapple Flavoured",
             "description" : "Made from the tropical goodness of ripe pineapples, Classy Pineapple Jam delivers a refreshing balance of sweet and tangy flavours. Its smooth texture and bright fruity taste make it a perfect spread for toast, desserts, and delightful everyday treats.",
-            "thumbnail" : "/assets/image/product/jam/pineapple.png",
+            "thumbnail" : "/assets/image/product/jam/webp/pineapple.webp",
             "images": [
-                "/assets/image/product/jam/pineapple.png"
+                "/assets/image/product/jam/webp/pineapple.webp"
             ],
             "net_weight": "370g",
             "pack_size": "1",
@@ -147,9 +150,9 @@
             "flavour" : "Raspberry",
             "sub_flavour" : "Raspberry Flavoured",
             "description" : "Made from juicy, hand-picked raspberries, Classy Raspberry Jam delivers a delightful blend of rich berry sweetness and gentle tartness. Smooth, vibrant, and full of flavour, it’s perfect for spreading on toast, pairing with desserts, or adding a fruity touch to everyday treats.",
-            "thumbnail" : "/assets/image/product/jam/raspberry.png",
+            "thumbnail" : "/assets/image/product/jam/webp/raspberry.webp",
             "images": [
-                "/assets/image/product/jam/raspberry.png"
+                "/assets/image/product/jam/webp/raspberry.webp"
             ],
             "net_weight": "370g",
             "pack_size": "1",
@@ -164,9 +167,9 @@
             "flavour" : "Strawberry",
             "sub_flavour" : "Strawberry Flavoured",
             "description" : "Made from ripe, juicy strawberries, Classy Strawberry Jam offers a delicious balance of natural sweetness and fruity freshness. Smooth, vibrant, and irresistibly tasty, it’s the perfect spread for breakfast, desserts, and everyday moments of indulgence.",
-            "thumbnail" : "/assets/image/product/jam/strawberry.png",
+            "thumbnail" : "/assets/image/product/jam/webp/strawberry.webp",
             "images": [
-                "/assets/image/product/jam/strawberry.png"
+                "/assets/image/product/jam/webp/strawberry.webp"
             ],
             "net_weight": "370g",
             "pack_size": "1",

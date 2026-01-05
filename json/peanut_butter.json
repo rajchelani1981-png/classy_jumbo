@@ -2,7 +2,10 @@
     "bannerImage" : {
         "img": "/assets/image/sliding/peanut-butter/peanut-butter_desktop.jpg",
         "tablet_img" : "/assets/image/sliding/peanut-butter/peanut-butter_tablet.jpg",
-        "mobile_img" : "/assets/image/sliding/peanut-butter/peanut-butter_mobile.jpg"
+        "mobile_img" : "/assets/image/sliding/peanut-butter/peanut-butter_mobile.jpg",
+        "img_webp" : "/assets/image/sliding/peanut-butter/webp/peanut-butter_desktop.webp",
+        "tablet_webp" : "/assets/image/sliding/peanut-butter/webp/peanut-butter_tablet.webp",
+        "mobile_webp" : "/assets/image/sliding/peanut-butter/webp/peanut-butter_mobile.webp"
     },
     "packaging": [
         {
@@ -59,9 +62,9 @@
             "flavour" : "Creamy",
             "sub_flavour" : "Creamy Peanut Butter",
             "description" : "Smooth, rich, and irresistibly creamy, Creamy Peanut Butter is made from carefully roasted peanuts for a naturally nutty taste. Perfectly spreadable and full of wholesome flavour, it’s ideal for breakfast, snacks, or adding a delicious twist to your favourite recipes.",
-            "thumbnail" : "/assets/image/product/peanut butter/creamy.png",
+            "thumbnail" : "/assets/image/product/peanutButter/webp/creamy.webp",
             "images": [
-                "/assets/image/product/peanut butter/creamy.png"
+                "/assets/image/product/peanutButter/webp/creamy.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -75,9 +78,9 @@
             "flavour" : "Crunchy",
             "sub_flavour" : "Crunchy Peanut Butter",
             "description" : "Packed with the goodness of roasted peanuts and delightful crunchy bits, Crunchy Peanut Butter delivers a bold, nutty flavour with a satisfying crunch in every bite. Perfect for spreading, dipping, or enjoying straight from the jar, it’s a treat for true peanut lovers.",
-            "thumbnail" : "/assets/image/product/peanut butter/crunchy.png",
+            "thumbnail" : "/assets/image/product/peanutButter/webp/crunchy.webp",
             "images": [
-                "/assets/image/product/peanut butter/crunchy.png"
+                "/assets/image/product/peanutButter/webp/crunchy.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,

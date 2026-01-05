@@ -57,9 +57,12 @@ let loadSlidingHtmlData = (data) => {
           : 
           `
           <picture>
+            ${e.mobile_webp ? `<source media="(max-width: 768px)" type="image/webp" srcset="${e.mobile_webp}">` : ""}
             ${e.mobile_img ? `<source media="(max-width: 768px)" srcset="${e.mobile_img}">` : ""}
+            ${e.tablet_webp ? `<source media="(max-width: 1024px)" type="image/webp" srcset="${e.tablet_webp}">` : ""}
             ${e.tablet_img ? `<source media="(max-width: 1024px)" srcset="${e.tablet_img}">` : ""}
-            <img src="${e.img}">
+            <source type="image/webp" srcset="${e.img_webp}">
+            <img src="${e.img}" loading="lazy">
           </picture>
 
           <div class="slide-content">
@@ -71,6 +74,31 @@ let loadSlidingHtmlData = (data) => {
       </div>
     `;
   });
+}
+
+let marqueeTrackStyle = () => {
+  const track = document.getElementById("marqueeTrack");
+
+  // duplicate content ONCE
+  track.innerHTML += track.innerHTML;
+
+  let position = 0;
+  let speed = 0.5; // adjust speed here
+
+  function animate() {
+    position -= speed;
+
+    const halfWidth = track.scrollWidth / 2;
+
+    if (Math.abs(position) >= halfWidth) {
+      position = 0;
+    }
+
+    track.style.transform = `translateX(${position}px)`;
+    requestAnimationFrame(animate);
+  }
+
+  animate();
 }
 
 async function initHeroSlider() {
@@ -102,6 +130,7 @@ async function initHeroSlider() {
   videoFunctionInit();
   loadHomeActionAndHeroImage();
   document.querySelectorAll(".slide video").forEach(v => v.pause());
+  marqueeTrackStyle();
 }
 
 /* ===============================
@@ -142,7 +171,12 @@ let videoFunctionInit = async () =>{
 
     // Load & play video
     function playVideo(index) {
+      video.pause();
+      video.removeAttribute("src");
+      video.load();
+
       video.src = playlist[index];
+      video.preload = "none";
       video.load();
       video.play().catch(() => {});
     }

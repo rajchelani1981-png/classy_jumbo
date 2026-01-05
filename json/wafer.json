@@ -2,7 +2,10 @@
     "bannerImage" : {
         "img": "/assets/image/sliding/wafer/wafer_desktop.jpg",
         "tablet_img" : "/assets/image/sliding/wafer/wafe_tablet.jpg",
-        "mobile_img" : "/assets/image/sliding/wafer/wafe_mobile.jpg"
+        "mobile_img" : "/assets/image/sliding/wafer/wafe_mobile.jpg",
+        "img_webp" : "/assets/image/sliding/wafer/webp/wafer_desktop.webp",
+        "tablet_webp" : "/assets/image/sliding/wafer/webp/wafe_tablet.webp",
+        "mobile_webp" : "/assets/image/sliding/wafer/webp/wafe_mobile.webp"
     },
     "packaging": [
         {
@@ -29,9 +32,9 @@
             "flavour" : "Cheese Cream",
             "sub_flavour" : "Cheese Cream Wafer",
             "description" : "Crispy wafer layers filled with smooth, rich cheese cream, delivering a perfectly balanced savory crunch. A classy, light, and tasty snack ideal for anytime enjoyment.",
-            "thumbnail" : "/assets/image/product/wafer/cheese cream.png",
+            "thumbnail" : "/assets/image/product/wafer/webp/cheeseCream.webp",
             "images": [
-                "/assets/image/product/wafer/cheese cream.png"
+                "/assets/image/product/wafer/webp/cheeseCream.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -45,9 +48,9 @@
             "flavour" : "Chocolate",
             "sub_flavour" : "Chocolate Wafer",
             "description" : "Chocolate Wafer offers a delightful combination of crisp, light wafer sheets and a smooth, rich chocolate cream filling. Each bite delivers a balanced chocolate flavor that melts gently while maintaining a satisfying crunch. Perfect for quick snacking, travel, or a sweet break during the day, this wafer is crafted to provide consistent taste and quality in every pack.",
-            "thumbnail" : "/assets/image/product/wafer/chocolate.png",
+            "thumbnail" : "/assets/image/product/wafer/webp/chocolate.webp",
             "images": [
-                "/assets/image/product/wafer/chocolate.png"
+                "/assets/image/product/wafer/webp/chocolate.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -61,9 +64,9 @@
             "flavour" : "Cookies And Cream",
             "sub_flavour" : "Cookies And Cream Wafer",
             "description" : "Cookies And Cream Wafer features crispy, light wafer layers filled with smooth cream blended with crunchy cookie bits. The combination of sweet cream and cookie crunch creates a balanced and enjoyable flavor that is perfect for quick snacking, travel, or satisfying sweet cravings anytime during the day.",
-            "thumbnail" : "/assets/image/product/wafer/cookies and cream.png",
+            "thumbnail" : "/assets/image/product/wafer/webp/cookiesAndCream.webp",
             "images": [
-                "/assets/image/product/wafer/cookies and cream.png"
+                "/assets/image/product/wafer/webp/cookiesAndCream.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -77,9 +80,9 @@
             "flavour" : "Mango",
             "sub_flavour" : "Mango Wafer",
             "description" : "Mango Wafer brings together crispy, light wafer layers and a smooth mango-flavored cream filling inspired by the refreshing taste of ripe mangoes. The sweet and fruity flavor pairs perfectly with the crunchy wafer texture, making it an enjoyable snack for quick breaks and on-the-go moments.",
-            "thumbnail" : "/assets/image/product/wafer/mango.png",
+            "thumbnail" : "/assets/image/product/wafer/webp/mango.webp",
             "images": [
-                "/assets/image/product/wafer/mango.png"
+                "/assets/image/product/wafer/webp/mango.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -93,9 +96,9 @@
             "flavour" : "Orange",
             "sub_flavour" : "Orange Wafer",
             "description" : "Orange Wafer blends crispy, light wafer layers with a smooth orange-flavored cream filling that delivers a refreshing citrus taste. The sweet and mildly tangy orange flavor pairs perfectly with the crunchy wafer texture, making it a pleasant snack for quick breaks and on-the-go enjoyment.",
-            "thumbnail" : "/assets/image/product/wafer/orange.png",
+            "thumbnail" : "/assets/image/product/wafer/webp/orange.webp",
             "images": [
-                "/assets/image/product/wafer/orange.png"
+                "/assets/image/product/wafer/webp/orange.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -109,9 +112,9 @@
             "flavour" : "Oreo And Cream",
             "sub_flavour" : "Oreo And Cream Wafer",
             "description" : "Oreo And Cream Wafer combines crispy, light wafer layers with a smooth cream filling infused with rich chocolate cookie flavor. The balance of crunchy wafers and creamy sweetness delivers a satisfying bite, making it a perfect choice for quick snacks, travel, or anytime sweet cravings.",
-            "thumbnail" : "/assets/image/product/wafer/oreo and cream.png",
+            "thumbnail" : "/assets/image/product/wafer/webp/oreoAndCream.webp",
             "images": [
-                "/assets/image/product/wafer/oreo and cream.png"
+                "/assets/image/product/wafer/webp/oreoAndCream.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -125,9 +128,9 @@
             "flavour" : "Peanut Butter",
             "sub_flavour" : "Peanut Butter Wafer",
             "description" : "Peanut Butter Wafer combines crispy, light wafer layers with a smooth and nutty peanut butter–flavored cream filling. The rich roasted peanut taste blends perfectly with the crunchy wafer texture, making it a satisfying snack for quick bites, travel, or anytime hunger cravings.",
-            "thumbnail" : "/assets/image/product/wafer/peanut butter.png",
+            "thumbnail" : "/assets/image/product/wafer/webp/peanutButter.webp",
             "images": [
-                "/assets/image/product/wafer/peanut butter.png"
+                "/assets/image/product/wafer/webp/peanutButter.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -141,9 +144,9 @@
             "flavour" : "Pineapple",
             "sub_flavour" : "Pineapple Wafer",
             "description" : "Pineapple Wafer combines crispy, light wafer layers with a smooth pineapple-flavored cream filling that offers a refreshing sweet and tangy taste. The tropical pineapple flavor pairs well with the crunchy wafer texture, making it a delightful snack for quick breaks and on-the-go enjoyment.",
-            "thumbnail" : "/assets/image/product/wafer/pineapple.png",
+            "thumbnail" : "/assets/image/product/wafer/webp/pineapple.webp",
             "images": [
-                "/assets/image/product/wafer/pineapple.png"
+                "/assets/image/product/wafer/webp/pineapple.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -157,9 +160,9 @@
             "flavour" : "Strawberry",
             "sub_flavour" : "Strawberry Wafer",
             "description" : "Strawberry Wafer combines crispy, light wafer layers with a smooth strawberry-flavored cream filling that delivers a pleasant fruity sweetness. The fresh strawberry taste pairs perfectly with the crunchy wafer texture, making it a delightful snack for quick breaks, travel, or anytime cravings.",
-            "thumbnail" : "/assets/image/product/wafer/strawberry.png",
+            "thumbnail" : "/assets/image/product/wafer/webp/strawberry.webp",
             "images": [
-                "/assets/image/product/wafer/strawberry.png"
+                "/assets/image/product/wafer/webp/strawberry.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -173,9 +176,9 @@
             "flavour" : "Vanilla",
             "sub_flavour" : "Vanilla Wafer",
             "description" : "Vanilla Wafer features crispy, light wafer layers filled with smooth vanilla-flavored cream. The mild and creamy vanilla taste blends perfectly with the crunchy wafer texture, making it a comforting and enjoyable snack for quick breaks, travel, or everyday indulgence.",
-            "thumbnail" : "/assets/image/product/wafer/vanilla.png",
+            "thumbnail" : "/assets/image/product/wafer/webp/vanilla.webp",
             "images": [
-                "/assets/image/product/wafer/vanilla.png"
+                "/assets/image/product/wafer/webp/vanilla.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,

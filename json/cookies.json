@@ -2,7 +2,10 @@
     "bannerImage" : {
         "img": "/assets/image/sliding/cookies/cookies_desktop.jpg",
         "tablet_img" : "/assets/image/sliding/cookies/cookies_tablet.jpg",
-        "mobile_img" : "/assets/image/sliding/cookies/cookies_mobile.jpg"
+        "mobile_img" : "/assets/image/sliding/cookies/cookies_mobile.jpg",
+        "img_webp" : "/assets/image/sliding/cookies/webp/cookies_desktop.webp",
+        "tablet_webp" : "/assets/image/sliding/cookies/webp/cookies_tablet.webp",
+        "mobile_webp" : "/assets/image/sliding/cookies/webp/cookies_mobile.webp"
     },
     "packaging": [
         {
@@ -29,9 +32,9 @@
             "flavour" : "Almond",
             "sub_flavour" : "Almond Cookies",
             "description" : "Baked to perfection with crunchy almond bits, Almond Cookies offer a delightful balance of nutty richness and buttery sweetness. Crisp on the outside and full of flavour, they make a perfect companion for tea-time, snacking, or sharing moments of indulgence.",
-            "thumbnail" : "/assets/image/product/cookies/almond.png",
+            "thumbnail" : "/assets/image/product/cookies/webp/almond.webp",
             "images": [
-                "/assets/image/product/cookies/almond.png"
+                "/assets/image/product/cookies/webp/almond.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -45,9 +48,9 @@
             "flavour" : "Cashew Pista",
             "sub_flavour" : "Cashew Pista Cookies",
             "description" : "Enriched with the richness of cashews and the delicate crunch of pista, Cashew Pista Cookies deliver a deliciously nutty flavour in every bite. Perfectly baked and irresistibly crisp, they’re an ideal treat for tea-time indulgence or anytime snacking.",
-            "thumbnail" : "/assets/image/product/cookies/cashew pista.png",
+            "thumbnail" : "/assets/image/product/cookies/webp/cashewPista.webp",
             "images": [
-                "/assets/image/product/cookies/cashew pista.png"
+                "/assets/image/product/cookies/webp/cashewPista.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -61,9 +64,9 @@
             "flavour" : "Cashew",
             "sub_flavour" : "Cashew Cookies",
             "description" : "Made with rich, crunchy cashews and baked to golden perfection, Cashew Cookies offer a smooth, nutty flavour with every bite. Crisp, buttery, and delightfully satisfying, they’re perfect for tea-time treats or anytime indulgence.",
-            "thumbnail" : "/assets/image/product/cookies/cashew.png",
+            "thumbnail" : "/assets/image/product/cookies/webp/cashew.webp",
             "images": [
-                "/assets/image/product/cookies/cashew.png"
+                "/assets/image/product/cookies/webp/cashew.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -77,9 +80,9 @@
             "flavour" : "Dry Fruit",
             "sub_flavour" : "Dry Fruit Cookies",
             "description" : "Loaded with a generous mix of premium dry fruits, Dry Fruit Cookies offer a rich, nutty taste and delightful crunch in every bite. Perfectly baked and full of wholesome goodness, they make a satisfying treat for tea-time or anytime indulgence.",
-            "thumbnail" : "/assets/image/product/cookies/dry fruit.png",
+            "thumbnail" : "/assets/image/product/cookies/webp/dryFruit.webp",
             "images": [
-                "/assets/image/product/cookies/dry fruit.png"
+                "/assets/image/product/cookies/webp/dryFruit.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -93,9 +96,9 @@
             "flavour" : "Pista",
             "sub_flavour" : "Pista Cookies",
             "description" : "Baked with the delicate flavour and crunch of premium pista, Pista Cookies offer a smooth, nutty taste in every bite. Crisp, aromatic, and perfectly balanced, they’re an ideal companion for tea-time indulgence or anytime snacking.",
-            "thumbnail" : "/assets/image/product/cookies/pista.png",
+            "thumbnail" : "/assets/image/product/cookies/webp/pista.webp",
             "images": [
-                "/assets/image/product/cookies/pista.png"
+                "/assets/image/product/cookies/webp/pista.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -109,9 +112,9 @@
             "flavour" : "Tutti Frutti",
             "sub_flavour" : "Tutti Frutti Cookies",
             "description" : "Bursting with colourful tutti frutti bits and a delightful sweetness, Tutti Frutti Cookies offer a cheerful crunch in every bite. Perfectly baked and full of flavour, they make a fun and tasty treat for tea-time, kids’ snacks, or anytime indulgence.",
-            "thumbnail" : "/assets/image/product/cookies/tutti frutti.png",
+            "thumbnail" : "/assets/image/product/cookies/webp/tuttiFrutti.webp",
             "images": [
-                "/assets/image/product/cookies/tutti frutti.png"
+                "/assets/image/product/cookies/webp/tuttiFrutti.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,

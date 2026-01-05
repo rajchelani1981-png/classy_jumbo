@@ -2,7 +2,10 @@
     "bannerImage" : {
         "img": "/assets/image/sliding/cereals/cereals_desktop.jpg",
         "tablet_img" : "/assets/image/sliding/cereals/cereals_tablet.jpg",
-        "mobile_img" : "/assets/image/sliding/cereals/cereals_mobile.jpg"
+        "mobile_img" : "/assets/image/sliding/cereals/cereals_mobile.jpg",
+        "img_webp" : "/assets/image/sliding/cereals/webp/cereals_desktop.webp",
+        "tablet_webp" : "/assets/image/sliding/cereals/webp/cereals_tablet.webp",
+        "mobile_webp" : "/assets/image/sliding/cereals/webp/cereals_mobile.webp"
     },
     "packaging": [
         {
@@ -29,9 +32,9 @@
             "flavour" : "Choco Flakes",
             "sub_flavour" : "Choco Flakes Cereals",
             "description" : "Made with crispy corn flakes coated in rich chocolatey goodness, Choco Flakes Cereals offer a deliciously crunchy start to your day. Perfect with milk or enjoyed straight from the bowl, they bring fun, flavour, and energy to every breakfast.",
-            "thumbnail" : "/assets/image/product/cereals/choco flakes.png",
+            "thumbnail" : "/assets/image/product/cereals/webp/chocoFlakes.webp",
             "images": [
-                "/assets/image/product/cereals/choco flakes.png"
+                "/assets/image/product/cereals/webp/chocoFlakes.webp"
             ],
             "net_weight" : "375g",
             "pack_size": "1",
@@ -46,9 +49,9 @@
             "flavour" : "Corn Flakes",
             "sub_flavour" : "Corn Flakes Cereals",
             "description" : "Light, crispy, and made from golden corn, Corn Flakes offer a classic, wholesome start to your day. Delicious with milk or topped with fruits and nuts, they provide a simple and satisfying breakfast for the whole family.",
-            "thumbnail" : "/assets/image/product/cereals/corn flakes.png",
+            "thumbnail" : "/assets/image/product/cereals/webp/cornFlakes.webp",
             "images": [
-                "/assets/image/product/cereals/corn flakes.png"
+                "/assets/image/product/cereals/webp/cornFlakes.webp"
             ],
             "net_weight" : "375g",
             "pack_size": "1",
@@ -63,9 +66,9 @@
             "flavour" : "Fruit Rings",
             "sub_flavour" : "Fruit Rings Cereals",
             "description" : "Bursting with fruity flavours and colourful crunchy rings, Fruit Rings Cereals make every breakfast exciting and delicious. Enjoyed with milk or straight from the bowl, they bring a playful crunch and fruity goodness to start the day on a happy note.",
-            "thumbnail" : "/assets/image/product/cereals/fruit rings.png",
+            "thumbnail" : "/assets/image/product/cereals/webp/fruitRings.webp",
             "images": [
-                "/assets/image/product/cereals/fruit rings.png"
+                "/assets/image/product/cereals/webp/fruitRings.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -79,9 +82,9 @@
             "flavour" : "Mini Choco Balls",
             "sub_flavour" : "Mini Choco Balls Cereals",
             "description" : "Packed with rich chocolate flavour and a delightful crunchy texture, Mini Choco Balls make breakfast and snack time extra enjoyable. Delicious with milk or straight from the pack, they bring a burst of chocolatey fun to every bowl.",
-            "thumbnail" : "/assets/image/product/cereals/mini choco balls.png",
+            "thumbnail" : "/assets/image/product/cereals/webp/miniChocoBalls.webp",
             "images": [
-                "/assets/image/product/cereals/mini choco balls.png"
+                "/assets/image/product/cereals/webp/miniChocoBalls.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -89,4 +92,4 @@
             "tags": [ "mini-choco-balls", "chocolate-cereal", "cereals", "breakfast", "chocolatey", "crispy", "kids-favorite", "fun-snack", "energy-boost", "snack-cereal" ]
         }
     ]
-}
+}   

@@ -71,8 +71,30 @@ var loadSlidingHtmlData = function loadSlidingHtmlData(data) {
   var landingSlidingSelector = document.querySelector(".hero-slider");
   landingSlidingSelector.innerHTML = "\n  <!-- Splash overlay -->\n  <div class=\"slider-splash\"></div>\n  ";
   data.forEach(function (e) {
-    landingSlidingSelector.innerHTML += "\n      <div class=\"slide\">\n        ".concat(e.video_desktop ? "<video autoplay muted loop playsinline>\n            <source src=\"".concat(e.video_desktop, "\" type=\"").concat(e.type, "\">\n          </video>") : "\n          <picture>\n            ".concat(e.mobile_img ? "<source media=\"(max-width: 768px)\" srcset=\"".concat(e.mobile_img, "\">") : "", "\n            ").concat(e.tablet_img ? "<source media=\"(max-width: 1024px)\" srcset=\"".concat(e.tablet_img, "\">") : "", "\n            <img src=\"").concat(e.img, "\">\n          </picture>\n\n          <div class=\"slide-content\">\n            ").concat(e.heading ? "<h1 class=\"char-animate\">".concat(e.heading, "</h1>") : "", "\n            ").concat(e.subheading ? "<p class=\"char-animate delay-1\">".concat(e.subheading, "</p>") : "", "\n          </div>\n          "), "\n        \n      </div>\n    ");
+    landingSlidingSelector.innerHTML += "\n      <div class=\"slide\">\n        ".concat(e.video_desktop ? "<video autoplay muted loop playsinline>\n            <source src=\"".concat(e.video_desktop, "\" type=\"").concat(e.type, "\">\n          </video>") : "\n          <picture>\n            ".concat(e.mobile_webp ? "<source media=\"(max-width: 768px)\" type=\"image/webp\" srcset=\"".concat(e.mobile_webp, "\">") : "", "\n            ").concat(e.mobile_img ? "<source media=\"(max-width: 768px)\" srcset=\"".concat(e.mobile_img, "\">") : "", "\n            ").concat(e.tablet_webp ? "<source media=\"(max-width: 1024px)\" type=\"image/webp\" srcset=\"".concat(e.tablet_webp, "\">") : "", "\n            ").concat(e.tablet_img ? "<source media=\"(max-width: 1024px)\" srcset=\"".concat(e.tablet_img, "\">") : "", "\n            <source type=\"image/webp\" srcset=\"").concat(e.img_webp, "\">\n            <img src=\"").concat(e.img, "\" loading=\"lazy\">\n          </picture>\n\n          <div class=\"slide-content\">\n            ").concat(e.heading ? "<h1 class=\"char-animate\">".concat(e.heading, "</h1>") : "", "\n            ").concat(e.subheading ? "<p class=\"char-animate delay-1\">".concat(e.subheading, "</p>") : "", "\n          </div>\n          "), "\n        \n      </div>\n    ");
   });
+};
+
+var marqueeTrackStyle = function marqueeTrackStyle() {
+  var track = document.getElementById("marqueeTrack"); // duplicate content ONCE
+
+  track.innerHTML += track.innerHTML;
+  var position = 0;
+  var speed = 0.5; // adjust speed here
+
+  function animate() {
+    position -= speed;
+    var halfWidth = track.scrollWidth / 2;
+
+    if (Math.abs(position) >= halfWidth) {
+      position = 0;
+    }
+
+    track.style.transform = "translateX(".concat(position, "px)");
+    requestAnimationFrame(animate);
+  }
+
+  animate();
 };
 
 function initHeroSlider() {
@@ -122,8 +144,9 @@ function initHeroSlider() {
           document.querySelectorAll(".slide video").forEach(function (v) {
             return v.pause();
           });
+          marqueeTrackStyle();
 
-        case 14:
+        case 15:
         case "end":
           return _context2.stop();
       }
@@ -199,7 +222,11 @@ var videoFunctionInit = function videoFunctionInit() {
             var currentIndex = 0; // Load & play video
 
             function playVideo(index) {
+              video.pause();
+              video.removeAttribute("src");
+              video.load();
               video.src = playlist[index];
+              video.preload = "none";
               video.load();
               video.play()["catch"](function () {});
             } // When video ends → play next

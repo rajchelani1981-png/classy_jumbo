@@ -2,7 +2,10 @@
     "bannerImage" : {
         "img": "/assets/image/sliding/chips/chips_desktop.jpg",
         "tablet_img" : "/assets/image/sliding/chips/chips_tablet.jpg",
-        "mobile_img" : "/assets/image/sliding/chips/chips_mobile.jpg"
+        "mobile_img" : "/assets/image/sliding/chips/chips_mobile.jpg",
+        "img_webp" : "/assets/image/sliding/chips/webp/chips_desktop.webp",
+        "tablet_webp" : "/assets/image/sliding/chips/webp/chips_tablet.webp",
+        "mobile_webp" : "/assets/image/sliding/chips/webp/chips_mobile.webp"
     },
     "packaging": [
         {
@@ -46,9 +49,9 @@
             "flavour" : "Tangy BBQ",
             "sub_flavour" : "Wavy Potato Chips",
             "description" : "Infused with smoky BBQ goodness and a zesty tang, Tangy BBQ Flavoured Chips deliver a bold burst of flavour in every crunchy bite. Perfectly seasoned and irresistibly crisp, they’re the ideal snack for parties, movie nights, or anytime cravings.",
-            "thumbnail" : "/assets/image/product/chips/bbq.png",
+            "thumbnail" : "/assets/image/product/chips/webp/bbq.webp",
             "images": [
-                "/assets/image/product/chips/bbq.png"
+                "/assets/image/product/chips/webp/bbq.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -62,9 +65,9 @@
             "flavour" : "Cheesy Cheddar",
             "sub_flavour" : "Cheese Flavored Potato Chips",
             "description" : "Loaded with rich cheddar cheese flavour, Cheesy Cheddar Flavoured Chips offer a smooth, creamy taste with every crunchy bite. Perfectly seasoned and irresistibly crispy, they’re the ultimate snack for cheese lovers anytime, anywhere.",
-            "thumbnail" : "/assets/image/product/chips/cheesy_cheddar.png",
+            "thumbnail" : "/assets/image/product/chips/webp/cheesy_cheddar.webp",
             "images": [
-                "/assets/image/product/chips/cheesy_cheddar.png"
+                "/assets/image/product/chips/webp/cheesy_cheddar.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -78,9 +81,9 @@
             "flavour" : "Chilli Lemon",
             "sub_flavour" : "Spicy Potato Chips",
             "description" : "A perfect balance of fiery chilli heat and refreshing lemon zest, Chilli Lemon Flavoured Chips deliver a bold, tangy kick in every crunchy bite. Light, zesty, and irresistibly crisp, they’re the ideal snack for those who love a punch of flavour with a refreshing twist.",
-            "thumbnail" : "/assets/image/product/chips/chilli_lemon.png",
+            "thumbnail" : "/assets/image/product/chips/webp/chilli_lemon.webp",
             "images": [
-                "/assets/image/product/chips/chilli_lemon.png"
+                "/assets/image/product/chips/webp/chilli_lemon.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -94,9 +97,9 @@
             "flavour" : "Classic Masala",
             "sub_flavour" : "Spicy Potato Chips",
             "description" : "Crafted with a traditional blend of aromatic Indian spices, Classic Masala Flavoured Chips deliver a bold, savoury taste with just the right hint of heat. Crispy, flavour-packed, and irresistibly satisfying, they’re the perfect snack for anytime cravings.",
-            "thumbnail" : "/assets/image/product/chips/classic_masala.png",
+            "thumbnail" : "/assets/image/product/chips/webp/classic_masala.webp",
             "images": [
-                "/assets/image/product/chips/classic_masala.png"
+                "/assets/image/product/chips/webp/classic_masala.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -110,9 +113,9 @@
             "flavour" : "Classic Salt",
             "sub_flavour" : "Thin Potato Chips",
             "description" : "Simple, timeless, and perfectly seasoned, Classic Salted Chips bring out the natural taste of crispy potatoes with a touch of salt. Light, crunchy, and irresistibly satisfying, they’re the go-to snack for every moment.",
-            "thumbnail" : "/assets/image/product/chips/classic_salt.png",
+            "thumbnail" : "/assets/image/product/chips/webp/classic_salt.webp",
             "images": [
-                "/assets/image/product/chips/classic_salt.png"
+                "/assets/image/product/chips/webp/classic_salt.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -126,9 +129,9 @@
             "flavour" : "Creamy Onion",
             "sub_flavour" : "Cheese Flavored Potato Chips",
             "description" : "Rich, smooth, and perfectly seasoned, Creamy Onion Flavoured Chips combine the sweetness of onion with a velvety creamy finish. Crispy and full of flavour, they offer a deliciously comforting snack experience in every bite.",
-            "thumbnail" : "/assets/image/product/chips/creamy_onion.png",
+            "thumbnail" : "/assets/image/product/chips/webp/creamy_onion.webp",
             "images": [
-                "/assets/image/product/chips/creamy_onion.png"
+                "/assets/image/product/chips/webp/creamy_onion.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -142,9 +145,9 @@
             "flavour" : "Hot and Spicy",
             "sub_flavour" : "Spicy Potato Chips",
             "description" : "Packed with intense spice and a fiery kick, Hot & Spicy Flavoured Chips deliver a powerful burst of heat with every crunchy bite. Bold, flavourful, and irresistibly crisp, they’re made for those who love their snacks hot and full of attitude.",
-            "thumbnail" : "/assets/image/product/chips/hot_spicy.png",
+            "thumbnail" : "/assets/image/product/chips/webp/hot_spicy.webp",
             "images": [
-                "/assets/image/product/chips/hot_spicy.png"
+                "/assets/image/product/chips/webp/hot_spicy.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -158,9 +161,9 @@
             "flavour" : "Peri Peri",
             "sub_flavour" : "Spicy Potato Chips",
             "description" : "Inspired by the fiery flavours of peri peri spices, Peri Peri Flavoured Chips deliver a perfect blend of heat, tang, and bold seasoning in every crunchy bite. Intensely flavoured and irresistibly crisp, they’re made for spice lovers who crave a punchy snack experience.",
-            "thumbnail" : "/assets/image/product/chips/peri_peri.png",
+            "thumbnail" : "/assets/image/product/chips/webp/peri_peri.webp",
             "images": [
-                "/assets/image/product/chips/peri_peri.png"
+                "/assets/image/product/chips/webp/peri_peri.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -174,9 +177,9 @@
             "flavour" : "Tangy Tomato",
             "sub_flavour" : "Wavy Potato Chips",
             "description" : "Bursting with the tangy goodness of ripe tomatoes, Tangy Tomato Flavoured Chips offer a zesty, savoury taste with every crunchy bite. Perfectly seasoned and irresistibly crisp, they’re a refreshing twist on a classic snack favourite.",
-            "thumbnail" : "/assets/image/product/chips/tomato.png",
+            "thumbnail" : "/assets/image/product/chips/webp/tomato.webp",
             "images": [
-                "/assets/image/product/chips/tomato.png"
+                "/assets/image/product/chips/webp/tomato.webp"
             ],
             "pack_size": "1",
             "shelf_life_months": 12,

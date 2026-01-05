@@ -298,8 +298,9 @@ function setActive(menu) {
 
 
 // Handle refresh + back/forward
-window.addEventListener("hashchange", handleRoute);
-window.addEventListener("DOMContentLoaded", handleRoute);
+window.addEventListener("hashchange", () => { requestAnimationFrame(() => { handleRoute(); }); });
+// window.addEventListener("hashchange",  requestAnimationFrame(() => {handleRoute()}););
+window.addEventListener("DOMContentLoaded", () => { requestAnimationFrame(() => { handleRoute(); }); });
 
 //navbar data
 navbarHtmlCodeLoad();

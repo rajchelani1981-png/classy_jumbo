@@ -2,41 +2,65 @@
     {
         "img": "/assets/image/sliding/products/products_desktop.jpg",
         "tablet_img" : "/assets/image/sliding/products/products_tablet.jpg",
-        "mobile_img" : "/assets/image/sliding/products/products_mobile.jpg"
+        "mobile_img" : "/assets/image/sliding/products/products_mobile.jpg",
+        "img_webp" : "/assets/image/sliding/products/webp/products_desktop.webp",
+        "tablet_webp" : "/assets/image/sliding/products/webp/products_tablet.webp",
+        "mobile_webp" : "/assets/image/sliding/products/webp/products_mobile.webp"
     },
     {
         "img": "/assets/image/sliding/chips/chips_desktop.jpg",
         "tablet_img" : "/assets/image/sliding/chips/chips_tablet.jpg",
-        "mobile_img" : "/assets/image/sliding/chips/chips_mobile.jpg"
+        "mobile_img" : "/assets/image/sliding/chips/chips_mobile.jpg",
+        "img_webp" : "/assets/image/sliding/chips/webp/chips_desktop.webp",
+        "tablet_webp" : "/assets/image/sliding/chips/webp/chips_tablet.webp",
+        "mobile_webp" : "/assets/image/sliding/chips/webp/chips_mobile.webp"
     },
     {
         "img": "/assets/image/sliding/cookies/cookies_desktop.jpg",
         "tablet_img" : "/assets/image/sliding/cookies/cookies_tablet.jpg",
-        "mobile_img" : "/assets/image/sliding/cookies/cookies_mobile.jpg"
+        "mobile_img" : "/assets/image/sliding/cookies/cookies_mobile.jpg",
+        "img_webp" : "/assets/image/sliding/cookies/webp/cookies_desktop.webp",
+        "tablet_webp" : "/assets/image/sliding/cookies/webp/cookies_tablet.webp",
+        "mobile_webp" : "/assets/image/sliding/cookies/webp/cookies_mobile.webp"
     },
     {
         "img": "/assets/image/sliding/jam/jam_desktop.jpg",
         "tablet_img" : "/assets/image/sliding/jam/jam_tablet.jpg",
-        "mobile_img" : "/assets/image/sliding/jam/jam_mobile.jpg"
+        "mobile_img" : "/assets/image/sliding/jam/jam_mobile.jpg",
+        "img_webp" : "/assets/image/sliding/jam/webp/jam_desktop.webp",
+        "tablet_webp" : "/assets/image/sliding/jam/webp/jam_tablet.webp",
+        "mobile_webp" : "/assets/image/sliding/jam/webp/jam_mobile.webp"
     },
     {
         "img": "/assets/image/sliding/peanut-butter/peanut-butter_desktop.jpg",
         "tablet_img" : "/assets/image/sliding/peanut-butter/peanut-butter_tablet.jpg",
-        "mobile_img" : "/assets/image/sliding/peanut-butter/peanut-butter_mobile.jpg"
+        "mobile_img" : "/assets/image/sliding/peanut-butter/peanut-butter_mobile.jpg",
+        "img_webp" : "/assets/image/sliding/peanut-butter/webp/peanut-butter_desktop.webp",
+        "tablet_webp" : "/assets/image/sliding/peanut-butter/webp/peanut-butter_tablet.webp",
+        "mobile_webp" : "/assets/image/sliding/peanut-butter/webp/peanut-butter_mobile.webp"
     },
     {
         "img": "/assets/image/sliding/cereals/cereals_desktop.jpg",
         "tablet_img" : "/assets/image/sliding/cereals/cereals_tablet.jpg",
-        "mobile_img" : "/assets/image/sliding/cereals/cereals_mobile.jpg"
+        "mobile_img" : "/assets/image/sliding/cereals/cereals_mobile.jpg",
+        "img_webp" : "/assets/image/sliding/cereals/webp/cereals_desktop.webp",
+        "tablet_webp" : "/assets/image/sliding/cereals/webp/cereals_tablet.webp",
+        "mobile_webp" : "/assets/image/sliding/cereals/webp/cereals_mobile.webp"
     },
     {
         "img": "/assets/image/sliding/nuddles/nuddles_desktop.jpg",
         "tablet_img" : "/assets/image/sliding/nuddles/nuddles_tablet.jpg",
-        "mobile_img" : "/assets/image/sliding/nuddles/nuddles_mobile.jpg"
+        "mobile_img" : "/assets/image/sliding/nuddles/nuddles_mobile.jpg",
+        "img_webp" : "/assets/image/sliding/nuddles/webp/nuddles_desktop.webp",
+        "tablet_webp" : "/assets/image/sliding/nuddles/webp/nuddles_tablet.webp",
+        "mobile_webp" : "/assets/image/sliding/nuddles/webp/nuddles_mobile.webp"
     },
     {
         "img": "/assets/image/sliding/wafer/wafer_desktop.jpg",
         "tablet_img" : "/assets/image/sliding/wafer/wafe_tablet.jpg",
-        "mobile_img" : "/assets/image/sliding/wafer/wafe_mobile.jpg"
+        "mobile_img" : "/assets/image/sliding/wafer/wafe_mobile.jpg",
+        "img_webp" : "/assets/image/sliding/wafer/webp/wafer_desktop.webp",
+        "tablet_webp" : "/assets/image/sliding/wafer/webp/wafe_tablet.webp",
+        "mobile_webp" : "/assets/image/sliding/wafer/webp/wafe_mobile.webp"
     }
 ]

@@ -11,7 +11,7 @@
 
 
   .page {
-    /* max-width: 1200px; */
+    max-width: 1200px;
     margin: 50px auto;
     padding: 0 60px;
   }
@@ -25,25 +25,24 @@
 
   /* ================= IMAGE ZOOM ================= */
   .image-area {
-    position: relative;
-    width: 100px;
-  }
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+}
 
-  .image-box {
-    position: relative;
-    width: 420px;
-    height: 420px;
-    /* background: #fff; */
-    border-radius: 12px;
-    /* border: 1px solid #ddd; */
-    overflow: hidden;
-  }
+.image-box {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 12px;
+  overflow: hidden;
+}
 
-  .image-box img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain; /* ✅ no stretch */
-  }
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 
   .zoom-lens {
     position: absolute;
@@ -55,47 +54,22 @@
     pointer-events: none;
   }
 
-  .zoom-result {
-    position: absolute;
-    top: 0;
-    left: 450px;
-    width: 420px;
-    height: 420px;
-    border-radius: 12px;
-    border: 1px solid #ddd;
-    background-repeat: no-repeat;
-    background-color: #fff;
-    display: none;
-    z-index: 50;
-  }
+.zoom-result {
+  position: absolute;
+  top: 0;
+  left: calc(100% + 20px);
+  width: 420px;
+  height: 420px;
+  display: none;
+  background-repeat: no-repeat;
+}
 
-  .image-box:hover .zoom-lens {
-    display: block;
-  }
-
-  .image-box:hover + .zoom-result {
-    display: block;
-  }
 
   /* ================= THUMBNAILS ================= */
   .thumbs {
     display: flex;
     gap: 10px;
     margin-top: 15px;
-  }
-
-  .thumbs img {
-    width: 70px;
-    height: 70px;
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    object-fit: contain;
-    cursor: pointer;
-  }
-
-  .thumbs img:hover {
-    border-color: #d32f2f;
   }
 
   /* ================= PRODUCT INFO ================= */
@@ -146,7 +120,7 @@
     padding: 20px;
     border-radius: 12px;
     border: 1px solid #ddd;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     display: grid;
     gap: 50px;
   }

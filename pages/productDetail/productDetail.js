@@ -80,11 +80,66 @@ let loadTheProductDetailData = async () => {
 
     let zoomData = null;
 
-    /* ---------- INIT ---------- */
     img.onload = () => {
+      if (isMobile()) return;
       zoomData = calculateImageArea();
       setupZoom();
     };
+
+    function setupZoom() {
+      if (!zoomData) return;
+
+      const cx = result.offsetWidth / lens.offsetWidth;
+      const cy = result.offsetHeight / lens.offsetHeight;
+
+      result.style.backgroundImage = `url('${img.src}')`;
+      result.style.backgroundRepeat = "no-repeat";
+      result.style.backgroundSize = `
+        ${zoomData.imgWidth * cx}px
+        ${zoomData.imgHeight * cy}px
+      `;
+
+      box.addEventListener("mousemove", moveLens);
+      box.addEventListener("mouseleave", () => {
+        lens.style.display = "none";
+        result.style.display = "none";
+      });
+
+      box.addEventListener("mouseenter", () => {
+        lens.style.display = "block";
+        result.style.display = "block";
+      });
+    }
+
+    function moveLens(e) {
+      const rect = box.getBoundingClientRect();
+
+      let x = e.clientX - rect.left - lens.offsetWidth / 2;
+      let y = e.clientY - rect.top - lens.offsetHeight / 2;
+
+      // constrain lens inside actual image area
+      x = Math.max(
+        zoomData.imgLeft,
+        Math.min(x, zoomData.imgLeft + zoomData.imgWidth - lens.offsetWidth)
+      );
+
+      y = Math.max(
+        zoomData.imgTop,
+        Math.min(y, zoomData.imgTop + zoomData.imgHeight - lens.offsetHeight)
+      );
+
+      lens.style.left = x + "px";
+      lens.style.top = y + "px";
+
+      const fx = (x - zoomData.imgLeft) / zoomData.imgWidth;
+      const fy = (y - zoomData.imgTop) / zoomData.imgHeight;
+
+      result.style.backgroundPosition = `
+        -${fx * zoomData.imgWidth * (result.offsetWidth / lens.offsetWidth)}px
+        -${fy * zoomData.imgHeight * (result.offsetHeight / lens.offsetHeight)}px
+      `;
+    }
+
 
     /* ---------- THUMB SWITCH ---------- */
     thumbs.forEach(thumb => {
@@ -93,6 +148,11 @@ let loadTheProductDetailData = async () => {
         thumb.classList.add("active");
 
         img.src = thumb.dataset.full || thumb.src;
+
+        img.onload = () => {
+          zoomData = calculateImageArea();
+          setupZoom();
+        };
       });
     });
 
@@ -120,33 +180,35 @@ let loadTheProductDetailData = async () => {
     }
 
     /* ---------- SETUP ZOOM ---------- */
-    function setupZoom() {
-      const cx = result.offsetWidth / lens.offsetWidth;
-      const cy = result.offsetHeight / lens.offsetHeight;
+    // function setupZoom() {
+    //   if (isMobile()) return;
+      
+    //   const cx = result.offsetWidth / lens.offsetWidth;
+    //   const cy = result.offsetHeight / lens.offsetHeight;
 
-      result.style.backgroundImage = `url('${img.src}')`;
-      result.style.backgroundSize =
-        `${img.naturalWidth * cx}px ${img.naturalHeight * cy}px`;
+    //   result.style.backgroundImage = `url('${img.src}')`;
+    //   result.style.backgroundSize =
+    //     `${img.naturalWidth * cx}px ${img.naturalHeight * cy}px`;
 
-      box.onmousemove = e => moveLens(e, cx, cy);
-    }
+    //   box.onmousemove = e => moveLens(e, cx, cy);
+    // }
 
     /* ---------- MOVE LENS ---------- */
-    function moveLens(e) {
-      const rect = box.getBoundingClientRect();
-      let x = e.clientX - rect.left - lens.offsetWidth / 2;
-      let y = e.clientY - rect.top - lens.offsetHeight / 2;
+    // function moveLens(e) {
+    //   const rect = box.getBoundingClientRect();
+    //   let x = e.clientX - rect.left - lens.offsetWidth / 2;
+    //   let y = e.clientY - rect.top - lens.offsetHeight / 2;
 
-      x = Math.max(0, Math.min(x, box.offsetWidth - lens.offsetWidth));
-      y = Math.max(0, Math.min(y, box.offsetHeight - lens.offsetHeight));
+    //   x = Math.max(0, Math.min(x, box.offsetWidth - lens.offsetWidth));
+    //   y = Math.max(0, Math.min(y, box.offsetHeight - lens.offsetHeight));
 
-      lens.style.left = x + "px";
-      lens.style.top = y + "px";
+    //   lens.style.left = x + "px";
+    //   lens.style.top = y + "px";
 
-      result.style.backgroundPosition =
-        `-${x * (result.offsetWidth / lens.offsetWidth)}px
-        -${y * (result.offsetHeight / lens.offsetHeight)}px`;
-    }
+    //   result.style.backgroundPosition =
+    //     `-${x * (result.offsetWidth / lens.offsetWidth)}px
+    //     -${y * (result.offsetHeight / lens.offsetHeight)}px`;
+    // }
 
 
     //form hide and visible
@@ -358,4 +420,8 @@ let loadTheProductDetailData = async () => {
         </button>
       </div>
     `;
+  }
+
+  function isMobile() {
+    return window.innerWidth <= 900;
   }

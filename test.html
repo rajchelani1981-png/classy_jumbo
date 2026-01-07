@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Export Enquiry | Classy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
+    * {
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f7f7f7;
+}
+
+/* HERO */
+.export-hero {
+  height: 380px;
+  background: url("https://media.istockphoto.com/id/476116120/vector/triangle-red-world-map.jpg?s=612x612&w=0&k=20&c=Lj-ajbtuIP0Y_3gbvx3lUr38gv11-hXgYFqXesQwoUY=") center/cover no-repeat;
+  /* position: relative; */
+}
+
+.hero-overlay {
+  background: rgba(250, 6, 6, 0.81);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-overlay h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.hero-overlay p {
+  max-width: 600px;
+  font-size: 16px;
+}
+
+/* FORM */
+.export-section {
+  max-width: 900px;
+  margin: -80px auto 60px;
+  background: white;
+  padding: 40px;
+  border-radius: 14px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+
+.export-section h2 {
+  margin: 30px 0 15px;
+  color: #d32f2f;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* BUTTONS */
+.actions {
+  display: flex;
+  gap: 14px;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  background: #d32f2f;
+  color: white;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.btn-primary:hover {
+  background: #b71c1c;
+}
+
+.btn-whatsapp {
+  background: #25D366;
+  color: white;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-whatsapp img {
+  width: 18px;
+  filter: brightness(0) invert(1);
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .hero-overlay h1 {
+    font-size: 32px;
+  }
+
+  .export-section {
+    margin: -40px 15px 40px;
+    padding: 25px;
+  }
+}
+
+  </style>
+</head>
+<body>
+
+<!-- HERO BANNER -->
+<section class="export-hero">
+  <div class="hero-overlay">
+    <h1>Export Enquiry</h1>
+    <p>
+      Partner with us to distribute premium food products across global markets.
+    </p>
+  </div>
+</section>
+
+<!-- FORM SECTION -->
+<section class="export-section">
+  <form id="exportForm"
+        action="https://formsubmit.co/info@classyjumbo.in"
+        method="POST">
+
+    <h2>Company Information</h2>
+
+    <div class="grid">
+      <input type="text" name="company_name" placeholder="Company Name *" required>
+      <input type="text" name="contact_person" placeholder="Contact Person *" required>
+      <input type="email" name="email" placeholder="Email Address *" required>
+      <input type="tel" name="phone" placeholder="Phone / WhatsApp *" required>
+    </div>
+
+    <h2>Location Details</h2>
+
+    <div class="grid">
+      <input type="text" name="country" placeholder="Country *" required>
+      <input type="text" name="city" placeholder="City / Port">
+    </div>
+
+    <h2>Business Information</h2>
+
+    <select name="business_type" required>
+      <option value="">Type of Business *</option>
+      <option>Importer</option>
+      <option>Distributor</option>
+      <option>Wholesaler</option>
+      <option>Retail Chain</option>
+      <option>Online Marketplace</option>
+    </select>
+
+    <textarea name="products" rows="3"
+      placeholder="Products Interested In (Cookies, Jams, Snacks etc.) *"
+      required></textarea>
+
+    <input type="text" name="quantity"
+      placeholder="Estimated Monthly Quantity (e.g. 1 container / 5000 units)">
+
+    <textarea name="message" rows="4"
+      placeholder="Message / Requirements (certifications, packaging, pricing, etc.) *"
+      required></textarea>
+
+    <!-- Hidden -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="New Export Enquiry">
+    <input type="hidden" name="_template" value="table">
+
+    <!-- ACTION BUTTONS -->
+    <div class="actions">
+      <button type="submit" class="btn-primary">
+        📧 Submit Export Enquiry
+      </button>
+
+      <button type="button" id="whatsappBtn" class="btn-whatsapp">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg">
+        WhatsApp Export Team
+      </button>
+    </div>
+
+  </form>
+</section>
+
+<script>
+
+    document.getElementById("whatsappBtn").addEventListener("click", () => {
+  const form = document.getElementById("exportForm");
+
+  const required = [
+    "company_name",
+    "contact_person",
+    "email",
+    "phone",
+    "country",
+    "business_type",
+    "products",
+    "message"
+  ];
+
+  for (let field of required) {
+    if (!form[field].value.trim()) {
+      alert("Please fill all mandatory fields before sending via WhatsApp.");
+      return;
+    }
+  }
+
+  const waMessage = `
+EXPORT ENQUIRY
+
+Company: ${form.company_name.value}
+Contact: ${form.contact_person.value}
+Email: ${form.email.value}
+Phone: ${form.phone.value}
+
+Country: ${form.country.value}
+City/Port: ${form.city.value}
+Business Type: ${form.business_type.value}
+
+Products:
+${form.products.value}
+
+Quantity:
+${form.quantity.value}
+
+Message:
+${form.message.value}
+
+Page:
+${window.location.href}
+`;
+
+  window.open(
+    `https://wa.me/919772923303?text=${encodeURIComponent(waMessage)}`,
+    "_blank"
+  );
+});
+</script>
+</body>
+</html>

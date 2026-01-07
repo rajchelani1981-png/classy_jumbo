@@ -112,6 +112,19 @@
   color: #444;
 }
 
+.btn-whatsapp {
+  background: #25D366;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  margin-left: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
 /* RESPONSIVE */
 @media (max-width: 900px) {
   .contact-grid {

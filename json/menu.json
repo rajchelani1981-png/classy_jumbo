@@ -247,6 +247,10 @@
         "route" : "#/distributor"
     },
     {
+        "title" : "Export Enquiry",
+        "route" : "#/exportEnquiry"
+    },
+    {
         "title" : "More",
         "route" : "#/more",
         "bannerImage" : "/assets/image/sliding/landing page sliding-1.jpg",

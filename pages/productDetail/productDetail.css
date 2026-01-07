@@ -349,12 +349,28 @@
   cursor: grabbing;
 }
 
+.product-enquiry-widget{
+  display: flex;
+  align-items: center;
+}
+
+.product-enquiry-widget > a{
+  width: 63px;
+  height: 51px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
 
 
 /* MOBILE */
 @media (max-width: 768px) {
   .related-card {
     min-width: 200px;
+  }
+
+  .product-enquiry-widget > a{
+    width: 82px;
+    height: 59px;
   }
 }
 

@@ -1,5 +1,5 @@
-let companyInformationForPrivacyPolicy = async () => {
-    companyNameLoad();
+let companyInformationForPrivacyPolicy = () => {
+    parentCompanyName();
     businessQuoteLoad();
     companyAddressLoad();
     companyMailLinkLoad();

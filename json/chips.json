@@ -14,7 +14,7 @@
             "item_package_material" : "Pouch",
             "item_package_contain" : 1,
             "item_count_type" : "Pouch",
-            "product_weight" : "16g",
+            "product_weight" : "14g",
             "product_mrp" : "5",
             "currency" : "INR",
             "box_dimensions_cm": {
@@ -30,7 +30,7 @@
             "item_package_material" : "Pouch",
             "item_package_contain" : 1,
             "item_count_type" : "Pouch",
-            "product_weight" : "32g",
+            "product_weight" : "30g",
             "product_mrp" : "10",
             "currency" : "INR",
             "box_dimensions_cm": {

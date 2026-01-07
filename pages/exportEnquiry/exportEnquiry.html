@@ -1,0 +1,72 @@
+<!-- HERO BANNER -->
+<section class="export-hero">
+  <div class="hero-overlay">
+    <h1>Export Enquiry</h1>
+    <p>
+      Partner with us to distribute premium food products across global markets.
+    </p>
+  </div>
+</section>
+
+<!-- FORM SECTION -->
+<section class="export-section">
+  <form id="exportForm" action="https://formsubmit.co/info@classyjumbo.in" method="POST">
+
+    <h2>Company Information</h2>
+
+    <div class="grid">
+      <input type="text" name="company_name" placeholder="Company Name *" required>
+      <input type="text" name="contact_person" placeholder="Contact Person *" required>
+      <input type="email" name="email" placeholder="Email Address *" required>
+      <input type="tel" name="phone" placeholder="Phone / WhatsApp *" required>
+    </div>
+
+    <h2>Location Details</h2>
+
+    <div class="grid">
+      <input type="text" name="country" placeholder="Country *" required>
+      <input type="text" name="city" placeholder="City / Port">
+    </div>
+
+    <h2>Business Information</h2>
+
+    <select name="business_type" required>
+      <option value="" selected disabled>Type of Business *</option>
+      <option>Importer</option>
+      <option>Distributor</option>
+      <option>Wholesaler</option>
+      <option>Retail Chain</option>
+      <option>Online Marketplace</option>
+    </select>
+
+    <textarea name="products" rows="3"
+      placeholder="Products Interested In (Cookies, Jams, Snacks etc.) *"
+      required></textarea>
+
+    <input type="text" name="quantity"
+      placeholder="Estimated Monthly Quantity (e.g. 1 container / 5000 units)">
+
+    <textarea name="message" rows="4"
+      placeholder="Message / Requirements (certifications, packaging, pricing, etc.) *"
+      required></textarea>
+
+    <!-- Hidden -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="New Export Enquiry">
+    <input type="hidden" name="_template" value="table">
+
+    <!-- ACTION BUTTONS -->
+    <div class="actions">
+      <button type="submit" class="btn-primary">
+        📧 Submit Export Enquiry
+      </button>
+
+      <button type="button" id="whatsappBtn" class="btn-whatsapp">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg">
+        WhatsApp Export Team
+      </button>
+    </div>
+
+  </form>
+  <p id="form-status" class="form-status"></p>
+</section>

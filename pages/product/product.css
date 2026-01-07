@@ -84,3 +84,9 @@ body {
     display: block;
 
 }
+
+@media (max-width: 400px) {
+    .product-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}

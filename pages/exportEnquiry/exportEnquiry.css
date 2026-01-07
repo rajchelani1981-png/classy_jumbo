@@ -1,0 +1,120 @@
+/* HERO */
+.export-hero {
+  height: 380px;
+  background: url("https://media.istockphoto.com/id/476116120/vector/triangle-red-world-map.jpg?s=612x612&w=0&k=20&c=Lj-ajbtuIP0Y_3gbvx3lUr38gv11-hXgYFqXesQwoUY=") center/cover no-repeat;
+  /* position: relative; */
+}
+
+.hero-overlay {
+  background: rgba(250, 6, 6, 0.81);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-overlay h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.hero-overlay p {
+  max-width: 600px;
+  font-size: 16px;
+}
+
+/* FORM */
+.export-section {
+  max-width: 900px;
+  margin: -80px auto 60px;
+  background: white;
+  padding: 40px;
+  border-radius: 14px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+
+.export-section h2 {
+  margin: 30px 0 15px;
+  color: #d32f2f;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+  width: 97%;
+}
+input{
+    width: 93%;
+}
+
+input[name="quantity"]{
+    width: 97%;
+}
+
+/* BUTTONS */
+.actions {
+  display: flex;
+  gap: 14px;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  background: #d32f2f;
+  color: white;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.btn-primary:hover {
+  background: #b71c1c;
+}
+
+.btn-whatsapp {
+  background: #25D366;
+  color: white;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-whatsapp img {
+  width: 18px;
+  /* filter: brightness(0) invert(1); */
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .hero-overlay h1 {
+    font-size: 32px;
+  }
+
+  .export-section {
+    margin: -40px 15px 40px;
+    padding: 25px;
+  }
+}

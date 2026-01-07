@@ -1,0 +1,453 @@
+#contact-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 999;
+}
+
+.contact-toggle {
+    width: 67px;
+    height: 67px;
+    background: #e9f7ef;
+    border: 2px solid #3ebc6b;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.contact-toggle img {
+    width: 35px;
+    height: 35px;
+}
+
+#contact-widget:hover .contact-options {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.contact-options {
+    background: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #eee;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transform: translateY(10px);
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    transition: 0.3s;
+    width: 210px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #222;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.contact-item img {
+    width: 22px;
+}
+
+.contact-item:hover {
+    color: #3ebc6b;
+}
+
+#contact-widget {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column-reverse;
+    z-index: 9999;
+}
+
+.contact-options {
+    background: #ffffff;
+    width: 190px;
+    padding: 10px;
+    border-radius: 14px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: 0.25s ease-in-out;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+#contact-widget.active .contact-options {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.contact-item {
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #222;
+}
+
+.contact-item:hover {
+    color: #3ebc6b;
+}
+#contact-widget {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    z-index: 9999;
+}
+
+.contact-options {
+    background: #ffffff;
+    width: 200px;
+    padding: 12px;
+    border-radius: 14px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: 0.25s ease-in-out;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+/* Show on hover */
+#contact-widget:hover .contact-options {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.contact-item {
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #111;
+}
+
+.contact-item:hover {
+    color: #3ebc6b;
+}
+#contact-widget {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999;
+    width: 52px; /* shrink clickable area */
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: auto;
+}
+
+.contact-options {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    width: 200px;
+    padding: 12px;
+    border-radius: 14px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    transform: translateY(10px);
+    transition: opacity .25s, transform .25s;
+}
+
+/* Hover only from the icon */
+.contact-toggle:hover + .contact-options,
+.contact-options:hover {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #111;
+}
+
+.contact-item:hover {
+    color: #3ebc6b;
+}
+
+.whatsapp-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #e9f7ef; /* light greenish background */
+    border: 2px solid #3ebc6b; 
+    border-radius: 50%;
+    padding: 12px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+    transition: all .3s ease-in-out;
+  }
+
+  .whatsapp-link img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .whatsapp-link:hover {
+    background: #3ebc6b;
+    border-color: #2ea15a;
+    transform: translateY(-3px);
+  }
+  #contact-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 999;
+}
+
+.contact-toggle img {
+    width: 28px;
+    height: 28px;
+}
+
+#contact-widget:hover .contact-options {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.contact-options {
+    background: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #eee;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transform: translateY(10px);
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    transition: 0.3s;
+    width: 210px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #222;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.contact-item img {
+    width: 22px;
+}
+
+.contact-item:hover {
+    color: #3ebc6b;
+}
+
+#contact-widget {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column-reverse;
+    z-index: 9999;
+}
+
+.contact-options {
+    background: #ffffff;
+    width: 190px;
+    padding: 10px;
+    border-radius: 14px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: 0.25s ease-in-out;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+#contact-widget.active .contact-options {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.contact-item {
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #222;
+}
+
+.contact-item:hover {
+    color: #3ebc6b;
+}
+#contact-widget {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    z-index: 9999;
+}
+
+.contact-toggle {
+    width: 67px;
+    height: 67px;
+    background: #ffffff;
+    border: 2px solid #3ebc6b;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+}
+
+.contact-options {
+    background: #ffffff;
+    width: 200px;
+    padding: 12px;
+    border-radius: 14px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: 0.25s ease-in-out;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+#contact-widget {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    z-index: 99999;
+    width: auto;
+    height: auto;
+}
+
+/* Panel Hidden Initially */
+.contact-panel {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    width: 210px;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.18);
+    padding: 10px;
+    transition: 0.25s ease-in-out;
+}
+
+/* Items */
+.contact-panel .item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #222;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.contact-panel .item:hover {
+    background: #f5f5f5;
+}
+
+/* Icons */
+.contact-panel .item img {
+    width: 18px;
+    height: 18px;
+}
+
+/* Hover to show panel */
+#contact-widget:hover .contact-panel,
+.contact-panel:hover {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateY(-2px);
+}
+
+/* FINAL FIX FOR CONTACT WIDGET CLICK BLOCKING */
+#contact-widget,
+.contact-toggle,
+.contact-panel {
+    z-index: 999999 !important;
+}
+
+.contact-panel {
+    pointer-events: auto !important;
+}
+
+.contact-toggle {
+    pointer-events: auto !important;
+}

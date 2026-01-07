@@ -43,4 +43,42 @@ let contactFormInit = () =>{
             statusText.className = "form-status";
         }, 4000);
     });
+
+    document.getElementById("whatsappBtn").addEventListener("click", () => {
+        const name = form.name.value.trim();
+        const email = form.email.value.trim();
+        const phone = form.phone.value.trim();
+        const message = form.message.value.trim();
+
+        // ✅ Validation
+        if (!name || !email || !message) {
+            Swal.fire({
+                title: "Please fill in all required fields (Name, Email, and Message) before sending via WhatsApp.",
+                icon: "error",
+                draggable: true
+            });
+            return; // stop execution
+        }
+
+        // Optional: basic email format check
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email)) {
+            alert("Please enter a valid email address.");
+            return;
+        }
+
+        // ✅ Build WhatsApp message
+        const waMessage = `New Product Enquiry
+
+Name: ${name}
+Email: ${email}
+Phone: ${phone || "N/A"}
+
+Message:${message}`;
+
+        const waUrl = `https://wa.me/919772923303?text=${encodeURIComponent(waMessage)}`;
+        window.open(waUrl, "_blank");
+        form.reset();
+    });
+
 }

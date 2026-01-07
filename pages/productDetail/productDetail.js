@@ -4,6 +4,9 @@ let loadTheProductDetailData = async () => {
     
     if (!pageObj[dataPageLink])
         await fetchProductData(dataPageLink);
+
+    if(!companyFooterData)
+        await fetchCompanyFooterData();
     
     let data = pageObj[dataPageLink];
     list = data.list;
@@ -368,14 +371,31 @@ let loadTheProductDetailData = async () => {
       `).join("");
   }
 
-  let renderProduct = (product, package) =>{
+  let renderProduct = (product, package) => {
     document.getElementsByName("product")[0].value = `${product.brand} - ${product.flavour}`;
-
+    
     let images = productImages(product.images);
     let metaData = `${product.category} | ${product.sub_flavour}`;
     let tags = productTags(product.tags);
     let packaging = productPackaging(product, package);
+    
+    const contact = companyFooterData.contact[0];
+    const productUrl = window.location.origin + "/"+ location.hash;
+    console.log(productUrl);
+    const message = encodeURIComponent(`
+Hello,
 
+We are interested in distribution / bulk purchase of the following product:
+
+Product Name: ${product.sub_flavour}
+Product link: ${productUrl}
+
+Kindly share distributor pricing, MOQ, and onboarding process.
+
+Best Regards
+      `);
+
+      console.log(message);
     document.getElementsByClassName("product")[0].innerHTML = `
       <!-- IMAGE SECTION -->
       <div class="image-area">
@@ -415,9 +435,14 @@ let loadTheProductDetailData = async () => {
           ${packaging}
         </div>
 
-        <button class="enquiry-btn" id="openEnquiry">
-          Enquiry Now
-        </button>
+        <div class="product-enquiry-widget">
+          <button class="enquiry-btn" id="openEnquiry">
+            Enquiry Now
+          </button>
+          <a href="https://wa.me/${contact.phone}?text=${message}" target="_blank" class="item">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg">
+          </a>
+        </div>
       </div>
     `;
   }

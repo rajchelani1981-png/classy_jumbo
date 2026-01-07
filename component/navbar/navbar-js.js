@@ -182,10 +182,14 @@ function loadPage(page, menu) {
           initHeroSlider();
           break;
         
-        case "privacy":
+        case "policy":
           companyInformationForPrivacyPolicy();
           break;
         
+        case "about" :
+          companyInformationForAboutPage();
+          break;
+
         case "contact" :
           companyInformationForContact();
           break;
@@ -205,6 +209,10 @@ function loadPage(page, menu) {
         case "distributor" : 
           distributorMethod();
           indiaMap();
+          break;
+
+        case "exportEnquiry" :
+          exportEnquiryInit();
           break;
 
         case "moreDetail" : 

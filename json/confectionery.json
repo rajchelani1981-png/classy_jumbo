@@ -1,0 +1,235 @@
+{
+    "bannerImage" : {
+        "img": "/assets/image/sliding/jam/jam_desktop.jpg",
+        "tablet_img" : "/assets/image/sliding/jam/jam_tablet.jpg",
+        "mobile_img" : "/assets/image/sliding/jam/jam_mobile.jpg",
+        "img_webp" : "/assets/image/sliding/jam/webp/jam_desktop.webp",
+        "tablet_webp" : "/assets/image/sliding/jam/webp/jam_tablet.webp",
+        "mobile_webp" : "/assets/image/sliding/jam/webp/jam_mobile.webp"
+    },
+    "packaging": [
+        {
+            "box_contains": "12",
+            "box_material" : "Carton",
+            "item_package_material" : "Glass Jar",
+            "item_package_contain" : 1,
+            "item_count_type" : "Jar",
+            "product_weight" : "370g",
+            "box_dimensions_cm": {
+                "length": 8,
+                "width": 8,
+                "height": 11
+            },
+            "box_weight_g": 520
+        }   
+    ],
+    "list": [
+        {
+            "id" : "co1",
+            "category": "Chocolate",
+            "brand" : "Classy Chocolate",
+            "flavour" : "Choco Bar",
+            "sub_flavour" : "Classy Choco Bar",
+            "description" : "Classy Choco Bar Milk And Choco Delight is a rich and creamy chocolate bar that blends smooth milk chocolate with an indulgent choco flavor. Perfectly balanced sweetness and a velvety texture make it an ideal treat for chocolate lovers of all ages—great for snacking, sharing, or gifting.",
+            "thumbnail" : "/assets/image/chocolate/Choco_Bar_Milk_And_Choco_Delight.webp",
+            "images": [
+                "/assets/image/chocolate/Choco_Bar_Milk_And_Choco_Delight.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "item_package_contain" : 30,
+                    "item_count_type" : "pics",
+                    "product_weight" : "14g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 10080
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": ["milk chocolate", "chocolate bar", "choco delight", "creamy chocolate", "sweet treat", "premium chocolate", "snack chocolate", "kids favorite", "dessert chocolate", "classy choco"]
+        },
+        {
+            "id" : "co2",
+            "category": "Chocolate",
+            "brand" : "Classy Chocolate",
+            "flavour" : "Choco Moco",
+            "sub_flavour" : "Classy Choco Moco",
+            "description" : "Classy Choco Moco is a deliciously smooth and indulgent chocolate treat with a rich cocoa taste and a soft, melt-in-the-mouth texture. Crafted for true chocolate lovers, it’s perfect for quick snacking, sharing moments, or satisfying sweet cravings anytime.",
+            "thumbnail" : "/assets/image/chocolate/Choco_Moco.webp",
+            "images": [
+                "/assets/image/chocolate/Choco_Moco.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Cont.",
+                    "item_package_contain" : 220,
+                    "item_count_type" : "pics",
+                    "product_weight" : "3g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 7920
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": ["chocolate", "choco moco", "rich cocoa", "smooth chocolate", "sweet snack", "premium chocolate", "chocolate treat", "dessert chocolate", "snack time", "classy choco"]
+        },
+        {
+            "id" : "co3",
+            "category": "Chocolate",
+            "brand" : "Classy Chocolate",
+            "flavour" : "Choco Shoots",
+            "sub_flavour" : "Classy Choco Shoots",
+            "description" : "Classy Choco Shoots are crunchy, bite-sized chocolate treats packed with a rich cocoa flavor and a delightful crisp texture. Perfect for munching on the go, sharing with friends, or adding a fun twist to snack time.",
+            "thumbnail" : "/assets/image/chocolate/Choco_Shoots.webp",
+            "images": [
+                "/assets/image/chocolate/Choco_Shoots.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "40",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "item_package_contain" : 60,
+                    "item_count_type" : "pics",
+                    "product_weight" : "3g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 7200
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": ["chocolate snacks", "choco shoots", "crunchy chocolate", "bite sized chocolate", "crispy choco", "sweet snack", "kids snack", "snack treat", "dessert topping", "classy choco"]
+        },
+        {
+            "id" : "co4",
+            "category": "Chocolate",
+            "brand" : "Classy Chocolate",
+            "flavour" : "Dairy Kids, Kiss it, Dairy Dark, And Milky Kids",
+            "sub_flavour" : "Classy Dairy Kids, Kiss it, Dairy Dark, And Milky Kids",
+            "description" : "Classy Chocolates offer a delightful blend of rich cocoa and smooth dairy goodness, crafted to deliver a deliciously satisfying chocolate experience for all ages. Perfect for everyday snacking, sharing moments, or treating sweet cravings.",
+            "thumbnail" : "/assets/image/chocolate/Dairy_Kids_Kiss_it_Dairy_Dark_Milky_Kids.webp",
+            "images": [
+                "/assets/image/chocolate/Dairy_Kids_Kiss_it_Dairy_Dark_Milky_Kids.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "item_package_contain" : 30,
+                    "item_count_type" : "pics",
+                    "product_weight" : "10g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 7200
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": ["chocolate", "milk chocolate", "dark chocolate", "creamy chocolate", "rich cocoa", "sweet treat", "kids chocolate", "chocolate snack", "dessert chocolate", "premium chocolate", "bite sized chocolate", "daily snack", "classy choco"]
+        },
+        {
+            "id" : "co5",
+            "category": "Chocolate",
+            "brand" : "Classy Chocolate",
+            "flavour" : "Dairy Kids, Kiss it, Dairy Dark, And Milky Kids",
+            "sub_flavour" : "Classy Dairy Kids, Kiss it, Dairy Dark, And Milky Kids",
+            "description" : "Classy Chocolates offer a delightful blend of rich cocoa and smooth dairy goodness, crafted to deliver a deliciously satisfying chocolate experience for all ages. Perfect for everyday snacking, sharing moments, or treating sweet cravings.",
+            "thumbnail" : "/assets/image/chocolate/Dairy_Kids_Kiss_it_Dairy_Dark_Milky_Kids_2.webp",
+            "images": [
+                "/assets/image/chocolate/Dairy_Kids_Kiss_it_Dairy_Dark_Milky_Kids_2.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "item_package_contain" : 33,
+                    "item_count_type" : "pics",
+                    "product_weight" : "10g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 7920
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": ["chocolate", "milk chocolate", "dark chocolate", "creamy chocolate", "rich cocoa", "sweet treat", "kids chocolate", "chocolate snack", "dessert chocolate", "premium chocolate", "bite sized chocolate", "daily snack", "classy choco"]
+        },
+        {
+            "id" : "co6",
+            "category": "Chocolate",
+            "brand" : "Classy Chocolate",
+            "flavour" : "Dairy Love Choco Bar",
+            "sub_flavour" : "Classy Dairy Love Choco Bar",
+            "description" : "Classy Dairy Love Choco Bar is a smooth and creamy chocolate bar made with rich cocoa and indulgent dairy goodness. Crafted to deliver a perfectly balanced sweetness and melt-in-the-mouth texture, it’s ideal for sharing love-filled moments or enjoying a delightful chocolate break anytime.",
+            "thumbnail" : "/assets/image/chocolate/Dairy_Love_Choco_Bar.webp",
+            "images": [
+                "/assets/image/chocolate/Dairy_Love_Choco_Bar.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Jar",
+                    "item_package_contain" : 100,
+                    "item_count_type" : "pics",
+                    "product_weight" : "10g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 7920
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "item_package_contain" : 50,
+                    "item_count_type" : "pics",
+                    "product_weight" : "10g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 7920
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": ["choco bar", "milk chocolate", "dairy chocolate", "creamy chocolate", "rich cocoa", "sweet treat", "chocolate snack", "dessert chocolate", "premium chocolate", "love chocolate", "daily indulgence", "classy choco"]
+        },
+        
+    ]
+}

@@ -206,6 +206,32 @@
                 ]
             },
             {
+                "title": "Confectionery",
+                "route": "#/product/confectionery",
+                "submenu": [
+                    {
+                        "title" : "Chocolate",
+                        "route" : "#/product/confectionery/category-chocolate"
+                    },
+                    {
+                        "title" : "Bubble Gum",
+                        "route" : "#/product/confectionery/category-bubble gum"
+                    },
+                    {
+                        "title" : "Candy",
+                        "route" : "#/product/confectionery/category-candy"
+                    },
+                    {
+                        "title" : "Jelly",
+                        "route" : "#/product/confectionery/category-jelly"
+                    },
+                    {
+                        "title" : "Toffee",
+                        "route" : "#/product/confectionery/category-toffee"
+                    }
+                ]
+            },
+            {
                 "title": "Cereals",
                 "route": "#/product/cereals",
                 "submenu": [

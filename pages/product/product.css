@@ -5,25 +5,47 @@ body {
 }
 
 /* CATEGORY TABS */
-.category-tabs {
-    display: flex;
-    justify-content: space-around;
-    padding: 0px 20px;
-    border-bottom: 1px solid #ddd;
-    background: #fff;
-    overflow: auto;
+
+.category-tabs { 
+    display: flex; 
+    justify-content: space-around; 
+    padding: 0px 20px; 
+    border-bottom: 1px solid #ddd; 
+    background: #fff; 
+    overflow: auto; 
 }
 
 .category-tabs button {
-    padding: 18px 40px;
+    padding: 10px 14px;         /* 🔥 reduce horizontal padding */
     background: none;
     border: none;
-    font-size: 14px;
-    letter-spacing: 1px;
+
+    font-size: 13px;
+    letter-spacing: 0.5px;
     cursor: pointer;
     color: #777;
+
+    min-width: 160px;
+    max-width: 180px;
+    height: 52px;               /* ✅ keeps all tabs equal height */
+
+    text-align: center;
+    line-height: 1.50;
+
+    /* ✅ correct 2-line clamp */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+
+    white-space: normal;
+    word-break: normal;
+    overflow-wrap: break-word;
+
     border-bottom: 3px solid transparent;
 }
+
+
 
 .category-tabs button.active {
     color: #000;
@@ -63,6 +85,9 @@ body {
 .product-card h3 {
     margin: 20px 0 5px;
     font-size: 16px;
+    white-space: nowrap;        /* force single line */
+    overflow: hidden;           /* hide overflow */
+    text-overflow: ellipsis;    /* show ... */
 }
 
 .product-card span {

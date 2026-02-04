@@ -10,9 +10,12 @@ let loadTheProductDetailData = async () => {
     
     let data = pageObj[dataPageLink];
     list = data.list;
-    package = data.packaging;
+    let package = data.packaging;
     data = filtersTheData(list);
     let otherProduct = filtersOtherRelatedData(list);
+
+    //if different packaging available
+    package = data[0] && data[0].packaging ? data[0].packaging : package;
 
     renderProduct(data[0], package);
 
@@ -364,7 +367,7 @@ let loadTheProductDetailData = async () => {
           <ul>
             <li><strong>Contains:</strong> ${e.item_package_material} of ${product.flavour} ${product.category == product.flavour ? "" : product.category}</li>
             <li><strong>Packaging:</strong> ${e.item_package_material} with outer ${e.box_material}</li>
-            <li><strong>Carton Packaging:</strong> ${e.box_contains} ${e.item_count_type} × ${product.net_weight ? product.net_weight : e.product_weight} ${e.product_mrp ? `(${e.product_mrp} ₹ / ${e.item_count_type})` : "" }</li>
+            <li><strong>Carton Packaging:</strong> ${e.box_contains} ${e.item_package_material} × ${e.item_package_contain != 1 ? `${e.item_package_contain} ${e.item_count_type} × ` : "" } ${product.net_weight ? product.net_weight : e.product_weight} ${e.product_mrp ? `(${e.product_mrp} ₹ / ${e.item_count_type})` : "" }</li>
             <li><strong>Per Piece Weight:</strong> ${product.net_weight ? product.net_weight : e.product_weight}</li>
           </ul>
         </div>
@@ -381,7 +384,6 @@ let loadTheProductDetailData = async () => {
     
     const contact = companyFooterData.contact[0];
     const productUrl = window.location.origin + "/"+ location.hash;
-    console.log(productUrl);
     const message = encodeURIComponent(`
 Hello,
 

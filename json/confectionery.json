@@ -963,7 +963,11 @@
             "description" : "Classy Coco Malai, Swiss Malai, Fruit Chews, Milky Milk, and Birthday Toffee offer a delightful mix of creamy milk-based toffees and fruity chews. Rich, smooth, and flavorful, these treats are perfect for celebrations, sharing, and everyday enjoyment.",
             "thumbnail" : "/assets/image/toffee/Coco_Malai_Swiss_Malai_Fruit_Chews_Milky_Milk_Birthday_Toffee.webp",
             "images": [
-                "/assets/image/toffee/Coco_Malai_Swiss_Malai_Fruit_Chews_Milky_Milk_Birthday_Toffee.webp"
+                "assets/image/toffee/coco_milk.webp",
+                "assets/image/toffee/fruit_chews.webp",
+                "assets/image/toffee/it_my_birthday_jar.webp",
+                "assets/image/toffee/milky_milk.webp",
+                "assets/image/toffee/swiss_milk.webp"
             ],
             "packaging": [
                 {
@@ -1403,7 +1407,12 @@
             "description" : "Classy Luv Truffles Toffee is a rich and indulgent toffee inspired by truffle-style sweetness, offering a smooth, creamy texture and a luxurious taste in every bite.",
             "thumbnail" : "/assets/image/toffee/Luv_Truffles_4.webp",
             "images": [
-                "/assets/image/toffee/Luv_Truffles_4.webp"
+                "/assets/image/toffee/luv_truffles_box.webp",
+                "/assets/image/toffee/luv_truffles_box_2.webp",
+                "/assets/image/toffee/luv_truffles_box_3.webp",
+                "/assets/image/toffee/luv_truffles_box_4.webp",
+                "/assets/image/toffee/luv_truffles_box_5.webp",
+                "/assets/image/toffee/luv_truffles_box_6.webp"
             ],
             "packaging": [
                 {
@@ -1435,7 +1444,9 @@
             "description" : "Classy Milk Truffles, Choco Truffles, and Fruit Truffles Toffee offer a delightful trio of rich, creamy, and fruity flavors. With a smooth truffle-like texture and indulgent taste, these toffees are perfect for satisfying every sweet craving.",
             "thumbnail" : "/assets/image/toffee/Milk_Truffles_Choco_Truffles_Fruit_Truffles.webp",
             "images": [
-                "/assets/image/toffee/Milk_Truffles_Choco_Truffles_Fruit_Truffles.webp"
+                "/assets/image/toffee/fruit_truffles.webp",
+                "/assets/image/toffee/milk_truffles_box.webp",
+                "/assets/image/toffee/coco_truffles_box.webp"
             ],
             "packaging": [
                 {
@@ -1499,7 +1510,8 @@
             "description" : "Classy Toffinger Fruitlano Toffee is a delicious fruity toffee with a soft, chewy texture and a burst of refreshing fruit flavors, making it a delightful treat for all ages.",
             "thumbnail" : "/assets/image/toffee/Toffinger_Fruitlano_2.webp",
             "images": [
-                "/assets/image/toffee/Toffinger_Fruitlano_2.webp"
+                "/assets/image/toffee/toffinger_fruit_land_jar.webp",
+                "assets/image/toffee/Toffinger_Fruitlano_2.webp"
             ],
             "packaging": [
                 {
@@ -1545,7 +1557,12 @@
             "description" : "Classy Truf Jelly, Birthday, English Cow, Milk Truffles, Coco Truffles, and Berlin Toffee bring together a delightful mix of fruity jellies, creamy milk toffees, and rich truffle flavors. A joyful assortment crafted to suit celebrations, sharing moments, and everyday sweet cravings.",
             "thumbnail" : "/assets/image/toffee/Truf_Jelly_Birthday_English_Cow_Milk_Truffles_Coco_Truffles_Berlin.webp",
             "images": [
-                "/assets/image/toffee/Truf_Jelly_Birthday_English_Cow_Milk_Truffles_Coco_Truffles_Berlin.webp"
+                "assets/image/toffee/coco_truffles_container.webp",
+                "assets/image/toffee/trufy_jelly.webp",
+                "assets/image/toffee/it_my_birthday_container.webp",
+                "assets/image/toffee/english_cow_truffles.webp",
+                "assets/image/toffee/luv_truffles_container.webp",
+                "assets/image/toffee/milk_truffles_container.webp"
             ],
             "packaging": [
                 {

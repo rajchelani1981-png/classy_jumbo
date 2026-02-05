@@ -62,5 +62,13 @@
         "img_webp" : "/assets/image/sliding/wafer/webp/wafer_desktop.webp",
         "tablet_webp" : "/assets/image/sliding/wafer/webp/wafe_tablet.webp",
         "mobile_webp" : "/assets/image/sliding/wafer/webp/wafe_mobile.webp"
+    },
+    {
+        "img": "/assets/image/sliding/toffee/toffee_desktop.jpeg",
+        "tablet_img" : "/assets/image/sliding/toffee/toffee_tablet.jpeg",
+        "mobile_img" : "/assets/image/sliding/toffee/toffee_mobile.jpeg",
+        "img_webp" : "/assets/image/sliding/toffee/webp/toffee_desktop.webp",
+        "tablet_webp" : "/assets/image/sliding/toffee/webp/toffee_tablet.webp",
+        "mobile_webp" : "/assets/image/sliding/toffee/webp/toffee_mobile.webp"
     }
 ]

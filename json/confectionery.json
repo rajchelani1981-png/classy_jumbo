@@ -1,11 +1,11 @@
 {
     "bannerImage" : {
-        "img": "/assets/image/sliding/jam/jam_desktop.jpg",
-        "tablet_img" : "/assets/image/sliding/jam/jam_tablet.jpg",
-        "mobile_img" : "/assets/image/sliding/jam/jam_mobile.jpg",
-        "img_webp" : "/assets/image/sliding/jam/webp/jam_desktop.webp",
-        "tablet_webp" : "/assets/image/sliding/jam/webp/jam_tablet.webp",
-        "mobile_webp" : "/assets/image/sliding/jam/webp/jam_mobile.webp"
+        "img": "/assets/image/sliding/toffee/toffee_desktop.jpeg",
+        "tablet_img" : "/assets/image/sliding/toffee/toffee_tablet.jpeg",
+        "mobile_img" : "/assets/image/sliding/toffee/toffee_mobile.jpeg",
+        "img_webp" : "/assets/image/sliding/toffee/webp/toffee_desktop.webp",
+        "tablet_webp" : "/assets/image/sliding/toffee/webp/toffee_tablet.webp",
+        "mobile_webp" : "/assets/image/sliding/toffee/webp/toffee_mobile.webp"
     },
     "packaging": [
         {
@@ -31,9 +31,9 @@
             "flavour" : "Choco Bar",
             "sub_flavour" : "Classy Choco Bar",
             "description" : "Classy Choco Bar Milk And Choco Delight is a rich and creamy chocolate bar that blends smooth milk chocolate with an indulgent choco flavor. Perfectly balanced sweetness and a velvety texture make it an ideal treat for chocolate lovers of all ages—great for snacking, sharing, or gifting.",
-            "thumbnail" : "/assets/image/chocolate/Choco_Bar_Milk_And_Choco_Delight.webp",
+            "thumbnail" : "/assets/image/product/chocolate/Choco_Bar_Milk_And_Choco_Delight.webp",
             "images": [
-                "/assets/image/chocolate/Choco_Bar_Milk_And_Choco_Delight.webp"
+                "/assets/image/product/chocolate/Choco_Bar_Milk_And_Choco_Delight.webp"
             ],
             "packaging": [
                 {
@@ -63,9 +63,9 @@
             "flavour" : "Choco Moco",
             "sub_flavour" : "Classy Choco Moco",
             "description" : "Classy Choco Moco is a deliciously smooth and indulgent chocolate treat with a rich cocoa taste and a soft, melt-in-the-mouth texture. Crafted for true chocolate lovers, it’s perfect for quick snacking, sharing moments, or satisfying sweet cravings anytime.",
-            "thumbnail" : "/assets/image/chocolate/Choco_Moco.webp",
+            "thumbnail" : "/assets/image/product/chocolate/Choco_Moco.webp",
             "images": [
-                "/assets/image/chocolate/Choco_Moco.webp"
+                "/assets/image/product/chocolate/Choco_Moco.webp"
             ],
             "packaging": [
                 {
@@ -95,9 +95,9 @@
             "flavour" : "Choco Shoots",
             "sub_flavour" : "Classy Choco Shoots",
             "description" : "Classy Choco Shoots are crunchy, bite-sized chocolate treats packed with a rich cocoa flavor and a delightful crisp texture. Perfect for munching on the go, sharing with friends, or adding a fun twist to snack time.",
-            "thumbnail" : "/assets/image/chocolate/Choco_Shoots.webp",
+            "thumbnail" : "/assets/image/product/chocolate/Choco_Shoots.webp",
             "images": [
-                "/assets/image/chocolate/Choco_Shoots.webp"
+                "/assets/image/product/chocolate/Choco_Shoots.webp"
             ],
             "packaging": [
                 {
@@ -127,9 +127,9 @@
             "flavour" : "Dairy Kids, Kiss it, Dairy Dark, And Milky Kids",
             "sub_flavour" : "Classy Dairy Kids, Kiss it, Dairy Dark, And Milky Kids",
             "description" : "Classy Chocolates offer a delightful blend of rich cocoa and smooth dairy goodness, crafted to deliver a deliciously satisfying chocolate experience for all ages. Perfect for everyday snacking, sharing moments, or treating sweet cravings.",
-            "thumbnail" : "/assets/image/chocolate/Dairy_Kids_Kiss_it_Dairy_Dark_Milky_Kids.webp",
+            "thumbnail" : "/assets/image/product/chocolate/Dairy_Kids_Kiss_it_Dairy_Dark_Milky_Kids.webp",
             "images": [
-                "/assets/image/chocolate/Dairy_Kids_Kiss_it_Dairy_Dark_Milky_Kids.webp"
+                "/assets/image/product/chocolate/Dairy_Kids_Kiss_it_Dairy_Dark_Milky_Kids.webp"
             ],
             "packaging": [
                 {
@@ -159,9 +159,9 @@
             "flavour" : "Dairy Kids, Kiss it, Dairy Dark, And Milky Kids",
             "sub_flavour" : "Classy Dairy Kids, Kiss it, Dairy Dark, And Milky Kids",
             "description" : "Classy Chocolates offer a delightful blend of rich cocoa and smooth dairy goodness, crafted to deliver a deliciously satisfying chocolate experience for all ages. Perfect for everyday snacking, sharing moments, or treating sweet cravings.",
-            "thumbnail" : "/assets/image/chocolate/Dairy_Kids_Kiss_it_Dairy_Dark_Milky_Kids_2.webp",
+            "thumbnail" : "/assets/image/product/chocolate/Dairy_Kids_Kiss_it_Dairy_Dark_Milky_Kids_2.webp",
             "images": [
-                "/assets/image/chocolate/Dairy_Kids_Kiss_it_Dairy_Dark_Milky_Kids_2.webp"
+                "/assets/image/product/chocolate/Dairy_Kids_Kiss_it_Dairy_Dark_Milky_Kids_2.webp"
             ],
             "packaging": [
                 {
@@ -191,9 +191,9 @@
             "flavour" : "Dairy Love Choco Bar",
             "sub_flavour" : "Classy Dairy Love Choco Bar",
             "description" : "Classy Dairy Love Choco Bar is a smooth and creamy chocolate bar made with rich cocoa and indulgent dairy goodness. Crafted to deliver a perfectly balanced sweetness and melt-in-the-mouth texture, it’s ideal for sharing love-filled moments or enjoying a delightful chocolate break anytime.",
-            "thumbnail" : "/assets/image/chocolate/Dairy_Love_Choco_Bar.webp",
+            "thumbnail" : "/assets/image/product/chocolate/Dairy_Love_Choco_Bar.webp",
             "images": [
-                "/assets/image/chocolate/Dairy_Love_Choco_Bar.webp"
+                "/assets/image/product/chocolate/Dairy_Love_Choco_Bar.webp"
             ],
             "packaging": [
                 {
@@ -237,9 +237,9 @@
             "flavour" : "Day And Night",
             "sub_flavour" : "Classy Day And Night",
             "description" : "Classy Day And Night is a premium chocolate brand crafted to delight your taste buds any time of the day. Rich flavors, smooth textures, and indulgent quality for every moment.",
-            "thumbnail" : "/assets/image/chocolate/Day_Night.webp",
+            "thumbnail" : "/assets/image/product/chocolate/Day_Night.webp",
             "images": [
-                "/assets/image/chocolate/Day_Night.webp"
+                "/assets/image/product/chocolate/Day_Night.webp"
             ],
             "packaging": [
                 {
@@ -283,9 +283,9 @@
             "flavour" : "Choco Crunchies Laddoos, Day And Nigth, Milk Crunchies Laddoos",
             "sub_flavour" : "Classy Choco Crunchies Laddoos, Day And Nigth, Milk Crunchies Laddoos",
             "description" : "Classy Day And Night is a premium chocolate brand crafted to delight your taste buds any time of the day. Rich flavors, smooth textures, and indulgent quality for every moment.",
-            "thumbnail" : "/assets/image/chocolate/Day_Night_Choco_Crunchies_Laddoos_Milk_Crunches_Laddoos.webp",
+            "thumbnail" : "/assets/image/product/chocolate/Day_Night_Choco_Crunchies_Laddoos_Milk_Crunches_Laddoos.webp",
             "images": [
-                "/assets/image/chocolate/Day_Night_Choco_Crunchies_Laddoos_Milk_Crunches_Laddoos.webp"
+                "/assets/image/product/chocolate/Day_Night_Choco_Crunchies_Laddoos_Milk_Crunches_Laddoos.webp"
             ],
             "packaging": [
                 {
@@ -315,9 +315,9 @@
             "flavour" : "Flore Milk Chocolate",
             "sub_flavour" : "Classy Flore Milk Chocolate",
             "description" : "Classy Flore Milk Chocolate is a smooth and creamy milk chocolate crafted with rich cocoa and a velvety texture. Perfectly balanced sweetness makes it an indulgent treat to enjoy any time of the day.",
-            "thumbnail" : "/assets/image/chocolate/Flore_Milk_Chocolate.webp",
+            "thumbnail" : "/assets/image/product/chocolate/Flore_Milk_Chocolate.webp",
             "images": [
-                "/assets/image/chocolate/Flore_Milk_Chocolate.webp"
+                "/assets/image/product/chocolate/Flore_Milk_Chocolate.webp"
             ],
             "packaging": [
                 {
@@ -347,9 +347,9 @@
             "flavour" : "Fruit N Nut Choco Bar",
             "sub_flavour" : "Classy Fruit N Nut Choco Bar",
             "description" : "Classy Fruit N Nut Choco Bar is a rich chocolate bar blended with premium nuts and delicious dried fruits, offering a perfect balance of crunch, sweetness, and smooth chocolate in every bite.",
-            "thumbnail" : "/assets/image/chocolate/Fruit_N_Nut_Choco_Bar.webp",
+            "thumbnail" : "/assets/image/product/chocolate/Fruit_N_Nut_Choco_Bar.webp",
             "images": [
-                "/assets/image/chocolate/Fruit_N_Nut_Choco_Bar.webp"
+                "/assets/image/product/chocolate/Fruit_N_Nut_Choco_Bar.webp"
             ],
             "packaging": [
                 {
@@ -379,9 +379,9 @@
             "flavour" : "Kokona Krunch",
             "sub_flavour" : "Classy Kokona Krunch",
             "description" : "Classy Kokona Krunch is a delightful chocolate treat infused with rich coconut flavor and a satisfying crunch, creating a perfect blend of smooth chocolate and tropical goodness in every bite.",
-            "thumbnail" : "/assets/image/chocolate/Kokona_Krunch.webp",
+            "thumbnail" : "/assets/image/product/chocolate/Kokona_Krunch.webp",
             "images": [
-                "/assets/image/chocolate/Kokona_Krunch.webp"
+                "/assets/image/product/chocolate/Kokona_Krunch.webp"
             ],
             "packaging": [
                 {
@@ -411,9 +411,9 @@
             "flavour" : "Milk N Coconut",
             "sub_flavour" : "Classy Milk N Coconut",
             "description" : "Classy Milk N Coconut is a smooth milk chocolate blended with the delightful taste of coconut, offering a creamy texture and a gentle crunch for a deliciously satisfying chocolate experience.",
-            "thumbnail" : "/assets/image/chocolate/Milk_N_Coconut.webp",
+            "thumbnail" : "/assets/image/product/chocolate/Milk_N_Coconut.webp",
             "images": [
-                "/assets/image/chocolate/Milk_N_Coconut.webp"
+                "/assets/image/product/chocolate/Milk_N_Coconut.webp"
             ],
             "packaging": [
                 {
@@ -443,9 +443,9 @@
             "flavour" : "Hey Panda",
             "sub_flavour" : "Classy Hey Panda",
             "description" : "Classy Hey Panda Chocolate is a fun and tasty chocolate treat with a smooth, creamy texture and delightful flavor, making it a perfect snack for kids and chocolate lovers of all ages.",
-            "thumbnail" : "/assets/image/chocolate/Hey_Panda.webp",
+            "thumbnail" : "/assets/image/product/chocolate/Hey_Panda.webp",
             "images": [
-                "/assets/image/chocolate/Hey_Panda.webp"
+                "/assets/image/product/chocolate/Hey_Panda.webp"
             ],
             "packaging": [
                 {
@@ -489,9 +489,9 @@
             "flavour" : "Koko Ball, Nutty, And Koko Nutty",
             "sub_flavour" : "Classy Koko Ball, Nutty, And Koko Nutty",
             "description" : "Classy Koko Ball chocolates are bite-sized delights made with rich chocolate and crunchy goodness. Available in Nutty and Koko Nutty variants, each ball delivers a perfect balance of smooth chocolate, nuts, and irresistible crunch.",
-            "thumbnail" : "/assets/image/chocolate/Koko_Ball_Nutty_Koko_Nutty.webp",
+            "thumbnail" : "/assets/image/product/chocolate/Koko_Ball_Nutty_Koko_Nutty.webp",
             "images": [
-                "/assets/image/chocolate/Koko_Ball_Nutty_Koko_Nutty.webp"
+                "/assets/image/product/chocolate/Koko_Ball_Nutty_Koko_Nutty.webp"
             ],
             "packaging": [
                 {
@@ -521,9 +521,9 @@
             "flavour" : "Luv Star Caramel",
             "sub_flavour" : "Classy Luv Star Caramel",
             "description" : "Classy Luv Star Caramel is a delicious chocolate treat filled with rich, gooey caramel and a smooth chocolate coating. A perfect blend of sweetness and indulgence in every bite.",
-            "thumbnail" : "/assets/image/chocolate/Luv_Star_Caramel.webp",
+            "thumbnail" : "/assets/image/product/chocolate/Luv_Star_Caramel.webp",
             "images": [
-                "/assets/image/chocolate/Luv_Star_Caramel.webp"
+                "/assets/image/product/chocolate/Luv_Star_Caramel.webp"
             ],
             "packaging": [
                 {
@@ -567,9 +567,9 @@
             "flavour" : "Milkit",
             "sub_flavour" : "Classy Milkit",
             "description" : "Classy Milkit is a smooth and creamy milk chocolate treat made with rich cocoa and a velvety texture, delivering a comforting and delicious chocolate experience in every bite.",
-            "thumbnail" : "/assets/image/chocolate/Milkit.webp",
+            "thumbnail" : "/assets/image/product/chocolate/Milkit.webp",
             "images": [
-                "/assets/image/chocolate/Milkit.webp"
+                "/assets/image/product/chocolate/Milkit.webp"
             ],
             "packaging": [
                 {
@@ -599,9 +599,9 @@
             "flavour" : "Nutty Snack Peanuts",
             "sub_flavour" : "Classy Nutty Snack Peanuts",
             "description" : "Classy Nutty Snack Peanuts are crunchy, roasted peanuts coated for extra flavor, making them a tasty and satisfying snack perfect for anytime munching.",
-            "thumbnail" : "/assets/image/chocolate/Nutty_Snack_Peanuts.webp",
+            "thumbnail" : "/assets/image/product/chocolate/Nutty_Snack_Peanuts.webp",
             "images": [
-                "/assets/image/chocolate/Nutty_Snack_Peanuts.webp"
+                "/assets/image/product/chocolate/Nutty_Snack_Peanuts.webp"
             ],
             "packaging": [
                 {
@@ -645,9 +645,9 @@
             "flavour" : "Super Joy And Crazy Panda",
             "sub_flavour" : "Classy Super Joy And Crazy Panda",
             "description" : "Classy Super Joy and Crazy Panda are fun, flavorful chocolate treats crafted to bring happiness in every bite. With a smooth chocolate taste and playful appeal, they are perfect for kids and anyone who loves joyful snacking moments.",
-            "thumbnail" : "/assets/image/chocolate/Super_Joy_Crazy_Panda.webp",
+            "thumbnail" : "/assets/image/product/chocolate/Super_Joy_Crazy_Panda.webp",
             "images": [
-                "/assets/image/chocolate/Super_Joy_Crazy_Panda.webp"
+                "/assets/image/product/chocolate/Super_Joy_Crazy_Panda.webp"
             ],
             "packaging": [
                 {
@@ -691,9 +691,9 @@
             "flavour" : "Kofi Gum, Fruit Fresh, Juicy Fresh, And Fresh Gum",
             "sub_flavour" : "Classy Kofi Gum, Fruit Fresh, Juicy Fresh, And Fresh Gum",
             "description" : "Classy Kofi Gum and Fresh Gum range offers refreshing chewing gums with long-lasting flavor. From the rich taste of coffee to fruity and juicy freshness, these gums are perfect for an instant burst of refreshment anytime.",
-            "thumbnail" : "/assets/image/bubble_gum/Kofi_Gum_Fruit_Fresh_Juicy_Fresh_Fresh_Gum.webp",
+            "thumbnail" : "/assets/image/product/bubble_gum/Kofi_Gum_Fruit_Fresh_Juicy_Fresh_Fresh_Gum.webp",
             "images": [
-                "/assets/image/bubble_gum/Kofi_Gum_Fruit_Fresh_Juicy_Fresh_Fresh_Gum.webp"
+                "/assets/image/product/bubble_gum/Kofi_Gum_Fruit_Fresh_Juicy_Fresh_Fresh_Gum.webp"
             ],
             "packaging": [
                 {
@@ -723,9 +723,9 @@
             "flavour" : "Jbon, Koffito, Carafills, And Green Apple",
             "sub_flavour" : "Classy Jbon, Koffito, Carafills, And Green Apple",
             "description" : "Classy Jbon, Koffito, Carafills, and Green Apple Candy offer a delightful range of candies with rich coffee notes, smooth caramel fillings, and tangy green apple flavor. Perfect for enjoying a burst of sweetness and flavor anytime.",
-            "thumbnail" : "/assets/image/candy/Jbon_Koffito_Carafills_Green_Apple.webp",
+            "thumbnail" : "/assets/image/product/candy/Jbon_Koffito_Carafills_Green_Apple.webp",
             "images": [
-                "/assets/image/candy/Jbon_Koffito_Carafills_Green_Apple.webp"
+                "/assets/image/product/candy/Jbon_Koffito_Carafills_Green_Apple.webp"
             ],
             "packaging": [
                 {
@@ -755,9 +755,9 @@
             "flavour" : "Jbon, Koffito, Carafills, And Green Apple",
             "sub_flavour" : "Classy Jbon, Koffito, Carafills, And Green Apple",
             "description" : "Classy Jbon, Koffito, Carafills, and Green Apple Candy offer a delightful range of candies with rich coffee notes, smooth caramel fillings, and tangy green apple flavor. Perfect for enjoying a burst of sweetness and flavor anytime.",
-            "thumbnail" : "/assets/image/candy/Jbon_Koffito_Carafills_Green_Apple_2.webp",
+            "thumbnail" : "/assets/image/product/candy/Jbon_Koffito_Carafills_Green_Apple_2.webp",
             "images": [
-                "/assets/image/candy/Jbon_Koffito_Carafills_Green_Apple_2.webp"
+                "/assets/image/product/candy/Jbon_Koffito_Carafills_Green_Apple_2.webp"
             ],
             "packaging": [
                 {
@@ -787,9 +787,9 @@
             "flavour" : "Jolly Byte",
             "sub_flavour" : "Classy Jolly Byte",
             "description" : "Classy Jolly Byte Jelly is a fun and colorful jelly candy bursting with fruity flavors and a soft, chewy texture. A joyful treat that adds sweetness and fun to every bite.",
-            "thumbnail" : "/assets/image/jelly/Jolly_Byte.webp",
+            "thumbnail" : "/assets/image/product/jelly/Jolly_Byte.webp",
             "images": [
-                "/assets/image/jelly/Jolly_Byte.webp"
+                "/assets/image/product/jelly/Jolly_Byte.webp"
             ],
             "packaging": [
                 {
@@ -819,9 +819,9 @@
             "flavour" : "Jolly Snacks",
             "sub_flavour" : "Classy Jolly Snacks",
             "description" : "Classy Jolly Snacks Jelly is a soft, chewy jelly candy packed with fruity flavors and vibrant colors, making it a fun and tasty snack for kids and jelly lovers anytime.",
-            "thumbnail" : "/assets/image/jelly/Jolly_Snack.webp",
+            "thumbnail" : "/assets/image/product/jelly/Jolly_Snack.webp",
             "images": [
-                "/assets/image/jelly/Jolly_Snack.webp"
+                "/assets/image/product/jelly/Jolly_Snack.webp"
             ],
             "packaging": [
                 {
@@ -851,9 +851,9 @@
             "flavour" : "Ring Joy And Frooty Bytes",
             "sub_flavour" : "Classy Ring Joy And Frooty Bytes",
             "description" : "Classy Ring Joy and Frooty Bytes Jelly are fun, chewy jelly treats bursting with fruity flavors and playful shapes, perfect for adding joy and sweetness to snack time.",
-            "thumbnail" : "/assets/image/jelly/Ring_Joy_Frooty_Bytes.webp",
+            "thumbnail" : "/assets/image/product/jelly/Ring_Joy_Frooty_Bytes.webp",
             "images": [
-                "/assets/image/jelly/Ring_Joy_Frooty_Bytes.webp"
+                "/assets/image/product/jelly/Ring_Joy_Frooty_Bytes.webp"
             ],
             "packaging": [
                 {
@@ -897,9 +897,9 @@
             "flavour" : "Birthday Roll, Dairy Roll, Coconut Roll, Milk Roll, Mango Jellies, And Rose Milk Roll",
             "sub_flavour" : "Classy Birthday Roll, Dairy Roll, Coconut Roll, Milk Roll, Mango Jellies, And Rose Milk Roll",
             "description" : "Classy Rolls and Jellies assortment brings together creamy rolls and fruity jellies in delightful flavors like dairy, coconut, milk, mango, and rose. A perfect mix of soft, chewy, and creamy treats to enjoy on any occasion.",
-            "thumbnail" : "/assets/image/toffee/Birthday_Roll_Dairy_Roll_Coconut_Roll_Milk_Roll_Mango_Jellies_Rose_Milk_Roll.webp",
+            "thumbnail" : "/assets/image/product/toffee/Birthday_Roll_Dairy_Roll_Coconut_Roll_Milk_Roll_Mango_Jellies_Rose_Milk_Roll.webp",
             "images": [
-                "/assets/image/toffee/Birthday_Roll_Dairy_Roll_Coconut_Roll_Milk_Roll_Mango_Jellies_Rose_Milk_Roll.webp"
+                "/assets/image/product/toffee/Birthday_Roll_Dairy_Roll_Coconut_Roll_Milk_Roll_Mango_Jellies_Rose_Milk_Roll.webp"
             ],
             "packaging": [
                 {
@@ -929,9 +929,9 @@
             "flavour" : "Choco Coin",
             "sub_flavour" : "Classy Choco Coin",
             "description" : "Classy Choco Coin Toffee is a fun, coin-shaped chocolate toffee with a smooth, rich taste, making it a delightful treat for kids and chocolate lovers alike.",
-            "thumbnail" : "/assets/image/toffee/Choco_Coin.webp",
+            "thumbnail" : "/assets/image/product/toffee/Choco_Coin.webp",
             "images": [
-                "/assets/image/toffee/Choco_Coin.webp"
+                "/assets/image/product/toffee/Choco_Coin.webp"
             ],
             "packaging": [
                 {
@@ -961,13 +961,13 @@
             "flavour" : "Coco Malai, Swiss Malai, Fruit Chews, Milky Milk, And Birthday Toffee",
             "sub_flavour" : "Classy Coco Malai, Swiss Malai, Fruit Chews, Milky Milk, And Birthday Toffee",
             "description" : "Classy Coco Malai, Swiss Malai, Fruit Chews, Milky Milk, and Birthday Toffee offer a delightful mix of creamy milk-based toffees and fruity chews. Rich, smooth, and flavorful, these treats are perfect for celebrations, sharing, and everyday enjoyment.",
-            "thumbnail" : "/assets/image/toffee/Coco_Malai_Swiss_Malai_Fruit_Chews_Milky_Milk_Birthday_Toffee.webp",
+            "thumbnail" : "/assets/image/product/toffee/Coco_Malai_Swiss_Malai_Fruit_Chews_Milky_Milk_Birthday_Toffee.webp",
             "images": [
-                "assets/image/toffee/coco_milk.webp",
-                "assets/image/toffee/fruit_chews.webp",
-                "assets/image/toffee/it_my_birthday_jar.webp",
-                "assets/image/toffee/milky_milk.webp",
-                "assets/image/toffee/swiss_milk.webp"
+                "assets/image/product/toffee/coco_milk.webp",
+                "assets/image/product/toffee/fruit_chews.webp",
+                "assets/image/product/toffee/it_my_birthday_jar.webp",
+                "assets/image/product/toffee/milky_milk.webp",
+                "assets/image/product/toffee/swiss_milk.webp"
             ],
             "packaging": [
                 {
@@ -997,9 +997,9 @@
             "flavour" : "Coconut Mithai, Coffee Gold, Strawberry Toffitino, Lacto Roll, Frubo Roll, And Snack Up",
             "sub_flavour" : "Classy Coconut Mithai, Coffee Gold, Strawberry Toffitino, Lacto Roll, Frubo Roll, And Snack Up",
             "description" : "Classy Coconut Mithai, Coffee Gold, Strawberry Toffitino, Lacto Roll, Frubo Roll, and Snack Up Toffee bring together traditional coconut sweetness, rich coffee flavor, fruity strawberry notes, and creamy rolls. A delightful assortment of classic and modern treats for every taste and occasion.",
-            "thumbnail" : "/assets/image/toffee/Coconut_Mithai_Coffee_Gold_Strawberry_Toffitino_Lacto_Roll_Frubo_Roll_Snack_Up.webp",
+            "thumbnail" : "/assets/image/product/toffee/Coconut_Mithai_Coffee_Gold_Strawberry_Toffitino_Lacto_Roll_Frubo_Roll_Snack_Up.webp",
             "images": [
-                "/assets/image/toffee/Coconut_Mithai_Coffee_Gold_Strawberry_Toffitino_Lacto_Roll_Frubo_Roll_Snack_Up.webp"
+                "/assets/image/product/toffee/Coconut_Mithai_Coffee_Gold_Strawberry_Toffitino_Lacto_Roll_Frubo_Roll_Snack_Up.webp"
             ],
             "packaging": [
                 {
@@ -1029,9 +1029,9 @@
             "flavour" : "Exotic Almond",
             "sub_flavour" : "Classy Exotic Almond",
             "description" : "Classy Exotic Almond Toffee is a rich and indulgent toffee made with smooth, creamy sweetness and crunchy almond bits, offering a premium nutty taste in every bite.",
-            "thumbnail" : "/assets/image/toffee/Exotic_Almond.webp",
+            "thumbnail" : "/assets/image/product/toffee/Exotic_Almond.webp",
             "images": [
-                "/assets/image/toffee/Exotic_Almond.webp"
+                "/assets/image/product/toffee/Exotic_Almond.webp"
             ],
             "packaging": [
                 {
@@ -1075,9 +1075,9 @@
             "flavour" : "Fruclairs Centerfilled",
             "sub_flavour" : "Classy Fruclairs Centerfilled",
             "description" : "Classy Fruclairs Centerfilled Toffee is a delicious fruity toffee with a smooth, creamy center, offering a perfect balance of sweetness and flavor in every bite.",
-            "thumbnail" : "/assets/image/toffee/Fruclairs_Centerfilled.webp",
+            "thumbnail" : "/assets/image/product/toffee/Fruclairs_Centerfilled.webp",
             "images": [
-                "/assets/image/toffee/Fruclairs_Centerfilled.webp"
+                "/assets/image/product/toffee/Fruclairs_Centerfilled.webp"
             ],
             "packaging": [
                 {
@@ -1121,9 +1121,9 @@
             "flavour" : "Fruit Roll, Dry Fruit Roll, Almond Roll, And Roll Toffeez",
             "sub_flavour" : "Classy Fruit Roll, Dry Fruit Roll, Almond Roll, And Roll Toffeez",
             "description" : "Classy Fruit Roll, Dry Fruit Roll, Almond Roll, and Roll Toffeez Toffee offer a delightful range of soft, chewy rolls filled with fruity flavors, crunchy dry fruits, and rich almond goodness. Perfect for enjoying a satisfying sweet treat anytime.",
-            "thumbnail" : "/assets/image/toffee/Fruit_Roll_Dry_Fruit_Roll_Almond_Roll_RollToffeez.webp",
+            "thumbnail" : "/assets/image/product/toffee/Fruit_Roll_Dry_Fruit_Roll_Almond_Roll_RollToffeez.webp",
             "images": [
-                "/assets/image/toffee/Fruit_Roll_Dry_Fruit_Roll_Almond_Roll_RollToffeez.webp"
+                "/assets/image/product/toffee/Fruit_Roll_Dry_Fruit_Roll_Almond_Roll_RollToffeez.webp"
             ],
             "packaging": [
                 {
@@ -1167,9 +1167,9 @@
             "flavour" : "Luv Fudge",
             "sub_flavour" : "Classy Luv Fudge",
             "description" : "Classy Luv Fudge Toffee is a rich and creamy fudge-style toffee with a smooth texture and indulgent sweetness, making it a perfect treat for those who love melt-in-the-mouth delights.",
-            "thumbnail" : "/assets/image/toffee/Luv_Fudge.webp",
+            "thumbnail" : "/assets/image/product/toffee/Luv_Fudge.webp",
             "images": [
-                "/assets/image/toffee/Luv_Fudge.webp"
+                "/assets/image/product/toffee/Luv_Fudge.webp"
             ],
             "packaging": [
                 {
@@ -1213,9 +1213,9 @@
             "flavour" : "Luv Stixxx",
             "sub_flavour" : "Classy Luv Stixxx",
             "description" : "Classy Luv Stixxx Toffee is a fun and flavorful stick-shaped toffee with a chewy texture and rich sweetness, making it an enjoyable treat for kids and toffee lovers alike.",
-            "thumbnail" : "/assets/image/toffee/Luv_Stixxx.webp",
+            "thumbnail" : "/assets/image/product/toffee/Luv_Stixxx.webp",
             "images": [
-                "/assets/image/toffee/Luv_Stixxx.webp"
+                "/assets/image/product/toffee/Luv_Stixxx.webp"
             ],
             "packaging": [
                 {
@@ -1245,9 +1245,9 @@
             "flavour" : "Luv Stixxx",
             "sub_flavour" : "Classy Luv Stixxx",
             "description" : "Classy Luv Stixxx Toffee is a fun and flavorful stick-shaped toffee with a chewy texture and rich sweetness, making it an enjoyable treat for kids and toffee lovers alike.",
-            "thumbnail" : "/assets/image/toffee/Luv_Stixxx_2.webp",
+            "thumbnail" : "/assets/image/product/toffee/Luv_Stixxx_2.webp",
             "images": [
-                "/assets/image/toffee/Luv_Stixxx_2.webp"
+                "/assets/image/product/toffee/Luv_Stixxx_2.webp"
             ],
             "packaging": [
                 {
@@ -1277,9 +1277,9 @@
             "flavour" : "Luv Toffee Original",
             "sub_flavour" : "Classy Luv Toffee Original",
             "description" : "Classy Luv Toffee Original is a classic, rich milk toffee with a smooth and creamy taste, delivering timeless sweetness and nostalgic flavor in every bite.",
-            "thumbnail" : "/assets/image/toffee/Luv_Toffee_Originals.webp",
+            "thumbnail" : "/assets/image/product/toffee/Luv_Toffee_Originals.webp",
             "images": [
-                "/assets/image/toffee/Luv_Toffee_Originals.webp"
+                "/assets/image/product/toffee/Luv_Toffee_Originals.webp"
             ],
             "packaging": [
                 {
@@ -1309,9 +1309,9 @@
             "flavour" : "Luv Truffles",
             "sub_flavour" : "Classy Luv Truffles",
             "description" : "Classy Luv Truffles Toffee is a rich and indulgent toffee inspired by truffle-style sweetness, offering a smooth, creamy texture and a luxurious taste in every bite.",
-            "thumbnail" : "/assets/image/toffee/Luv_Truffles_2.webp",
+            "thumbnail" : "/assets/image/product/toffee/Luv_Truffles_2.webp",
             "images": [
-                "/assets/image/toffee/Luv_Truffles_2.webp"
+                "/assets/image/product/toffee/Luv_Truffles_2.webp"
             ],
             "packaging": [
                 {
@@ -1341,9 +1341,9 @@
             "flavour" : "Luv Truffles",
             "sub_flavour" : "Classy Luv Truffles",
             "description" : "Classy Luv Truffles Toffee is a rich and indulgent toffee inspired by truffle-style sweetness, offering a smooth, creamy texture and a luxurious taste in every bite.",
-            "thumbnail" : "/assets/image/toffee/Luv_Truffles.webp",
+            "thumbnail" : "/assets/image/product/toffee/Luv_Truffles.webp",
             "images": [
-                "/assets/image/toffee/Luv_Truffles.webp"
+                "/assets/image/product/toffee/Luv_Truffles.webp"
             ],
             "packaging": [
                 {
@@ -1373,9 +1373,9 @@
             "flavour" : "Luv Truffles",
             "sub_flavour" : "Classy Luv Truffles",
             "description" : "Classy Luv Truffles Toffee is a rich and indulgent toffee inspired by truffle-style sweetness, offering a smooth, creamy texture and a luxurious taste in every bite.",
-            "thumbnail" : "/assets/image/toffee/Luv_Truffles_3.webp",
+            "thumbnail" : "/assets/image/product/toffee/Luv_Truffles_3.webp",
             "images": [
-                "/assets/image/toffee/Luv_Truffles_3.webp"
+                "/assets/image/product/toffee/Luv_Truffles_3.webp"
             ],
             "packaging": [
                 {
@@ -1405,14 +1405,14 @@
             "flavour" : "Luv Truffles",
             "sub_flavour" : "Classy Luv Truffles",
             "description" : "Classy Luv Truffles Toffee is a rich and indulgent toffee inspired by truffle-style sweetness, offering a smooth, creamy texture and a luxurious taste in every bite.",
-            "thumbnail" : "/assets/image/toffee/Luv_Truffles_4.webp",
+            "thumbnail" : "/assets/image/product/toffee/Luv_Truffles_4.webp",
             "images": [
-                "/assets/image/toffee/luv_truffles_box.webp",
-                "/assets/image/toffee/luv_truffles_box_2.webp",
-                "/assets/image/toffee/luv_truffles_box_3.webp",
-                "/assets/image/toffee/luv_truffles_box_4.webp",
-                "/assets/image/toffee/luv_truffles_box_5.webp",
-                "/assets/image/toffee/luv_truffles_box_6.webp"
+                "/assets/image/product/toffee/luv_truffles_box.webp",
+                "/assets/image/product/toffee/luv_truffles_box_2.webp",
+                "/assets/image/product/toffee/luv_truffles_box_3.webp",
+                "/assets/image/product/toffee/luv_truffles_box_4.webp",
+                "/assets/image/product/toffee/luv_truffles_box_5.webp",
+                "/assets/image/product/toffee/luv_truffles_box_6.webp"
             ],
             "packaging": [
                 {
@@ -1442,11 +1442,11 @@
             "flavour" : "Milk Truffles, Choco Truffles, And Fruit Truffles",
             "sub_flavour" : "Classy Milk Truffles, Choco Truffles, And Fruit Truffles",
             "description" : "Classy Milk Truffles, Choco Truffles, and Fruit Truffles Toffee offer a delightful trio of rich, creamy, and fruity flavors. With a smooth truffle-like texture and indulgent taste, these toffees are perfect for satisfying every sweet craving.",
-            "thumbnail" : "/assets/image/toffee/Milk_Truffles_Choco_Truffles_Fruit_Truffles.webp",
+            "thumbnail" : "/assets/image/product/toffee/Milk_Truffles_Choco_Truffles_Fruit_Truffles.webp",
             "images": [
-                "/assets/image/toffee/fruit_truffles.webp",
-                "/assets/image/toffee/milk_truffles_box.webp",
-                "/assets/image/toffee/coco_truffles_box.webp"
+                "/assets/image/product/toffee/fruit_truffles.webp",
+                "/assets/image/product/toffee/milk_truffles_box.webp",
+                "/assets/image/product/toffee/coco_truffles_box.webp"
             ],
             "packaging": [
                 {
@@ -1476,9 +1476,9 @@
             "flavour" : "Toffinger Fruitlano",
             "sub_flavour" : "Classy Toffinger Fruitlano",
             "description" : "Classy Toffinger Fruitlano Toffee is a delicious fruity toffee with a soft, chewy texture and a burst of refreshing fruit flavors, making it a delightful treat for all ages.",
-            "thumbnail" : "/assets/image/toffee/Toffinger_Fruitlano.webp",
+            "thumbnail" : "/assets/image/product/toffee/Toffinger_Fruitlano.webp",
             "images": [
-                "/assets/image/toffee/Toffinger_Fruitlano.webp"
+                "/assets/image/product/toffee/Toffinger_Fruitlano.webp"
             ],
             "packaging": [
                 {
@@ -1508,10 +1508,10 @@
             "flavour" : "Toffinger Fruitlano",
             "sub_flavour" : "Classy Toffinger Fruitlano",
             "description" : "Classy Toffinger Fruitlano Toffee is a delicious fruity toffee with a soft, chewy texture and a burst of refreshing fruit flavors, making it a delightful treat for all ages.",
-            "thumbnail" : "/assets/image/toffee/Toffinger_Fruitlano_2.webp",
+            "thumbnail" : "/assets/image/product/toffee/Toffinger_Fruitlano_2.webp",
             "images": [
-                "/assets/image/toffee/toffinger_fruit_land_jar.webp",
-                "assets/image/toffee/Toffinger_Fruitlano_2.webp"
+                "/assets/image/product/toffee/toffinger_fruit_land_jar.webp",
+                "assets/image/product/toffee/Toffinger_Fruitlano_2.webp"
             ],
             "packaging": [
                 {
@@ -1555,14 +1555,14 @@
             "flavour" : "Truf Jelly, Birthday, English Cow, Milk Truffles, Coco Truffles, And Berlin",
             "sub_flavour" : "Classy Truf Jelly, Birthday, English Cow, Milk Truffles, Coco Truffles, And Berlin",
             "description" : "Classy Truf Jelly, Birthday, English Cow, Milk Truffles, Coco Truffles, and Berlin Toffee bring together a delightful mix of fruity jellies, creamy milk toffees, and rich truffle flavors. A joyful assortment crafted to suit celebrations, sharing moments, and everyday sweet cravings.",
-            "thumbnail" : "/assets/image/toffee/Truf_Jelly_Birthday_English_Cow_Milk_Truffles_Coco_Truffles_Berlin.webp",
+            "thumbnail" : "/assets/image/product/toffee/Truf_Jelly_Birthday_English_Cow_Milk_Truffles_Coco_Truffles_Berlin.webp",
             "images": [
-                "assets/image/toffee/coco_truffles_container.webp",
-                "assets/image/toffee/trufy_jelly.webp",
-                "assets/image/toffee/it_my_birthday_container.webp",
-                "assets/image/toffee/english_cow_truffles.webp",
-                "assets/image/toffee/luv_truffles_container.webp",
-                "assets/image/toffee/milk_truffles_container.webp"
+                "assets/image/product/toffee/coco_truffles_container.webp",
+                "assets/image/product/toffee/trufy_jelly.webp",
+                "assets/image/product/toffee/it_my_birthday_container.webp",
+                "assets/image/product/toffee/english_cow_truffles.webp",
+                "assets/image/product/toffee/luv_truffles_container.webp",
+                "assets/image/product/toffee/milk_truffles_container.webp"
             ],
             "packaging": [
                 {
@@ -1592,9 +1592,9 @@
             "flavour" : "Truf Jelly, Birthday, English Cow, Milk Truffles, Coco Truffles, And Berlin",
             "sub_flavour" : "Classy Truf Jelly, Birthday, English Cow, Milk Truffles, Coco Truffles, And Berlin",
             "description" : "Classy Truf Jelly, Birthday, English Cow, Milk Truffles, Coco Truffles, and Berlin Toffee bring together a delightful mix of fruity jellies, creamy milk toffees, and rich truffle flavors. A joyful assortment crafted to suit celebrations, sharing moments, and everyday sweet cravings.",
-            "thumbnail" : "/assets/image/toffee/Truf_Jelly_Birthday_English_Cow_Milk_Truffles_Coco_Truffles_Berlin_2.webp",
+            "thumbnail" : "/assets/image/product/toffee/Truf_Jelly_Birthday_English_Cow_Milk_Truffles_Coco_Truffles_Berlin_2.webp",
             "images": [
-                "/assets/image/toffee/Truf_Jelly_Birthday_English_Cow_Milk_Truffles_Coco_Truffles_Berlin_2.webp"
+                "/assets/image/product/toffee/Truf_Jelly_Birthday_English_Cow_Milk_Truffles_Coco_Truffles_Berlin_2.webp"
             ],
             "packaging": [
                 {

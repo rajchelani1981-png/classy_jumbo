@@ -1473,9 +1473,9 @@
             "id" : "to40",
             "category": "Toffee",
             "brand" : "Classy Toffee",
-            "flavour" : "Toffinger Fruitlano",
-            "sub_flavour" : "Classy Toffinger Fruitlano",
-            "description" : "Classy Toffinger Fruitlano Toffee is a delicious fruity toffee with a soft, chewy texture and a burst of refreshing fruit flavors, making it a delightful treat for all ages.",
+            "flavour" : "Toffinger Fruitland",
+            "sub_flavour" : "Classy Toffinger Fruitland",
+            "description" : "Classy Toffinger Fruitland Toffee is a delicious fruity toffee with a soft, chewy texture and a burst of refreshing fruit flavors, making it a delightful treat for all ages.",
             "thumbnail" : "/assets/image/product/toffee/Toffinger_Fruitlano.webp",
             "images": [
                 "/assets/image/product/toffee/Toffinger_Fruitlano.webp"
@@ -1499,15 +1499,15 @@
             "pack_size": "1",
             "shelf_life_months": 12,
             "country_of_origin": "India",
-            "tags": [ "fruity toffee", "fruitlano toffee", "soft toffee", "chewy candy", "fruit candy", "sweet treats", "kids favorites", "confectionery", "everyday snacks", "toffee lovers" ]
+            "tags": [ "fruity toffee", "Fruitland toffee", "soft toffee", "chewy candy", "fruit candy", "sweet treats", "kids favorites", "confectionery", "everyday snacks", "toffee lovers" ]
         },
         {
             "id" : "to41",
             "category": "Toffee",
             "brand" : "Classy Toffee",
-            "flavour" : "Toffinger Fruitlano",
-            "sub_flavour" : "Classy Toffinger Fruitlano",
-            "description" : "Classy Toffinger Fruitlano Toffee is a delicious fruity toffee with a soft, chewy texture and a burst of refreshing fruit flavors, making it a delightful treat for all ages.",
+            "flavour" : "Toffinger Fruitland",
+            "sub_flavour" : "Classy Toffinger Fruitland",
+            "description" : "Classy Toffinger Fruitland Toffee is a delicious fruity toffee with a soft, chewy texture and a burst of refreshing fruit flavors, making it a delightful treat for all ages.",
             "thumbnail" : "/assets/image/product/toffee/Toffinger_Fruitlano_2.webp",
             "images": [
                 "/assets/image/product/toffee/toffinger_fruit_land_jar.webp",
@@ -1546,7 +1546,7 @@
             "pack_size": "1",
             "shelf_life_months": 12,
             "country_of_origin": "India",
-            "tags": [ "fruity toffee", "fruitlano toffee", "soft toffee", "chewy candy", "fruit candy", "sweet treats", "kids favorites", "confectionery", "everyday snacks", "toffee lovers" ]
+            "tags": [ "fruity toffee", "Fruitland toffee", "soft toffee", "chewy candy", "fruit candy", "sweet treats", "kids favorites", "confectionery", "everyday snacks", "toffee lovers" ]
         },
         {
             "id" : "to42",

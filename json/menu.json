@@ -17,6 +17,54 @@
         },
         "submenu": [
             {
+                "title": "Biscuits",
+                "route": "#/product/biscuits",
+                "submenu" : [
+                    {
+                        "title" : "Shortbread Butter Biscuits",
+                        "route" : "#/product/biscuits/flavour-shortbread butter"
+                    },
+                    {
+                        "title" : "Cream Biscuits",
+                        "route" : "#/product/biscuits/category-cream"
+                    },
+                    {
+                        "title" : "Biskoft",
+                        "route" : "#/product/biscuits/flavour-biskoft"
+                    },
+                    {
+                        "title" : "Cookies",
+                        "route" : "#/product/biscuits/category-cookies"
+                    }
+
+
+
+
+
+
+
+
+
+
+                    {
+                        "title" : "Cashew Pista Cookies",
+                        "route" : "#/product/cookies/flavour-cashew pista"
+                    },
+                    {
+                        "title" : "Pista Cookies",
+                        "route" : "#/product/cookies/flavour-pista"
+                    },
+                    {
+                        "title" : "Dry Fruit Cookies",
+                        "route" : "#/product/cookies/flavour-dry fruit"
+                    },
+                    {
+                        "title" : "Tutti Frutti Cookies",
+                        "route" : "#/product/cookies/flavour-tutti frutti"
+                    }
+                ]
+            },
+            {
                 "title": "Handmade Cookies",
                 "route": "#/product/cookies",
                 "submenu" : [

@@ -184,6 +184,258 @@
             "shelf_life_months": 12,
             "country_of_origin": "India",
             "tags": [ "Classy Wafer", "Vanilla Wafer", "Vanilla Cream Wafer", "Classic Flavor Wafer", "Crispy Wafer", "Sweet Wafer", "Light Snack", "Tea Time Snack" ]
+        },
+        {
+            "id" : "wa11",
+            "category": "Wafer",
+            "brand" : "Classy Luxury Wafer Roll",
+            "flavour" : "Chocolate",
+            "sub_flavour" : "Chocolate Luxury Wafer Roll",
+            "description" : "Chocolate Wafer Rolls are light, crispy wafer sticks filled with rich and creamy chocolate. Perfect as a sweet snack with tea, coffee, or anytime you crave a delicious chocolate treat.",
+            "thumbnail" : "/assets/image/product/wafer_roll/chocolate_wafer_roll.webp",
+            "images": [
+                "/assets/image/product/wafer_roll/chocolate_wafer_roll.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Tin",
+                    "product_weight" : "300g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3600
+                },
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Tin",
+                    "product_weight" : "125g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3000
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "chocolate wafer roll", "chocolate wafer sticks", "chocolate cream wafer", "crispy wafer rolls", "chocolate snack", "chocolate filled wafer", "wafer biscuit rolls", "chocolate wafer biscuits", "sweet wafer rolls", "tea time snacks", "crunchy wafer rolls", "chocolate dessert snack" ]
+        },
+        {
+            "id" : "wa12",
+            "category": "Wafer",
+            "brand" : "Classy Luxury Wafer Roll",
+            "flavour" : "Cappuccino",
+            "sub_flavour" : "Cappuccino Luxury Wafer Roll",
+            "description" : "Classy Cappuccino Luxury Wafer Rolls are crispy wafer sticks filled with smooth cappuccino cream, offering a delightful coffee flavor in every bite. Perfect for enjoying with tea, coffee, or as a premium sweet snack anytime.",
+            "thumbnail" : "/assets/image/product/wafer_roll/cappuccino_wafer_roll.webp",
+            "images": [
+                "/assets/image/product/wafer_roll/cappuccino_wafer_roll.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Tin",
+                    "product_weight" : "300g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3600
+                },
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Tin",
+                    "product_weight" : "125g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3000
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "cappuccino wafer roll", "coffee wafer rolls", "cappuccino cream wafer", "luxury wafer rolls", "coffee flavored wafer", "crispy wafer sticks", "coffee snack", "wafer biscuit rolls", "cappuccino dessert snack", "tea time snacks", "coffee lovers snack", "premium wafer rolls" ]
+        },
+        {
+            "id" : "wa13",
+            "category": "Wafer",
+            "brand" : "Classy Luxury Wafer Roll",
+            "flavour" : "Hazelnut",
+            "sub_flavour" : "Hazelnut Luxury Wafer Roll",
+            "description" : "Classy Hazelnut Luxury Wafer Rolls are crispy wafer sticks filled with rich and creamy hazelnut filling, delivering a smooth nutty flavor in every bite. A perfect premium snack to enjoy with tea, coffee, or anytime you want a delicious treat.",
+            "thumbnail" : "/assets/image/product/wafer_roll/hazelnut_wafer_roll.webp",
+            "images": [
+                "/assets/image/product/wafer_roll/hazelnut_wafer_roll.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Tin",
+                    "product_weight" : "300g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3600
+                },
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Tin",
+                    "product_weight" : "125g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3000
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "hazelnut wafer roll", "hazelnut cream wafer", "luxury wafer rolls", "hazelnut wafer sticks", "nutty wafer rolls", "crispy wafer sticks", "hazelnut snack", "wafer biscuit rolls", "hazelnut dessert snack", "tea time snacks", "hazelnut lovers snack", "premium wafer rolls" ]
+        },
+        {
+            "id" : "wa14",
+            "category": "Wafer",
+            "brand" : "Classy Luxury Wafer Roll",
+            "flavour" : "Oreo",
+            "sub_flavour" : "Oreo Luxury Wafer Roll",
+            "description" : "Classy Oreo Luxury Wafer Rolls are crispy wafer sticks filled with smooth Oreo-style cream, delivering a rich chocolate cookie flavor in every bite. A perfect premium snack to enjoy with tea, coffee, or anytime you crave a delicious treat.",
+            "thumbnail" : "/assets/image/product/wafer_roll/oreo_wafer_roll.webp",
+            "images": [
+                "/assets/image/product/wafer_roll/oreo_wafer_roll.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Tin",
+                    "product_weight" : "300g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3600
+                },
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Tin",
+                    "product_weight" : "125g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3000
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "oreo wafer roll", "oreo cream wafer", "luxury wafer rolls", "oreo wafer sticks", "chocolate cookie wafer", "crispy wafer sticks", "oreo snack", "wafer biscuit rolls", "oreo dessert snack", "tea time snacks", "cookie cream wafer", "premium wafer rolls" ]
+        },
+        {
+            "id" : "wa15",
+            "category": "Wafer",
+            "brand" : "Classy Luxury Wafer Roll",
+            "flavour" : "Strawberry",
+            "sub_flavour" : "Strawberry Luxury Wafer Roll",
+            "description" : "Classy Strawberry Luxury Wafer Rolls are crispy wafer sticks filled with smooth and creamy strawberry filling, offering a sweet fruity flavor in every bite. A perfect premium snack to enjoy with tea, coffee, or as a delightful treat anytime.",
+            "thumbnail" : "/assets/image/product/wafer_roll/strawberry_wafer_roll.webp",
+            "images": [
+                "/assets/image/product/wafer_roll/strawberry_wafer_roll.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Tin",
+                    "product_weight" : "300g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3600
+                },
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Tin",
+                    "product_weight" : "125g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3000
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "strawberry wafer roll", "strawberry cream wafer", "luxury wafer rolls", "strawberry wafer sticks", "fruity wafer rolls", "crispy wafer sticks", "strawberry snack", "wafer biscuit rolls", "strawberry dessert snack", "tea time snacks", "strawberry lovers snack", "premium wafer rolls" ]
+        },
+        {
+            "id" : "wa16",
+            "category": "Wafer",
+            "brand" : "Classy Luxury Wafer Roll",
+            "flavour" : "Vanilla",
+            "sub_flavour" : "Vanilla Luxury Wafer Roll",
+            "description" : "Classy Vanilla Luxury Wafer Rolls are crispy wafer sticks filled with smooth and creamy vanilla filling, delivering a light and delicious flavor in every bite. A perfect premium snack to enjoy with tea, coffee, or anytime you want a sweet treat.",
+            "thumbnail" : "/assets/image/product/wafer_roll/vanilla_wafer_roll.webp",
+            "images": [
+                "/assets/image/product/wafer_roll/vanilla_wafer_roll.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Tin",
+                    "product_weight" : "300g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3600
+                },
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Tin",
+                    "product_weight" : "125g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3000
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "vanilla wafer roll", "vanilla cream wafer", "luxury wafer rolls", "vanilla wafer sticks", "crispy wafer sticks", "vanilla snack", "wafer biscuit rolls", "vanilla dessert snack", "sweet wafer rolls", "tea time snacks", "vanilla lovers snack", "premium wafer rolls" ]
         }
     ]
 }

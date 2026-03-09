@@ -120,6 +120,280 @@
             "shelf_life_months": 12,
             "country_of_origin": "India",
             "tags": [ "tutti-frutti-cookies", "cookies", "tutti-frutti", "colorful", "sweet", "crispy", "baked", "kids-favorite", "tea-time", "fun-snack" ]
+        },
+        {
+            "id" : "coo7",
+            "category": "Cookies",
+            "brand" : "Classy",
+            "flavour" : "Almond",
+            "sub_flavour" : "Almond Cookies",
+            "description" : "Classy Handmade Almond Cookies are deliciously crisp cookies crafted with the rich taste of premium almonds. Carefully baked in small batches to achieve a perfect golden texture, these cookies offer a delightful nutty flavor with a light, buttery crunch in every bite. Perfect for tea time, coffee breaks, or anytime snacking, these handmade almond cookies bring a wholesome and indulgent treat for you and your family.",
+            "thumbnail" : "/assets/image/product/cookies/webp/handmade_almond_cookies.webp",
+            "images": [
+                "/assets/image/product/cookies/webp/handmade_almond_cookies.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "150g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3600
+                },
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "200g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 4800
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "300g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3600
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "handmade almond cookies", "almond cookies", "almond biscuits", "nut cookies", "artisan cookies", "classy cookies", "tea time cookies", "snack cookies", "sweet cookies", "premium almond cookies" ]
+        },
+        {
+            "id" : "coo8",
+            "category": "Cookies",
+            "brand" : "Classy",
+            "flavour" : "Hydrabadi Crunch",
+            "sub_flavour" : "Hydrabadi Crunch Cookies",
+            "description" : "Classy Hyderabadi Crunch Cookies are delightfully crispy cookies inspired by the rich flavors of traditional Hyderabadi baking. Carefully baked to golden perfection, these cookies offer a satisfying crunch with a balanced sweetness that makes them perfect for tea time or everyday snacking. Enjoy the authentic taste and crunchy texture in every bite, making them a delightful treat to share with family and friends.",
+            "thumbnail" : "/assets/image/product/cookies/webp/handmade_hydrabadi_crunch_cookies.webp",
+            "images": [
+                "/assets/image/product/cookies/webp/handmade_hydrabadi_crunch_cookies.webp",
+                "/assets/image/product/cookies/webp/handmade_hydrabadi_crunch_cookies_2.webp",
+                "/assets/image/product/cookies/webp/handmade_hydrabadi_crunch_cookies_3.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "150g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3600
+                },
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "200g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 4800
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "300g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3600
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "hyderabadi crunch cookies", "crunch cookies", "hyderabadi biscuits", "crispy cookies", "classy cookies", "tea time cookies", "snack cookies", "sweet cookies", "traditional cookies", "crunchy biscuits" ]
+        },
+        {
+            "id" : "coo9",
+            "category": "Cookies",
+            "brand" : "Classy",
+            "flavour" : "Eggless Cake Rusk",
+            "sub_flavour" : "Eggless Cake Rusk",
+            "description" : "Classy Eggless Cake Rusk is a perfectly baked crunchy delight made from soft eggless cake slices that are twice baked to achieve a golden crisp texture. With its light sweetness and satisfying crunch, it pairs wonderfully with tea or coffee, making it an ideal snack for any time of the day. Enjoy the rich taste and traditional bakery-style goodness in every bite.",
+            "thumbnail" : "/assets/image/product/cookies/webp/eggless_cake_rusk.webp",
+            "images": [
+                "/assets/image/product/cookies/webp/eggless_cake_rusk.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "150g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3600
+                },
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "200g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 4800
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "300g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3600
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "eggless cake rusk", "cake rusk", "tea rusk", "eggless rusk", "classy rusk", "crunchy rusk", "tea time snacks", "bakery rusk", "sweet rusk", "crispy rusk" ]
+        },
+        {
+            "id" : "coo10",
+            "category": "Cookies",
+            "brand" : "Classy",
+            "flavour" : "Dry Fruit",
+            "sub_flavour" : "Special Dry Fruit Cookies",
+            "description" : "Classy Handmade Special Dry Fruit Cookies are deliciously crisp cookies crafted with a rich blend of premium dry fruits. Carefully handmade and baked to golden perfection, these cookies deliver a delightful crunch with a naturally rich, nutty flavor in every bite. Perfect for tea time, festive sharing, or everyday snacking, these cookies offer a wholesome and indulgent treat made with care and quality ingredients.",
+            "thumbnail" : "/assets/image/product/cookies/webp/handmade_special_dryfruit_cookies_2.webp",
+            "images": [
+                "/assets/image/product/cookies/webp/handmade_special_dryfruit_cookies_2.webp",
+                "/assets/image/product/cookies/webp/handmade_special_dryfruit_cookies.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "150g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3600
+                },
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "200g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 4800
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "300g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3600
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [  "handmade dry fruit cookies", "dry fruit cookies", "special dry fruit cookies", "premium cookies", "nut cookies", "artisan cookies", "tea time cookies", "classy cookies", "sweet cookies", "festive cookies" ]
+        },
+        {
+            "id" : "coo11",
+            "category": "Cookies",
+            "brand" : "Classy",
+            "flavour" : "Butter Kaju Pista",
+            "sub_flavour" : "Butter Kaju Pista Cookies",
+            "description" : "Classy Handmade Butter Kaju Pista Cookies are rich, golden-baked cookies made with the perfect blend of creamy butter, premium cashews, and crunchy pistachios. Carefully handcrafted and baked to achieve a delightful crisp texture, these cookies deliver a delicious nutty flavor with every bite. Ideal for tea time, festive treats, or everyday snacking, these cookies offer a wholesome and indulgent taste experience for you and your family.",
+            "thumbnail" : "/assets/image/product/cookies/webp/handmade_butter_kaju_pista_cookies_2.webp",
+            "images": [
+                "/assets/image/product/cookies/webp/handmade_butter_kaju_pista_cookies_2.webp",
+                "/assets/image/product/cookies/webp/handmade_butter_kaju_pista_cookies.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "150g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3600
+                },
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "200g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 4800
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "300g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3600
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": ["butter kaju pista cookies", "handmade cookies", "kaju pista cookies", "cashew pistachio cookies", "butter cookies", "dry fruit cookies", "premium cookies", "tea time cookies", "artisan cookies", "classy cookies" ]
         }
     ]
 }

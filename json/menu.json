@@ -36,32 +36,6 @@
                         "title" : "Cookies",
                         "route" : "#/product/biscuits/category-cookies"
                     }
-
-
-
-
-
-
-
-
-
-
-                    {
-                        "title" : "Cashew Pista Cookies",
-                        "route" : "#/product/cookies/flavour-cashew pista"
-                    },
-                    {
-                        "title" : "Pista Cookies",
-                        "route" : "#/product/cookies/flavour-pista"
-                    },
-                    {
-                        "title" : "Dry Fruit Cookies",
-                        "route" : "#/product/cookies/flavour-dry fruit"
-                    },
-                    {
-                        "title" : "Tutti Frutti Cookies",
-                        "route" : "#/product/cookies/flavour-tutti frutti"
-                    }
                 ]
             },
             {
@@ -137,6 +111,18 @@
                     {
                         "title" : "Vanilla Wafer",
                         "route" : "#/product/wafer/flavour-vanilla"
+                    },
+                    {
+                        "title" : "Cappuccino Wafer",
+                        "route" : "#/product/wafer/flavour-cappuccino"
+                    },
+                    {
+                        "title" : "Hazelnut Wafer",
+                        "route" : "#/product/wafer/flavour-hazelnut"
+                    },
+                    {
+                        "title" : "Oreo Wafer",
+                        "route" : "#/product/wafer/flavour-oreo"
                     }
                 ]
             },

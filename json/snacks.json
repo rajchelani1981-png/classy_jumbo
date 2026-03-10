@@ -1,0 +1,245 @@
+{
+    "bannerImage" : {
+        "img": "/assets/image/sliding/cookies/cookies_desktop.jpg",
+        "tablet_img" : "/assets/image/sliding/cookies/cookies_tablet.jpg",
+        "mobile_img" : "/assets/image/sliding/cookies/cookies_mobile.jpg",
+        "img_webp" : "/assets/image/sliding/cookies/webp/cookies_desktop.webp",
+        "tablet_webp" : "/assets/image/sliding/cookies/webp/cookies_tablet.webp",
+        "mobile_webp" : "/assets/image/sliding/cookies/webp/cookies_mobile.webp"
+    },
+    "packaging": [
+        {
+            "box_contains": "24",
+            "box_material" : "Carton",
+            "item_package_material" : "Box",
+            "item_package_contain" : 1,
+            "item_count_type" : "Box",
+            "product_weight" : "300g",
+            "currency" : "INR",
+            "box_dimensions_cm": {
+                "length": 8,
+                "width": 8,
+                "height": 11
+            },
+            "box_weight_g": 520
+        }
+    ],
+    "list": [
+        {
+            "id" : "sna1",
+            "category": "Rusk",
+            "brand" : "Classy",
+            "flavour" : "Eggless Cake Rusk",
+            "sub_flavour" : "Eggless Cake Rusk",
+            "description" : "Classy Eggless Cake Rusk is a perfectly baked crunchy delight made from soft eggless cake slices that are twice baked to achieve a golden crisp texture. With its light sweetness and satisfying crunch, it pairs wonderfully with tea or coffee, making it an ideal snack for any time of the day. Enjoy the rich taste and traditional bakery-style goodness in every bite.",
+            "thumbnail" : "/assets/image/product/rusk/eggless_cake_rusk.webp",
+            "images": [
+                "/assets/image/product/rusk/eggless_cake_rusk.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "150g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3600
+                },
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "200g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 4800
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "300g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3600
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "eggless cake rusk", "cake rusk", "tea rusk", "eggless rusk", "classy rusk", "crunchy rusk", "tea time snacks", "bakery rusk", "sweet rusk", "crispy rusk" ]
+        },
+        {
+            "id" : "sna2",
+            "category": "Rusk",
+            "brand" : "Classy",
+            "flavour" : "Milk Suji Rusk",
+            "sub_flavour" : "Milk Suji Rusk",
+            "description" : "Classy Milk Suji Rusk is a crunchy and delicious toasted snack made with fine semolina and milk, offering a rich flavor and perfect crispiness. Ideal for enjoying with tea or coffee anytime during the day.",
+            "thumbnail" : "/assets/image/product/rusk/milk_suji_rusk.webp",
+            "images": [
+                "/assets/image/product/rusk/milk_suji_rusk.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Pouch",
+                    "product_weight" : "250g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 6000
+                },
+                {
+                    "box_contains": "48",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Pouch",
+                    "product_weight" : "125g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 6000
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": ["milk suji rusk", "suji rusk", "milk rusk", "crispy rusk", "tea time rusk", "semolina rusk", "crunchy rusk", "toasted rusk", "indian rusk", "breakfast rusk", "tea snack", "classy rusk" ]
+        },
+        {
+            "id" : "sna3",
+            "category": "khari",
+            "brand" : "Classy",
+            "flavour" : "Methi Khari",
+            "sub_flavour" : "Methi Khari",
+            "description" : "Classy Methi Khari is a light and crispy puff pastry made with the rich flavor of fenugreek leaves. Perfectly baked to deliver a flaky texture, it is an ideal tea-time snack that offers a delicious savory taste in every bite.",
+            "thumbnail" : "/assets/image/product/khari/methi_khari.webp",
+            "images": [
+                "/assets/image/product/khari/methi_khari.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "200g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 2400
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "methi khari", "fenugreek khari", "khari biscuit", "puff pastry khari", "crispy khari", "savory khari snack", "tea time khari", "indian puff pastry", "methi puff snack", "bakery khari", "tea time snacks", "classy khari" ]
+        },
+        {
+            "id" : "sna4",
+            "category": "khari",
+            "brand" : "Classy",
+            "flavour" : "Masala Khari",
+            "sub_flavour" : "Masala Khari",
+            "description" : "Classy Masala Khari is a light, crispy, and flaky puff pastry infused with flavorful Indian spices. Perfectly baked for a crunchy texture, it is an ideal savory snack to enjoy with tea or coffee anytime.",
+            "thumbnail" : "/assets/image/product/khari/masala_khari.webp",
+            "images": [
+                "/assets/image/product/khari/masala_khari.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "200g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 2400
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "masala khari", "spiced khari", "khari biscuit", "puff pastry khari", "crispy khari", "savory khari snack", "tea time khari", "indian spiced snack", "masala puff pastry", "bakery khari", "tea time snacks","classy khari" ]
+        },
+        {
+            "id" : "sna5",
+            "category": "khari",
+            "brand" : "Classy",
+            "flavour" : "Butter Khari",
+            "sub_flavour" : "Butter Khari",
+            "description" : "Classy Butter Khari is a light, flaky, and crispy puff pastry made with rich buttery flavor. Perfectly baked to deliver a delicate crunch, it is an ideal tea-time snack that pairs wonderfully with tea or coffee.",
+            "thumbnail" : "/assets/image/product/khari/butter_khari.webp",
+            "images": [
+                "/assets/image/product/khari/butter_khari.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "200g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 2400
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "butter khari", "khari biscuit", "butter puff pastry", "crispy khari", "flaky khari", "savory khari snack", "tea time khari", "bakery khari", "butter puff snack", "indian puff pastry", "tea time snacks", "classy khari" ]
+        },
+        {
+            "id" : "sna6",
+            "category": "khari",
+            "brand" : "Classy",
+            "flavour" : "Jeera Khari",
+            "sub_flavour" : "Jeera Khari",
+            "description" : "Classy Jeera Khari is a light, flaky, and crispy puff pastry flavored with aromatic cumin seeds. Perfectly baked for a delightful crunch, it makes a tasty savory snack that pairs perfectly with tea or coffee.",
+            "thumbnail" : "/assets/image/product/khari/jeera_khari.webp",
+            "images": [
+                "/assets/image/product/khari/jeera_khari.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "200g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 2400
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "jeera khari", "cumin khari", "khari biscuit", "jeera puff pastry", "crispy khari", "savory khari snack", "tea time khari", "bakery khari", "cumin puff snack", "indian puff pastry", "tea time snacks", "classy khari" ]
+        }
+    ]
+}

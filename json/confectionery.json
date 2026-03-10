@@ -1562,7 +1562,8 @@
                 "assets/image/product/toffee/it_my_birthday_container.webp",
                 "assets/image/product/toffee/english_cow_truffles.webp",
                 "assets/image/product/toffee/luv_truffles_container.webp",
-                "assets/image/product/toffee/milk_truffles_container.webp"
+                "assets/image/product/toffee/milk_truffles_container.webp",
+                "assets/image/product/toffee/berlin.webp"
             ],
             "packaging": [
                 {
@@ -1616,6 +1617,372 @@
             "shelf_life_months": 12,
             "country_of_origin": "India",
             "tags": [ "assorted toffees", "jelly candy", "milk truffles", "coco truffles", "birthday toffee", "creamy sweets", "sweet treats", "confectionery", "kids favorites", "everyday candies" ]
+        },
+        {
+            "id" : "lol44",
+            "category": "Lollipop",
+            "brand" : "Classy Lollipop",
+            "flavour" : "Guava",
+            "sub_flavour" : "Classy Yummy Pop Bubble Gum Filled Guava Lollipop",
+            "description" : "Classy Bubble Gum Filled Guava Lollipop is a delicious fruity candy with a sweet guava flavor and a chewy bubble gum center. Perfect for kids and candy lovers, it offers a fun and flavorful treat in every lick.",
+            "thumbnail" : "/assets/image/product/lollipop/yummy_pop_guava.webp",
+            "images": [
+                "/assets/image/product/lollipop/yummy_pop_guava.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "16",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bag",
+                    "item_package_contain" : 50,
+                    "item_count_type" : "Pcs",
+                    "product_weight" : "15g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 12000
+                },
+                {
+                    "box_contains": "16",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bag",
+                    "item_package_contain" : 50,
+                    "item_count_type" : "Pcs",
+                    "product_weight" : "28g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 22400
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "guava lollipop", "bubble gum filled lollipop", "guava candy", "fruit flavored lollipop", "chewing gum lollipop", "sweet candy lollipop", "kids candy", "bubble gum candy", "fruit candy snack", "lollipop sweets", "guava flavored candy", "classy lollipop" ]
+        },
+        {
+            "id" : "lol45",
+            "category": "Lollipop",
+            "brand" : "Classy Lollipop",
+            "flavour" : "Strawberry",
+            "sub_flavour" : "Classy Yummy Pop Bubble Gum Filled Strawberry Lollipop",
+            "description" : "Classy Yummy Pop Bubble Gum Filled Strawberry Lollipop is a delightful fruity candy with a sweet strawberry flavor and a chewy bubble gum center. A fun and tasty treat for kids and candy lovers to enjoy anytime.",
+            "thumbnail" : "/assets/image/product/lollipop/yummy_pop_strawberry.webp",
+            "images": [
+                "/assets/image/product/lollipop/yummy_pop_strawberry.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "16",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bag",
+                    "item_package_contain" : 50,
+                    "item_count_type" : "Pcs",
+                    "product_weight" : "15g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 12000
+                },
+                {
+                    "box_contains": "16",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bag",
+                    "item_package_contain" : 50,
+                    "item_count_type" : "Pcs",
+                    "product_weight" : "28g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 22400
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "strawberry lollipop", "bubble gum filled lollipop", "strawberry candy", "fruit flavored lollipop", "chewing gum lollipop", "sweet candy lollipop", "kids candy", "bubble gum candy", "fruit candy snack", "lollipop sweets", "strawberry flavored candy", "classy lollipop" ]
+        },
+        {
+            "id" : "lol46",
+            "category": "Lollipop",
+            "brand" : "Classy Lollipop",
+            "flavour" : "Watermelon",
+            "sub_flavour" : "Classy Yummy Pop Bubble Gum Filled Watermelon Lollipop",
+            "description" : "Classy Yummy Pop Bubble Gum Filled Watermelon Lollipop is a refreshing fruity candy with a sweet watermelon flavor and a chewy bubble gum center. A fun and delicious treat perfect for kids and candy lovers anytime.",
+            "thumbnail" : "/assets/image/product/lollipop/yummy_pop_watermelon.webp",
+            "images": [
+                "/assets/image/product/lollipop/yummy_pop_watermelon.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "16",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bag",
+                    "item_package_contain" : 50,
+                    "item_count_type" : "Pcs",
+                    "product_weight" : "15g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 12000
+                },
+                {
+                    "box_contains": "16",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bag",
+                    "item_package_contain" : 50,
+                    "item_count_type" : "Pcs",
+                    "product_weight" : "28g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 22400
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "watermelon lollipop", "bubble gum filled lollipop", "watermelon candy", "fruit flavored lollipop", "chewing gum lollipop", "sweet candy lollipop", "kids candy", "bubble gum candy", "fruit candy snack", "lollipop sweets", "watermelon flavored candy", "classy lollipop" ]
+        },
+        {
+            "id" : "lol47",
+            "category": "Lollipop",
+            "brand" : "Classy Lollipop",
+            "flavour" : "Mango",
+            "sub_flavour" : "Classy Super Pop Bubble Gum Filled Mango Lollipop",
+            "description" : "Classy Super Pop Bubble Gum Filled Mango Lollipop is a delicious fruity candy with a rich mango flavor and a chewy bubble gum center. A fun and flavorful treat loved by kids and candy lovers for anytime enjoyment.",
+            "thumbnail" : "/assets/image/product/lollipop/super_pop_mango.webp",
+            "images": [
+                "/assets/image/product/lollipop/super_pop_mango.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Jar",
+                    "item_package_contain" : 100,
+                    "item_count_type" : "Pcs",
+                    "product_weight" : "15g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 18000
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Jar",
+                    "item_package_contain" : 100,
+                    "item_count_type" : "Pcs",
+                    "product_weight" : "18g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 21600
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Jar",
+                    "item_package_contain" : 100,
+                    "item_count_type" : "Pcs",
+                    "product_weight" : "24g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 28800
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "mango lollipop", "bubble gum filled lollipop", "super pop lollipop", "mango candy", "fruit flavored lollipop", "chewing gum lollipop", "sweet candy lollipop", "kids candy", "bubble gum candy", "fruit candy snack", "mango flavored candy", "classy lollipop" ]
+        },
+        {
+            "id" : "lol48",
+            "category": "Lollipop",
+            "brand" : "Classy Lollipop",
+            "flavour" : "Strawberry",
+            "sub_flavour" : "Classy Super Pop Bubble Gum Filled Strawberry Lollipop",
+            "description" : "Classy Super Pop Bubble Gum Filled Strawberry Lollipop is a tasty fruity candy with a sweet strawberry flavor and a chewy bubble gum center. A fun and delightful treat for kids and candy lovers to enjoy anytime.",
+            "thumbnail" : "/assets/image/product/lollipop/super_pop_strawberry.webp",
+            "images": [
+                "/assets/image/product/lollipop/super_pop_strawberry.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Jar",
+                    "item_package_contain" : 100,
+                    "item_count_type" : "Pcs",
+                    "product_weight" : "15g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 18000
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Jar",
+                    "item_package_contain" : 100,
+                    "item_count_type" : "Pcs",
+                    "product_weight" : "18g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 21600
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Jar",
+                    "item_package_contain" : 100,
+                    "item_count_type" : "Pcs",
+                    "product_weight" : "24g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 28800
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "strawberry lollipop", "bubble gum filled lollipop", "super pop lollipop", "strawberry candy", "fruit flavored lollipop", "chewing gum lollipop", "sweet candy lollipop", "kids candy", "bubble gum candy", "fruit candy snack", "strawberry flavored candy", "classy lollipop" ]
+        },
+        {
+            "id" : "to49",
+            "category": "Toffee",
+            "brand" : "Classy Toffee",
+            "flavour" : "Eclairs Creamy Milk",
+            "sub_flavour" : "Classy Eclairs Creamy Milk Toffee",
+            "description" : "Classy Eclairs Creamy Milk Toffee is a rich and delicious candy made with smooth creamy milk flavor and a soft, chewy texture. A delightful sweet treat perfect for enjoying anytime or sharing with family and friends.",
+            "thumbnail" : "/assets/image/product/toffee/eclair_creamy_milk_toffee.webp",
+            "images": [
+                "/assets/image/product/toffee/eclair_creamy_milk_toffee.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Pouch",
+                    "product_weight" : "400g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 9600
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Pouch",
+                    "product_weight" : "700g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 8400
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Pouch",
+                    "product_weight" : "550g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 6600
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "milk eclairs", "creamy milk toffee", "eclairs candy", "milk toffee", "chewy milk candy", "milk flavored toffee", "sweet candy", "milk candy snack", "cream filled toffee", "toffee sweets", "kids candy", "classy eclairs" ]
+        },
+        {
+            "id" : "to50",
+            "category": "Toffee",
+            "brand" : "Classy Toffee",
+            "flavour" : "Eclairs Fine Chocolate",
+            "sub_flavour" : "Classy Eclairs Fine Chocolate Toffee",
+            "description" : "Classy Eclairs Fine Chocolate Toffee is a delicious chewy candy with rich chocolate flavor and a smooth creamy center. A delightful sweet treat perfect for chocolate lovers to enjoy anytime.",
+            "thumbnail" : "/assets/image/product/toffee/eclair_fine_chocolate_toffee.webp",
+            "images": [
+                "/assets/image/product/toffee/eclair_fine_chocolate_toffee.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Pouch",
+                    "product_weight" : "400g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 9600
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Pouch",
+                    "product_weight" : "700g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 8400
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Pouch",
+                    "product_weight" : "550g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 6600
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "chocolate eclairs", "fine chocolate toffee", "chocolate toffee", "eclairs candy", "chewy chocolate candy", "chocolate flavored toffee", "sweet chocolate candy", "cream filled chocolate toffee", "chocolate candy snack", "toffee sweets", "kids candy", "classy eclairs" ]
         }
     ]
 }

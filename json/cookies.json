@@ -235,42 +235,30 @@
             "id" : "coo9",
             "category": "Cookies",
             "brand" : "Classy",
-            "flavour" : "Eggless Cake Rusk",
-            "sub_flavour" : "Eggless Cake Rusk",
-            "description" : "Classy Eggless Cake Rusk is a perfectly baked crunchy delight made from soft eggless cake slices that are twice baked to achieve a golden crisp texture. With its light sweetness and satisfying crunch, it pairs wonderfully with tea or coffee, making it an ideal snack for any time of the day. Enjoy the rich taste and traditional bakery-style goodness in every bite.",
-            "thumbnail" : "/assets/image/product/cookies/webp/eggless_cake_rusk.webp",
+            "flavour" : "Butter",
+            "sub_flavour" : "Danish Butter Cookies",
+            "description" : "Classy Danish Butter Cookies are rich, crispy, and delicious cookies made with a smooth buttery flavor that melts in your mouth. Perfect for enjoying with tea, coffee, or as a delightful snack for any occasion.",
+            "thumbnail" : "/assets/image/product/cookies/webp/butter_cookies.webp",
             "images": [
-                "/assets/image/product/cookies/webp/eggless_cake_rusk.webp"
+                "/assets/image/product/cookies/webp/butter_cookies.webp"
             ],
             "packaging": [
                 {
-                    "box_contains": "24",
+                    "box_contains": "12",
                     "box_material" : "Carton",
-                    "item_package_material" : "Box",
-                    "product_weight" : "150g",
+                    "item_package_material" : "Tin",
+                    "product_weight" : "340g",
                     "box_dimensions_cm": {
                         "length": 8,
                         "width": 8,
                         "height": 11
                     },
-                    "box_weight_g": 3600
-                },
-                {
-                    "box_contains": "24",
-                    "box_material" : "Carton",
-                    "item_package_material" : "Box",
-                    "product_weight" : "200g",
-                    "box_dimensions_cm": {
-                        "length": 8,
-                        "width": 8,
-                        "height": 11
-                    },
-                    "box_weight_g": 4800
+                    "box_weight_g": 4080
                 },
                 {
                     "box_contains": "12",
                     "box_material" : "Carton",
-                    "item_package_material" : "Box",
+                    "item_package_material" : "Tin",
                     "product_weight" : "300g",
                     "box_dimensions_cm": {
                         "length": 8,
@@ -278,13 +266,25 @@
                         "height": 11
                     },
                     "box_weight_g": 3600
+                },
+                {
+                    "box_contains": "6",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Tin",
+                    "product_weight" : "680g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 4080
                 }
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
             "country_of_origin": "India",
-            "tags": [ "eggless cake rusk", "cake rusk", "tea rusk", "eggless rusk", "classy rusk", "crunchy rusk", "tea time snacks", "bakery rusk", "sweet rusk", "crispy rusk" ]
-        },
+            "tags": ["danish butter cookies", "butter cookies", "crispy butter cookies", "classic butter biscuits", "premium butter cookies", "tea time cookies", "buttery cookies", "danish style cookies", "sweet butter biscuits", "cookie snack", "butter biscuit", "classy cookies" ]
+        }
         {
             "id" : "coo10",
             "category": "Cookies",

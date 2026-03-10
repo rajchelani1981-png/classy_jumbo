@@ -262,6 +262,10 @@
                     {
                         "title" : "Toffee",
                         "route" : "#/product/confectionery/category-toffee"
+                    },
+                    {
+                        "title" : "Lollipop",
+                        "route" : "#/product/confectionery/category-lollipop"
                     }
                 ]
             },
@@ -284,6 +288,20 @@
                     {
                         "title" : "Fruit Rings",
                         "route" : "#/product/cereals/category-fruit rings"
+                    }
+                ]
+            },
+            {
+                "title": "Tea Time Snacks",
+                "route": "#/product/snacks",
+                "submenu": [
+                    {
+                        "title" : "Rusk",
+                        "route" : "#/product/snacks/category-rusk"
+                    },
+                    {
+                        "title" : "Khari",
+                        "route" : "#/product/snacks/category-khari"
                     }
                 ]
             }

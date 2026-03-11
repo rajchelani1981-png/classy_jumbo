@@ -235,8 +235,11 @@
                     {
                         "title" : "Peri Peri Chips",
                         "route" : "#/product/chips/flavour-peri peri"
+                    },
+                    {
+                        "title" : "Tin Chips",
+                        "route" : "#/product/chips/category-tin chips"
                     }
-                    
                 ]
             },
             {
@@ -266,6 +269,10 @@
                     {
                         "title" : "Lollipop",
                         "route" : "#/product/confectionery/category-lollipop"
+                    },
+                    {
+                        "title" : "Spread",
+                        "route" : "#/product/confectionery/category-spread"
                     }
                 ]
             },

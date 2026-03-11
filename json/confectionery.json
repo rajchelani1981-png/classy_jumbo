@@ -1983,6 +1983,253 @@
             "shelf_life_months": 12,
             "country_of_origin": "India",
             "tags": [ "chocolate eclairs", "fine chocolate toffee", "chocolate toffee", "eclairs candy", "chewy chocolate candy", "chocolate flavored toffee", "sweet chocolate candy", "cream filled chocolate toffee", "chocolate candy snack", "toffee sweets", "kids candy", "classy eclairs" ]
+        },
+        {
+            "id" : "spr51",
+            "category": "Spread",
+            "brand" : "Classy Spread",
+            "flavour" : "Hazelnut Cream Cocoa And Milky",
+            "sub_flavour" : "Classy Hazelnut Cream Cocoa And Milky Spread",
+            "description" : "Classy Hazelnut Cream Cocoa and Milky Spread is a smooth and delicious chocolate spread made with rich cocoa, creamy milk, and the delightful taste of hazelnuts. Perfect for spreading on bread, toast, pancakes, or using in desserts for a tasty treat anytime.",
+            "thumbnail" : "/assets/image/product/spread/hazelnut_cream_cocoa_and_milky_spread.webp",
+            "images": [
+                "/assets/image/product/spread/hazelnut_cream_cocoa_and_milky_spread.webp",
+                "/assets/image/product/spread/hazelnut_cream_cocoa_and_milky_spread_2.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Jar",
+                    "product_weight" : "350g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 4200
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Jar",
+                    "product_weight" : "700g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 8400
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "hazelnut cocoa spread", "hazelnut milk spread", "chocolate hazelnut spread", "cocoa and milk spread", "hazelnut cream spread", "chocolate spread", "bread spread", "breakfast spread", "dessert spread", "sweet spread", "chocolate hazelnut cream", "classy spread" ]
+        },
+        {
+            "id" : "spr52",
+            "category": "Spread",
+            "brand" : "Classy Spread",
+            "flavour" : "Hazelnut Cream With Cocoa",
+            "sub_flavour" : "Classy Hazelnut Cream With Cocoa Spread",
+            "description" : "Classy Hazelnut Cream with Cocoa Spread is a smooth and creamy chocolate spread made with rich cocoa and delicious hazelnut flavor. Perfect for spreading on bread, toast, pancakes, or using in desserts for a delightful chocolatey treat.",
+            "thumbnail" : "/assets/image/product/spread/hazelnut_cream_with_cocoa.webp",
+            "images": [
+                "/assets/image/product/spread/hazelnut_cream_with_cocoa.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "6",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Tub",
+                    "product_weight" : "700g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 4200
+                },
+                {
+                    "box_contains": "6",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Tub",
+                    "product_weight" : "800g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 4800
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "hazelnut cocoa spread", "hazelnut cream spread", "chocolate hazelnut spread", "cocoa spread", "chocolate spread", "bread spread", "breakfast spread", "hazelnut chocolate cream", "dessert spread", "sweet spread", "chocolate hazelnut cream", "classy spread" ]
+        },
+        {
+            "id" : "spr53",
+            "category": "Spread",
+            "brand" : "Classy Spread",
+            "flavour" : "Cashew",
+            "sub_flavour" : "Classy Cashew Spread",
+            "description" : "Classy Cashew Spread is a smooth and creamy spread made with the rich taste of premium cashews. Perfect for spreading on bread, toast, pancakes, or adding to desserts for a delicious nutty flavor anytime.",
+            "thumbnail" : "/assets/image/product/spread/cashew_spread.webp",
+            "images": [
+                "/assets/image/product/spread/cashew_spread.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Jar",
+                    "product_weight" : "340g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 4080
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Jar",
+                    "product_weight" : "500g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 6000
+                },
+                {
+                    "box_contains": "6",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Jar",
+                    "product_weight" : "1kg",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 6000
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "cashew spread", "cashew cream spread", "nut spread", "cashew butter spread", "cashew flavored spread", "bread spread", "breakfast spread", "sweet cashew spread", "dessert spread", "nut cream spread", "cashew butter", "classy spread" ]
+        },
+        {
+            "id" : "spr54",
+            "category": "Spread",
+            "brand" : "Classy Spread",
+            "flavour" : "Pistachio",
+            "sub_flavour" : "Classy Pistachio Spread",
+            "description" : "Classy Pistachio Spread is a smooth and creamy spread made with the rich and delicious flavor of premium pistachios. Perfect for spreading on bread, toast, pancakes, or using in desserts for a delightful nutty treat anytime.",
+            "thumbnail" : "/assets/image/product/spread/pistachio_spread.webp",
+            "images": [
+                "/assets/image/product/spread/pistachio_spread.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Jar",
+                    "product_weight" : "340g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 4080
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Jar",
+                    "product_weight" : "500g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 6000
+                },
+                {
+                    "box_contains": "6",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Jar",
+                    "product_weight" : "1kg",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 6000
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "pistachio spread", "pistachio cream spread", "pistachio butter", "nut spread", "pistachio flavored spread", "bread spread", "breakfast spread", "dessert spread", "sweet pistachio spread", "nut cream spread", "pistachio cream", "classy spread" ]
+        },
+        {
+            "id" : "spr55",
+            "category": "Spread",
+            "brand" : "Classy Spread",
+            "flavour" : "Biscream",
+            "sub_flavour" : "Classy Biscream Spread",
+            "description" : "Classy Biscream Spread is a smooth and delicious biscuit cream flavored spread with a rich chocolaty twist. Perfect for spreading on bread, toast, pancakes, or using in desserts for a delightful sweet treat anytime.",
+            "thumbnail" : "/assets/image/product/spread/biscream_spread.webp",
+            "images": [
+                "/assets/image/product/spread/biscream_spread.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Jar",
+                    "product_weight" : "340g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 4080
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Jar",
+                    "product_weight" : "500g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 6000
+                },
+                {
+                    "box_contains": "6",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Jar",
+                    "product_weight" : "1kg",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 6000
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "biscream spread", "biscuit cream spread", "chocolate biscuit spread", "biscuit flavored spread", "bread spread", "breakfast spread", "dessert spread", "sweet spread", "chocolate cream spread", "biscuit cream", "chocolate biscuit cream", "classy spread" ]
         }
     ]
 }

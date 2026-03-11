@@ -22,7 +22,7 @@
                 "width": 8,
                 "height": 11
             },
-            "box_weight_g": 520
+            "box_weight_g": 1680
         },
         {
             "box_contains": "60",
@@ -38,7 +38,23 @@
                 "width": 8,
                 "height": 11
             },
-            "box_weight_g": 520
+            "box_weight_g": 1800
+        },
+        {
+            "box_contains": "60",
+            "box_material" : "Carton",
+            "item_package_material" : "Pouch",
+            "item_package_contain" : 1,
+            "item_count_type" : "Pouch",
+            "product_weight" : "100g",
+            "product_mrp" : "10",
+            "currency" : "INR",
+            "box_dimensions_cm": {
+                "length": 8,
+                "width": 8,
+                "height": 11
+            },
+            "box_weight_g": 6000
         }
     ],
     "list": [
@@ -185,6 +201,167 @@
             "shelf_life_months": 12,
             "country_of_origin": "India",
             "tags": [ "tangy-tomato", "tomato", "tangy", "chips", "snacks", "crispy", "savory", "zesty", "classic-flavour", "everyday-snack"]
+        },
+        {
+            "id" : "ch10",
+            "category": "Tin Chips",
+            "brand" : "Classy Chips",
+            "flavour" : "Barbecue",
+            "sub_flavour" : "Classy Barbecue Tin Chips",
+            "description" : "Crispy, smoky, and perfectly seasoned, Classy Barbecue Tin Chips deliver a bold barbecue flavor with every crunchy bite. Packed in a stylish tin for freshness, they’re the perfect snack for parties, travel, or anytime cravings.",
+            "thumbnail" : "/assets/image/product/tin_chips/tin_chips_barbecue.webp",
+            "images": [
+                "/assets/image/product/tin_chips/tin_chips_barbecue.webp"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "barbecue chips", "smoky flavor chips", "crunchy snacks", "tin packed chips", "party snacks", "gourmet chips", "flavored potato chips", "bbq snack", "premium snacks", "crispy chips" ]
+        },
+        {
+            "id" : "ch11",
+            "category": "Tin Chips",
+            "brand" : "Classy Chips",
+            "flavour" : "Sour Cream and Onion",
+            "sub_flavour" : "Classy Sour Cream and Onion Tin Chips",
+            "description" : "Rich, creamy, and perfectly seasoned, Classy Sour Cream and Onion Tin Chips offer a smooth blend of tangy sour cream and savory onion flavor in every crunchy bite. Packed in a stylish tin to keep the chips fresh and delicious.",
+            "thumbnail" : "/assets/image/product/tin_chips/tin_chips_sour_cream_and_onion.webp",
+            "images": [
+                "/assets/image/product/tin_chips/tin_chips_sour_cream_and_onion.webp"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "sour cream and onion chips", "creamy flavored chips", "savory snacks", "tin packed chips", "party snacks", "gourmet chips", "flavored potato chips", "premium snacks", "crispy chips", "onion flavored chips" ]
+        },
+        {
+            "id" : "ch12",
+            "category": "Tin Chips",
+            "brand" : "Classy Chips",
+            "flavour" : "Salt And Vinegar",
+            "sub_flavour" : "Classy Salt And Vinegar Tin Chips",
+            "description" : "Tangy, bold, and irresistibly crunchy, Classy Salt And Vinegar Tin Chips combine the perfect balance of zesty vinegar and savory salt. Packed in a stylish tin to keep every chip fresh and full of flavor.",
+            "thumbnail" : "/assets/image/product/tin_chips/tin_chips_salt_and_vinegar.webp",
+            "images": [
+                "/assets/image/product/tin_chips/tin_chips_salt_and_vinegar.webp"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "salt and vinegar chips", "tangy flavored chips", "crispy snacks", "tin packed chips", "party snacks", "gourmet chips", "flavored potato chips", "premium snacks", "savory chips", "crunchy chips" ]
+        },
+        {
+            "id" : "ch13",
+            "category": "Tin Chips",
+            "brand" : "Classy Chips",
+            "flavour" : "Cheese",
+            "sub_flavour" : "Classy Cheese Tin Chips",
+            "description" : "Deliciously crunchy and packed with rich cheesy flavor, Classy Cheese Tin Chips offer a smooth and savory taste in every bite. Sealed in a stylish tin to keep the chips fresh and perfectly crisp.",
+            "thumbnail" : "/assets/image/product/tin_chips/tin_chips_cheese.webp",
+            "images": [
+                "/assets/image/product/tin_chips/tin_chips_cheese.webp"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "cheese chips", "cheesy flavored chips", "crispy snacks", "tin packed chips", "party snacks", "gourmet chips", "flavored potato chips", "premium snacks", "savory snacks", "crunchy chips" ]
+        },
+        {
+            "id" : "ch14",
+            "category": "Tin Chips",
+            "brand" : "Classy Chips",
+            "flavour" : "Original",
+            "sub_flavour" : "Classy Original Tin Chips",
+            "description" : "Simple, crispy, and perfectly salted, Classy Original Tin Chips deliver the classic potato chip taste everyone loves. Packed in a stylish tin to keep every chip fresh, crunchy, and ready to enjoy anytime.",
+            "thumbnail" : "/assets/image/product/tin_chips/tin_chips_original.webp",
+            "images": [
+                "/assets/image/product/tin_chips/tin_chips_original.webp"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "original chips", "classic potato chips", "crispy snacks", "tin packed chips", "party snacks", "gourmet chips", "salted chips", "premium snacks", "savory snacks", "crunchy chips" ]
+        },
+        {
+            "id" : "ch15",
+            "category": "Tin Chips",
+            "brand" : "Classy Chips",
+            "flavour" : "Hot and Spicy",
+            "sub_flavour" : "Classy Hot and Spicy Tin Chips",
+            "description" : "Bold, fiery, and irresistibly crunchy, Classy Hot and Spicy Tin Chips bring the perfect kick of heat with every bite. Packed in a stylish tin to keep the chips fresh, crispy, and full of intense flavor.",
+            "thumbnail" : "/assets/image/product/tin_chips/tin_chips_hot_and_spicy.webp",
+            "images": [
+                "/assets/image/product/tin_chips/tin_chips_hot_and_spicy.webp"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "hot and spicy chips", "spicy flavored chips", "crispy snacks", "tin packed chips", "party snacks", "gourmet chips", "flavored potato chips", "premium snacks", "spicy snacks", "crunchy chips" ]
+        },
+        {
+            "id" : "ch16",
+            "category": "Potato Sticks",
+            "brand" : "Classy Sticks",
+            "flavour" : "Tomato",
+            "sub_flavour" : "Classy Tomato Potato Sticks",
+            "description" : "Crispy and flavorful, Classy Tomato Potato Sticks offer a delicious blend of tangy tomato seasoning and crunchy potato sticks. Perfectly packed to keep them fresh, they make a tasty snack for any time of the day.",
+            "thumbnail" : "/assets/image/product/sticks/sticks_tomato.webp",
+            "images": [
+                "/assets/image/product/sticks/sticks_tomato.webp"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "tomato potato sticks", "tomato flavored snacks", "crispy potato sticks", "crunchy snacks", "party snacks", "savory snacks", "flavored potato sticks", "premium snacks", "tangy snacks", "snack sticks" ]
+        },
+        {
+            "id" : "ch17",
+            "category": "Potato Sticks",
+            "brand" : "Classy Sticks",
+            "flavour" : "Hot and Spicy",
+            "sub_flavour" : "Classy Hot and Spicy Potato Sticks",
+            "description" : "Crunchy and full of fiery flavor, Classy Hot and Spicy Potato Sticks deliver a bold blend of spices in every bite. Perfectly packed to keep them fresh and crispy, they are an ideal snack for those who love a spicy kick.",
+            "thumbnail" : "/assets/image/product/sticks/sticks_hot_and_spicy.webp",
+            "images": [
+                "/assets/image/product/sticks/sticks_hot_and_spicy.webp"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "hot and spicy potato sticks", "spicy flavored snacks", "crispy potato sticks", "crunchy snacks", "party snacks", "savory snacks", "flavored potato sticks", "premium snacks", "spicy snacks", "snack sticks" ]
+        },
+        {
+            "id" : "ch18",
+            "category": "Potato Sticks",
+            "brand" : "Classy Sticks",
+            "flavour" : "Cheddar Cheese",
+            "sub_flavour" : "Classy Cheddar Cheese Potato Sticks",
+            "description" : "Crispy and packed with rich cheddar flavor, Classy Cheddar Cheese Potato Sticks offer a deliciously cheesy crunch in every bite. Perfectly seasoned and sealed for freshness, they make a satisfying snack anytime.",
+            "thumbnail" : "/assets/image/product/sticks/sticks_cheddar_cheese.webp",
+            "images": [
+                "/assets/image/product/sticks/sticks_cheddar_cheese.webp"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "cheddar cheese potato sticks", "cheesy flavored snacks", "crispy potato sticks", "crunchy snacks", "party snacks", "savory snacks", "flavored potato sticks", "premium snacks", "cheddar snacks", "snack sticks" ]
+        },
+        {
+            "id" : "ch19",
+            "category": "Potato Sticks",
+            "brand" : "Classy Sticks",
+            "flavour" : "Salted",
+            "sub_flavour" : "Classy Salted Potato Sticks",
+            "description" : "Light, crispy, and perfectly seasoned, Classy Salted Potato Sticks deliver the classic salted potato taste with a satisfying crunch. Packed for freshness, they are a simple and delicious snack for any time.",
+            "thumbnail" : "/assets/image/product/sticks/sticks_salted.webp",
+            "images": [
+                "/assets/image/product/sticks/sticks_salted.webp"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "salted potato sticks", "classic potato snacks", "crispy potato sticks", "crunchy snacks", "party snacks", "savory snacks", "potato stick snacks", "premium snacks", "salted snacks", "snack sticks" ]
         }
+        write packaging in tin chips and sticks
     ]
 }

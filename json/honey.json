@@ -1,0 +1,74 @@
+{
+    "bannerImage" : {
+        "img": "/assets/image/sliding/toffee/toffee_desktop.jpeg",
+        "tablet_img" : "/assets/image/sliding/toffee/toffee_tablet.jpeg",
+        "mobile_img" : "/assets/image/sliding/toffee/toffee_mobile.jpeg",
+        "img_webp" : "/assets/image/sliding/toffee/webp/toffee_desktop.webp",
+        "tablet_webp" : "/assets/image/sliding/toffee/webp/toffee_tablet.webp",
+        "mobile_webp" : "/assets/image/sliding/toffee/webp/toffee_mobile.webp"
+    },
+    "packaging": [
+        {
+            "box_contains": "12",
+            "box_material" : "Carton",
+            "item_package_material" : "Pcs",
+            "item_package_contain" : 1,
+            "item_count_type" : "Pcs",
+            "product_weight" : "400g",
+            "box_dimensions_cm": {
+                "length": 8,
+                "width": 8,
+                "height": 11
+            },
+            "box_weight_g": 4800
+        },
+        {
+            "box_contains": "12",
+            "box_material" : "Carton",
+            "item_package_material" : "Pcs",
+            "item_package_contain" : 1,
+            "item_count_type" : "Pcs",
+            "product_weight" : "500g",
+            "box_dimensions_cm": {
+                "length": 8,
+                "width": 8,
+                "height": 11
+            },
+            "box_weight_g": 6000
+        },
+        {
+            "box_contains": "6",
+            "box_material" : "Carton",
+            "item_package_material" : "Pcs",
+            "item_package_contain" : 1,
+            "item_count_type" : "Pcs",
+            "product_weight" : "1kg",
+            "box_dimensions_cm": {
+                "length": 8,
+                "width": 8,
+                "height": 11
+            },
+            "box_weight_g": 6000
+        }
+    ],
+    "list": [
+        {
+            "id" : "ho1",
+            "category": "Honey",
+            "brand" : "Classy Honey",
+            "flavour" : "Natural Honey",
+            "sub_flavour" : "Classy Natural Honey",
+            "description" : "Pure, smooth, and naturally sweet, Classy Natural Honey is harvested from high-quality nectar to deliver rich flavor and natural goodness. Perfect for sweetening beverages, drizzling over breakfast, or adding a natural touch to your favorite recipes.",
+            "thumbnail" : "/assets/image/product/honey/honey_1kg.webp",
+            "images": [
+                "/assets/image/product/honey/honey_1kg.webp",
+                "/assets/image/product/honey/honey_400g.webp",
+                "/assets/image/product/honey/honey_500g.webp"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "natural honey", "pure honey", "raw honey", "healthy sweetener", "organic honey", "honey for tea", "natural sweetener", "premium honey", "breakfast honey", "honey product" ]
+        }
+    ]
+}

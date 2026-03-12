@@ -1,0 +1,88 @@
+{
+    "bannerImage" : {
+        "img": "/assets/image/sliding/toffee/toffee_desktop.jpeg",
+        "tablet_img" : "/assets/image/sliding/toffee/toffee_tablet.jpeg",
+        "mobile_img" : "/assets/image/sliding/toffee/toffee_mobile.jpeg",
+        "img_webp" : "/assets/image/sliding/toffee/webp/toffee_desktop.webp",
+        "tablet_webp" : "/assets/image/sliding/toffee/webp/toffee_tablet.webp",
+        "mobile_webp" : "/assets/image/sliding/toffee/webp/toffee_mobile.webp"
+    },
+    "packaging": [
+        {
+            "box_contains": "12",
+            "box_material" : "Carton",
+            "item_package_material" : "Jar",
+            "item_package_contain" : 1,
+            "item_count_type" : "Jar",
+            "product_weight" : "370g",
+            "box_dimensions_cm": {
+                "length": 8,
+                "width": 8,
+                "height": 11
+            },
+            "box_weight_g": 520
+        }   
+    ],
+    "list": [
+        {
+            "id" : "tin1",
+            "category": "Tin Food",
+            "brand" : "Classy",
+            "flavour" : "Whole Kernel Sweet Corn",
+            "sub_flavour" : "Classy Whole Kernel Sweet Corn",
+            "description" : "Fresh, tender, and naturally sweet, Classy Whole Kernel Sweet Corn is carefully packed in a tin to preserve its rich flavor and quality. Perfect for salads, soups, and a variety of delicious recipes.",
+            "thumbnail" : "/assets/image/product/tin_food/whole_kernel_sweet_corn.webp",
+            "images": [
+                "/assets/image/product/tin_food/whole_kernel_sweet_corn.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Tin",
+                    "item_package_contain" : 1,
+                    "item_count_type" : "Tin",
+                    "product_weight" : "400g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 9600
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Tin",
+                    "item_package_contain" : 1,
+                    "item_count_type" : "Tin",
+                    "product_weight" : "800g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 9600
+                },
+                {
+                    "box_contains": "6",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Tin",
+                    "item_package_contain" : 1,
+                    "item_count_type" : "Tin",
+                    "product_weight" : "2.84kg",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 17040
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "sweet corn", "whole kernel corn", "canned corn", "tin sweet corn", "ready to use corn", "corn for salads", "corn for cooking", "premium canned food", "sweet corn kernels", "vegetable tin food" ]
+        }
+    ]
+}

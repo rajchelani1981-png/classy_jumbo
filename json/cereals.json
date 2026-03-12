@@ -36,7 +36,32 @@
             "images": [
                 "/assets/image/product/cereals/webp/chocoFlakes.webp"
             ],
-            "net_weight" : "375g",
+            "packaging": [
+                {
+                    "box_contains": "15",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "375g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 5625
+                },
+                {
+                    "box_contains": "60",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "60g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3600
+                }
+            ],
             "pack_size": "1",
             "shelf_life_months": 12,
             "country_of_origin": "India",
@@ -53,7 +78,44 @@
             "images": [
                 "/assets/image/product/cereals/webp/cornFlakes.webp"
             ],
-            "net_weight" : "375g",
+            "packaging": [
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "375g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 9000
+                },
+                {
+                    "box_contains": "60",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "60g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3600
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "500g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 6000
+                }
+            ],
             "pack_size": "1",
             "shelf_life_months": 12,
             "country_of_origin": "India",
@@ -69,6 +131,32 @@
             "thumbnail" : "/assets/image/product/cereals/webp/fruitRings.webp",
             "images": [
                 "/assets/image/product/cereals/webp/fruitRings.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "15",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "350g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 5250
+                },
+                {
+                    "box_contains": "60",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "60g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3600
+                }
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -86,10 +174,186 @@
             "images": [
                 "/assets/image/product/cereals/webp/miniChocoBalls.webp"
             ],
+            "packaging": [
+                {
+                    "box_contains": "15",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "350g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 5250
+                },
+                {
+                    "box_contains": "60",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "60g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3600
+                }
+            ],
             "pack_size": "1",
             "shelf_life_months": 12,
             "country_of_origin": "India",
             "tags": [ "mini-choco-balls", "chocolate-cereal", "cereals", "breakfast", "chocolatey", "crispy", "kids-favorite", "fun-snack", "energy-boost", "snack-cereal" ]
+        },
+        {
+            "id" : "ce5",
+            "category": "Muesli",
+            "brand" : "Classy Muesli",
+            "flavour" : "Chocolate And Cranberry",
+            "sub_flavour" : "Chocolate And Cranberry Muesli",
+            "description" : "A delicious blend of crunchy grains, rich chocolate pieces, and tangy cranberries, Classy Chocolate And Cranberry Muesli offers the perfect balance of sweetness and nutrition. Ideal for a wholesome breakfast or a healthy snack anytime.",
+            "thumbnail" : "/assets/image/product/muesli/chocolate_and_cranberry_muesli.webp",
+            "images": [
+                "/assets/image/product/muesli/chocolate_and_cranberry_muesli.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "15",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "350g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 5250
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "chocolate cranberry muesli", "healthy breakfast cereal", "muesli mix", "chocolate muesli", "cranberry cereal", "nutritious breakfast", "whole grain cereal", "healthy snacks", "breakfast muesli", "premium muesli" ]
+        },
+        {
+            "id" : "ce6",
+            "category": "Muesli",
+            "brand" : "Classy Muesli",
+            "flavour" : "Nutty Delight",
+            "sub_flavour" : "Nutty Delight Muesli",
+            "description" : "A wholesome mix of crunchy grains and rich nuts, Classy Nutty Delight Muesli delivers a delicious and nutritious start to your day. Packed with natural goodness and satisfying flavor, it’s perfect for a healthy breakfast or snack.",
+            "thumbnail" : "/assets/image/product/muesli/nutty_delight_muesli.webp",
+            "images": [
+                "/assets/image/product/muesli/nutty_delight_muesli.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "15",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "350g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 5250
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "nutty muesli", "healthy breakfast cereal", "muesli mix", "nut and grain cereal", "nutritious breakfast", "whole grain cereal", "healthy snacks", "breakfast muesli", "premium muesli", "nutty delight cereal" ]
+        },
+        {
+            "id" : "ce7",
+            "category": "Muesli",
+            "brand" : "Classy Muesli",
+            "flavour" : "Fruit And Nut",
+            "sub_flavour" : "Fruit And Nut Muesli",
+            "description" : "A delightful blend of crunchy grains, sweet dried fruits, and nutritious nuts, Classy Fruit And Nut Muesli offers a perfect balance of taste and health. Ideal for a wholesome breakfast or a satisfying snack any time of the day.",
+            "thumbnail" : "/assets/image/product/muesli/fruit_and_nut_muesli.webp",
+            "images": [
+                "/assets/image/product/muesli/fruit_and_nut_muesli.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "15",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "350g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 5250
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "fruit and nut muesli", "healthy breakfast cereal", "muesli mix", "fruit cereal", "nut and grain cereal", "nutritious breakfast", "whole grain cereal", "healthy snacks", "breakfast muesli", "premium muesli" ]
+        },
+        {
+            "id" : "ce8",
+            "category": "Muesli",
+            "brand" : "Classy Muesli",
+            "flavour" : "Diet",
+            "sub_flavour" : "Diet Muesli",
+            "description" : "Light, nutritious, and full of natural goodness, Classy Diet Muesli is a balanced blend of wholesome grains, fruits, and seeds designed for a healthy lifestyle. Perfect for a low-fat, high-fiber breakfast or a guilt-free snack.",
+            "thumbnail" : "/assets/image/product/muesli/diet_muesli.webp",
+            "images": [
+                "/assets/image/product/muesli/diet_muesli.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "15",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "350g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 5250
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "diet muesli", "healthy breakfast cereal", "low fat cereal", "high fiber muesli", "weight management food", "nutritious breakfast", "whole grain cereal", "healthy snacks", "breakfast muesli", "fitness cereal" ]
+        },
+        {
+            "id" : "ce9",
+            "category": "Muesli",
+            "brand" : "Classy Muesli",
+            "flavour" : "Strawberry",
+            "sub_flavour" : "Strawberry Muesli",
+            "description" : "A delightful mix of crunchy grains and sweet strawberry pieces, Classy Strawberry Muesli offers a refreshing fruity taste with wholesome nutrition. Perfect for a healthy breakfast or a tasty snack anytime.",
+            "thumbnail" : "/assets/image/product/muesli/strawberry_muesli.webp",
+            "images": [
+                "/assets/image/product/muesli/strawberry_muesli.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "15",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "product_weight" : "350g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 5250
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "strawberry muesli", "healthy breakfast cereal", "fruit flavored muesli", "strawberry cereal", "muesli mix", "nutritious breakfast", "whole grain cereal", "healthy snacks", "breakfast muesli", "premium muesli" ]
         }
     ]
-}   
+}

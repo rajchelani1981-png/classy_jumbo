@@ -213,6 +213,20 @@
             "images": [
                 "/assets/image/product/tin_chips/tin_chips_barbecue.webp"
             ],
+            "packaging": [
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Pcs",
+                    "product_weight" : "110g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 2640
+                }
+            ],
             "pack_size": "1",
             "shelf_life_months": 12,
             "country_of_origin": "India",
@@ -228,6 +242,20 @@
             "thumbnail" : "/assets/image/product/tin_chips/tin_chips_sour_cream_and_onion.webp",
             "images": [
                 "/assets/image/product/tin_chips/tin_chips_sour_cream_and_onion.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Pcs",
+                    "product_weight" : "110g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 2640
+                }
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -245,6 +273,20 @@
             "images": [
                 "/assets/image/product/tin_chips/tin_chips_salt_and_vinegar.webp"
             ],
+            "packaging": [
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Pcs",
+                    "product_weight" : "110g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 2640
+                }
+            ],
             "pack_size": "1",
             "shelf_life_months": 12,
             "country_of_origin": "India",
@@ -260,6 +302,20 @@
             "thumbnail" : "/assets/image/product/tin_chips/tin_chips_cheese.webp",
             "images": [
                 "/assets/image/product/tin_chips/tin_chips_cheese.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Pcs",
+                    "product_weight" : "110g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 2640
+                }
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -277,6 +333,20 @@
             "images": [
                 "/assets/image/product/tin_chips/tin_chips_original.webp"
             ],
+            "packaging": [
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Pcs",
+                    "product_weight" : "110g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 2640
+                }
+            ],
             "pack_size": "1",
             "shelf_life_months": 12,
             "country_of_origin": "India",
@@ -292,6 +362,20 @@
             "thumbnail" : "/assets/image/product/tin_chips/tin_chips_hot_and_spicy.webp",
             "images": [
                 "/assets/image/product/tin_chips/tin_chips_hot_and_spicy.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Pcs",
+                    "product_weight" : "110g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 2640
+                }
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -309,6 +393,36 @@
             "images": [
                 "/assets/image/product/sticks/sticks_tomato.webp"
             ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "item_package_contain" : 4,
+                    "item_count_type" : "Tin",
+                    "product_weight" : "80g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3840
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "item_package_contain" : 8,
+                    "item_count_type" : "Tin",
+                    "product_weight" : "40g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3840
+                }
+            ],
             "pack_size": "1",
             "shelf_life_months": 12,
             "country_of_origin": "India",
@@ -324,6 +438,36 @@
             "thumbnail" : "/assets/image/product/sticks/sticks_hot_and_spicy.webp",
             "images": [
                 "/assets/image/product/sticks/sticks_hot_and_spicy.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "item_package_contain" : 4,
+                    "item_count_type" : "Tin",
+                    "product_weight" : "80g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3840
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "item_package_contain" : 8,
+                    "item_count_type" : "Tin",
+                    "product_weight" : "40g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3840
+                }
             ],
             "pack_size": "1",
             "shelf_life_months": 12,
@@ -341,6 +485,36 @@
             "images": [
                 "/assets/image/product/sticks/sticks_cheddar_cheese.webp"
             ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "item_package_contain" : 4,
+                    "item_count_type" : "Tin",
+                    "product_weight" : "80g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3840
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "item_package_contain" : 8,
+                    "item_count_type" : "Tin",
+                    "product_weight" : "40g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3840
+                }
+            ],
             "pack_size": "1",
             "shelf_life_months": 12,
             "country_of_origin": "India",
@@ -357,11 +531,40 @@
             "images": [
                 "/assets/image/product/sticks/sticks_salted.webp"
             ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "item_package_contain" : 4,
+                    "item_count_type" : "Tin",
+                    "product_weight" : "80g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3840
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Box",
+                    "item_package_contain" : 8,
+                    "item_count_type" : "Tin",
+                    "product_weight" : "40g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 3840
+                }
+            ],
             "pack_size": "1",
             "shelf_life_months": 12,
             "country_of_origin": "India",
             "tags": [ "salted potato sticks", "classic potato snacks", "crispy potato sticks", "crunchy snacks", "party snacks", "savory snacks", "potato stick snacks", "premium snacks", "salted snacks", "snack sticks" ]
         }
-        write packaging in tin chips and sticks
     ]
 }

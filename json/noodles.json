@@ -73,6 +73,70 @@
             "shelf_life_months": 12,
             "country_of_origin": "India",
             "tags": [ "vegetable-noodles", "instant-noodles", "noodles", "veg", "vegetable-flavour", "savory", "mild-spice", "quick-meal", "comfort-food", "everyday-meal" ]
+        },
+        {
+            "id" : "no4",
+            "category": "Noodles",
+            "brand" : "Classy Instant Noodles",
+            "flavour" : "Chicken",
+            "sub_flavour" : "Chicken Noodles",
+            "description" : "Savory and satisfying, Classy Instant Chicken Noodles bring the rich taste of chicken broth blended with perfectly seasoned spices. Quick and easy to prepare, these noodles deliver a warm, flavorful meal in just minutes.",
+            "thumbnail" : "/assets/image/product/nuddles/webp/chicken.webp",
+            "images": [
+                "/assets/image/product/nuddles/webp/chicken.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "8",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bags",
+                    "item_package_contain" : 5,
+                    "item_count_type" : "Pcs",
+                    "product_weight" : "65g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 2600
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "instant chicken noodles", "chicken flavored noodles", "instant noodles", "quick meal noodles", "savory noodles", "chicken broth noodles", "ready to cook noodles", "noodle snacks", "premium noodles", "fast meal" ]
+        },
+        {
+            "id" : "no5",
+            "category": "Noodles",
+            "brand" : "Classy Instant Noodles",
+            "flavour" : "Spicy Chicken",
+            "sub_flavour" : "Spicy Chicken Noodles",
+            "description" : "Bold and flavorful, Classy Instant Spicy Chicken Noodles combine the rich taste of chicken with a fiery blend of spices. Quick and easy to prepare, they deliver a satisfying spicy noodle experience in just minutes.",
+            "thumbnail" : "/assets/image/product/nuddles/webp/spicy_chicken.webp",
+            "images": [
+                "/assets/image/product/nuddles/webp/spicy_chicken.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "8",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bags",
+                    "item_package_contain" : 5,
+                    "item_count_type" : "Pcs",
+                    "product_weight" : "65g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 2600
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "spicy chicken noodles", "instant spicy noodles", "chicken flavored noodles", "instant noodles", "quick meal noodles", "spicy noodles", "ready to cook noodles", "noodle snacks", "premium noodles", "fast meal" ]
         }
     ]
 }

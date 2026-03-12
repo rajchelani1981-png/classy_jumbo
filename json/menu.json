@@ -193,6 +193,14 @@
                     {
                         "title" : "Vegetable Noodles",
                         "route" : "#/product/noodles/flavour-vegetable"
+                    },
+                    {
+                        "title" : "Chicken Noodles",
+                        "route" : "#/product/noodles/flavour-chicken"
+                    },
+                    {
+                        "title" : "Spicy Chicken Noodles",
+                        "route" : "#/product/noodles/flavour-spicy chicken"
                     }
                 ]
             },
@@ -239,6 +247,10 @@
                     {
                         "title" : "Tin Chips",
                         "route" : "#/product/chips/category-tin chips"
+                    },
+                    {
+                        "title" : "Stick Chips",
+                        "route" : "#/product/chips/category-potato sticks"
                     }
                 ]
             },
@@ -295,6 +307,10 @@
                     {
                         "title" : "Fruit Rings",
                         "route" : "#/product/cereals/category-fruit rings"
+                    },
+                    {
+                        "title" : "Muesli",
+                        "route" : "#/product/cereals/category-muesli"
                     }
                 ]
             },
@@ -309,6 +325,24 @@
                     {
                         "title" : "Khari",
                         "route" : "#/product/snacks/category-khari"
+                    }
+                ]
+            },
+            {
+                "title": "Natural Honey",
+                "route": "#/product/honey"
+            },
+            {
+                "title": "Food",
+                "route": "#/product/food",
+                "submenu": [
+                    {
+                        "title" : "Tin Food",
+                        "route" : "#/product/food/category-tin food"
+                    },
+                    {
+                        "title" : "Rice",
+                        "route" : "#/product/food/category-rice"
                     }
                 ]
             }

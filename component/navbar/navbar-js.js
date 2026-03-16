@@ -46,13 +46,18 @@ let companyLogoLoad = async () => {
   navbarLogo.innerHTML = `<img src="${companyDataForLogo.logo}" alt="Company Logo" />`;
 }
 
-let menuPart = (data, menuKey) =>{
+let menuPart = (data, menuKey, ulClassName) =>{
   let ul = document.createElement("ul");
-  ul.className = "submenu";
+  ul.className = ulClassName;
 
   data.forEach(m =>{
     let li = document.createElement("li");
     let a = document.createElement("a");
+
+    if(ulClassName === "main-submenu"){
+      li.classList.add("menu-item");
+      a.className = "menu-item-link";
+    }
 
     if(m.route)
       a.href = m.route;
@@ -63,15 +68,15 @@ let menuPart = (data, menuKey) =>{
     li.append(a);
 
     if(m.submenu){
-      li.className = "dropdown";
-      a.className = "nav-link";
-      a.innerHTML += '<span class="caret">▾</span>';
+      li.classList.add("has-children");
+      a.innerHTML += '<span>+</span>';
+      a.classList.add("nav-link");
 
       // empty the li tag
       li.innerHTML = "";
       li.append(a);
 
-      let subSubmenu = menuPart(m.submenu, menuKey); 
+      let subSubmenu = menuPart(m.submenu, menuKey, "inner-submenu"); 
 
       li.append(subSubmenu);
     }
@@ -99,11 +104,12 @@ let loadMenuData = async () =>{
       
       let subMenuData = e.submenu;
       
-      li.innerHTML = `<a href="${e.route ? e.route : ""}" class="nav-link" data-menu="${parts[0]}">${e.title}<span class="caret">▾</span></a>`;
-      li.append(menuPart(subMenuData, parts[0]));
+      // li.innerHTML = `<a href="${e.route ? e.route : ""}" class="nav-link" data-menu="${parts[0]}">${e.title}<span class="caret">▾</span></a>`;
+      li.innerHTML = `<a href="${e.route ? e.route : ""}" class="nav-link main-nav caret" data-menu="${parts[0]}">${e.title} ▾</a>`;
+      li.append(menuPart(subMenuData, parts[0], "main-submenu"));
     }
     else{
-      li.innerHTML = `<a href="${e.route ? e.route : ""}" class="nav-link" data-menu="${parts[0]}" >${e.title}</a>`;
+      li.innerHTML = `<a href="${e.route ? e.route : ""}" class="nav-link main-nav" data-menu="${parts[0]}" >${e.title}</a>`;
     }
     navMenu.append(li);
   });
@@ -277,7 +283,7 @@ function closeMobileMenu() {
 
 // Highlight active menu
 function setActive(menu) {
-  document.querySelectorAll(".nav-link").forEach(link => {
+  document.querySelectorAll(".main-nav").forEach(link => {
     link.classList.toggle("active", link.dataset.menu === menu);
   });
   document.querySelector(".navbar-logo").classList.remove("active");

@@ -285,7 +285,6 @@
 
   }
 
-  
   //expected changeFilter = "/key-value/key-value"
   //for isolate filter
   function updateTheHashWithIsolateData(changeFilter) {

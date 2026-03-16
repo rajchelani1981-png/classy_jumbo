@@ -9,19 +9,19 @@
     },
     "packaging": [
         {
-            "box_contains": "12",
+            "box_contains": "24",
             "box_material" : "Carton",
-            "item_package_material" : "Jar",
+            "item_package_material" : "Tin",
             "item_package_contain" : 1,
-            "item_count_type" : "Jar",
-            "product_weight" : "370g",
+            "item_count_type" : "Tin",
+            "product_weight" : "400g",
             "box_dimensions_cm": {
                 "length": 8,
                 "width": 8,
                 "height": 11
             },
-            "box_weight_g": 520
-        }   
+            "box_weight_g": 9600
+        }
     ],
     "list": [
         {
@@ -83,6 +83,360 @@
             "shelf_life_months": 12,
             "country_of_origin": "India",
             "tags": [ "sweet corn", "whole kernel corn", "canned corn", "tin sweet corn", "ready to use corn", "corn for salads", "corn for cooking", "premium canned food", "sweet corn kernels", "vegetable tin food" ]
+        },
+        {
+            "id" : "tin2",
+            "category": "Tin Food",
+            "brand" : "Classy",
+            "flavour" : "Mushrooms Whole",
+            "sub_flavour" : "Classy Mushrooms Whole",
+            "description" : "Tender and flavorful, Classy Whole Mushrooms are carefully selected and packed to maintain their natural taste and texture. Perfect for salads, pizzas, soups, and a variety of delicious recipes.",
+            "thumbnail" : "/assets/image/product/tin_food/mushrooms_whole.webp",
+            "images": [
+                "/assets/image/product/tin_food/mushrooms_whole.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Tin",
+                    "item_package_contain" : 1,
+                    "item_count_type" : "Tin",
+                    "product_weight" : "400g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 9600
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Tin",
+                    "item_package_contain" : 1,
+                    "item_count_type" : "Tin",
+                    "product_weight" : "800g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 9600
+                },
+                {
+                    "box_contains": "6",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Tin",
+                    "item_package_contain" : 1,
+                    "item_count_type" : "Tin",
+                    "product_weight" : "2.84kg",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 17040
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "whole mushrooms", "canned mushrooms", "mushrooms for cooking", "tin mushrooms", "ready to use mushrooms", "premium canned food", "vegetable tin food", "mushrooms for pizza", "mushrooms for salads", "mushroom ingredients" ]
+        },
+        {
+            "id" : "tin3",
+            "category": "Tin Food",
+            "brand" : "Classy",
+            "flavour" : "Coconut Milk",
+            "sub_flavour" : "Classy Coconut Milk",
+            "description" : "Rich, creamy, and naturally flavorful, Classy Coconut Milk is made from high-quality coconuts to bring a smooth texture and authentic taste to your dishes. Perfect for curries, desserts, smoothies, and a variety of recipes.",
+            "thumbnail" : "/assets/image/product/tin_food/coconut_milk.webp",
+            "images": [
+                "/assets/image/product/tin_food/coconut_milk.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Tin",
+                    "item_package_contain" : 1,
+                    "item_count_type" : "Tin",
+                    "product_weight" : "425g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 10200
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Tin",
+                    "item_package_contain" : 1,
+                    "item_count_type" : "Tin",
+                    "product_weight" : "850g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 10200
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "coconut milk", "creamy coconut milk", "cooking coconut milk", "coconut milk for curry", "dairy free milk", "vegan milk alternative", "premium coconut milk", "coconut cooking ingredient", "plant based milk", "tropical cooking ingredient" ]
+        },
+        {
+            "id" : "tin4",
+            "category": "Tin Food",
+            "brand" : "Classy",
+            "flavour" : "Red Kidney Beans",
+            "sub_flavour" : "Classy Red Kidney Beans",
+            "description" : "Nutritious and flavorful, Classy Red Kidney Beans are carefully selected and packed to preserve their rich taste and texture. Perfect for curries, salads, soups, and a variety of hearty recipes.",
+            "thumbnail" : "/assets/image/product/tin_food/red_kidney_beans.webp",
+            "images": [
+                "/assets/image/product/tin_food/red_kidney_beans.webp"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "red kidney beans", "rajma beans", "canned kidney beans", "kidney beans for curry", "protein rich beans", "healthy beans", "beans for cooking", "premium canned food", "legumes", "vegetable tin food" ]
+        },
+        {
+            "id" : "tin5",
+            "category": "Tin Food",
+            "brand" : "Classy",
+            "flavour" : "Green Peas",
+            "sub_flavour" : "Classy Green Peas",
+            "description" : "Fresh, tender, and naturally sweet, Classy Green Peas are carefully selected and packed to preserve their vibrant flavor and texture. Perfect for curries, salads, soups, and a variety of delicious dishes.",
+            "thumbnail" : "/assets/image/product/tin_food/green_peas.webp",
+            "images": [
+                "/assets/image/product/tin_food/green_peas.webp"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "green peas", "canned green peas", "peas for cooking", "sweet green peas", "vegetable tin food", "ready to use peas", "peas for curry", "peas for salads", "premium canned food", "healthy vegetables" ]
+        },
+        {
+            "id" : "tin6",
+            "category": "Tin Food",
+            "brand" : "Classy",
+            "flavour" : "Baked Beans",
+            "sub_flavour" : "Classy Baked Beans",
+            "description" : "Rich, hearty, and full of flavor, Classy Baked Beans are slow-cooked in a delicious tomato sauce for a satisfying taste. Perfect as a quick meal, breakfast side, or a tasty addition to your favorite recipes.",
+            "thumbnail" : "/assets/image/product/tin_food/baked_beans.webp",
+            "images": [
+                "/assets/image/product/tin_food/baked_beans.webp"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "baked beans", "beans in tomato sauce", "canned baked beans", "ready to eat beans", "breakfast beans", "protein rich beans", "premium canned food", "beans for meals", "savory beans", "tin food" ]
+        },
+        {
+            "id" : "tin7",
+            "category": "Tin Food",
+            "brand" : "Classy",
+            "flavour" : "Foul Madamas",
+            "sub_flavour" : "Classy Foul Madamas",
+            "description" : "Authentic and hearty, Classy Foul Madamas is made from premium fava beans cooked with flavorful spices for a rich and traditional taste. Perfect as a nutritious meal or side dish, ready to enjoy anytime.",
+            "thumbnail" : "/assets/image/product/tin_food/foul_madamas.webp",
+            "images": [
+                "/assets/image/product/tin_food/foul_madamas.webp"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "foul madamas", "fava beans", "canned fava beans", "middle eastern food", "ready to eat beans", "protein rich beans", "traditional beans dish", "premium canned food", "savory beans", "tin food" ]
+        },
+        {
+            "id" : "tin8",
+            "category": "Tin Food",
+            "brand" : "Classy",
+            "flavour" : "White Beans",
+            "sub_flavour" : "Classy White Beans",
+            "description" : "Soft, nutritious, and full of natural flavor, Classy White Beans are carefully selected and packed to preserve their quality and taste. Perfect for soups, salads, stews, and a variety of delicious recipes.",
+            "thumbnail" : "/assets/image/product/tin_food/white_beans.webp",
+            "images": [
+                "/assets/image/product/tin_food/white_beans.webp"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "white beans", "canned white beans", "beans for cooking", "protein rich beans", "healthy beans", "beans for soup", "beans for salads", "premium canned food", "legumes", "tin food" ]
+        },
+        {
+            "id" : "tin9",
+            "category": "Tin Food",
+            "brand" : "Classy",
+            "flavour" : "Chick Peas",
+            "sub_flavour" : "Classy Chick Peas",
+            "description" : "Nutritious and versatile, Classy Chick Peas are carefully selected and packed to maintain their rich flavor and firm texture. Perfect for salads, curries, hummus, and a variety of delicious recipes.",
+            "thumbnail" : "/assets/image/product/tin_food/chick_peas.webp",
+            "images": [
+                "/assets/image/product/tin_food/chick_peas.webp"
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "chick peas", "chickpeas", "canned chickpeas", "garbanzo beans", "protein rich legumes", "beans for cooking", "chickpeas for hummus", "healthy beans", "premium canned food", "tin food" ]
+        },
+        {
+            "id" : "tin10",
+            "category": "Tin Food",
+            "brand" : "Classy",
+            "flavour" : "Sweetened Condensed Filled Milk",
+            "sub_flavour" : "Classy Sweetened Condensed Filled Milk",
+            "description" : "Rich, creamy, and perfectly sweet, Classy Sweetened Condensed Filled Milk adds a smooth texture and delicious sweetness to desserts, beverages, and baking recipes. Ideal for creating a variety of sweet treats.",
+            "thumbnail" : "/assets/image/product/tin_food/sweetened_condensed_filled_milk.webp",
+            "images": [
+                "/assets/image/product/tin_food/sweetened_condensed_filled_milk.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "48",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Tin",
+                    "item_package_contain" : 1,
+                    "item_count_type" : "Tin",
+                    "product_weight" : "390ml",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 18720
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Tin",
+                    "item_package_contain" : 1,
+                    "item_count_type" : "Tin",
+                    "product_weight" : "1kg",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 12000
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "sweetened condensed milk", "condensed filled milk", "dessert milk", "baking ingredient", "milk for desserts", "sweet milk", "milk for beverages", "premium dairy product", "condensed milk product", "sweet cooking ingredient" ]
+        },
+        {
+            "id" : "tin11",
+            "category": "Tin Food",
+            "brand" : "Classy",
+            "flavour" : "Evaporated Milk",
+            "sub_flavour" : "Classy Analogue Evaporated Milk",
+            "description" : "Creamy and versatile, Classy Analogue Evaporated Milk is a dairy alternative designed to deliver the rich texture and smooth taste of traditional evaporated milk. Ideal for cooking, baking, beverages, and a variety of delicious recipes.",
+            "thumbnail" : "/assets/image/product/tin_food/evaporated_milk.webp",
+            "images": [
+                "/assets/image/product/tin_food/evaporated_milk.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "48",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Tin",
+                    "item_package_contain" : 1,
+                    "item_count_type" : "Tin",
+                    "product_weight" : "410ml",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 19680
+                },
+                {
+                    "box_contains": "48",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Tin",
+                    "item_package_contain" : 1,
+                    "item_count_type" : "Tin",
+                    "product_weight" : "170ml",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 8160
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "analogue evaporated milk", "evaporated milk alternative", "canned milk substitute", "cooking milk", "milk for baking", "milk for coffee", "creamier milk alternative", "dairy alternative", "premium milk product", "tin milk" ]
+        },
+        {
+            "id" : "tin12",
+            "category": "Rice",
+            "brand" : "Classy",
+            "flavour" : "Basmati Rice",
+            "sub_flavour" : "Classy Basmati Rice",
+            "description" : "Fragrant, long-grain, and naturally aromatic, Classy Basmati Rice delivers a delicate flavor and fluffy texture when cooked. Perfect for biryani, pulao, and everyday meals, it brings authentic taste and premium quality to your kitchen.",
+            "thumbnail" : "/assets/image/product/rice/basmatic_rice.webp",
+            "images": [
+                "/assets/image/product/rice/basmatic_rice.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Pouch",
+                    "item_package_contain" : 1,
+                    "item_count_type" : "Pouch",
+                    "product_weight" : "1kg",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 12000
+                },
+                {
+                    "box_contains": "4",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bag",
+                    "item_package_contain" : 1,
+                    "item_count_type" : "Bag",
+                    "product_weight" : "5kg",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 20000
+                },
+                {
+                    "box_contains": "4",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bag",
+                    "item_package_contain" : 1,
+                    "item_count_type" : "Bag",
+                    "product_weight" : "10kg",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 40000
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "basmati rice", "long grain rice", "aromatic rice", "premium rice", "rice for biryani", "rice for pulao", "indian basmati rice", "cooking rice", "quality rice", "staple food" ]
         }
     ]
 }

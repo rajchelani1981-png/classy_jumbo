@@ -1,0 +1,208 @@
+{
+    "bannerImage" : {
+        "img": "/assets/image/sliding/toffee/toffee_desktop.jpeg",
+        "tablet_img" : "/assets/image/sliding/toffee/toffee_tablet.jpeg",
+        "mobile_img" : "/assets/image/sliding/toffee/toffee_mobile.jpeg",
+        "img_webp" : "/assets/image/sliding/toffee/webp/toffee_desktop.webp",
+        "tablet_webp" : "/assets/image/sliding/toffee/webp/toffee_tablet.webp",
+        "mobile_webp" : "/assets/image/sliding/toffee/webp/toffee_mobile.webp"
+    },
+    "packaging": [
+        {
+            "box_contains": "12",
+            "box_material" : "Carton",
+            "item_package_material" : "Jar",
+            "item_package_contain" : 1,
+            "item_count_type" : "Jar",
+            "product_weight" : "370g",
+            "box_dimensions_cm": {
+                "length": 8,
+                "width": 8,
+                "height": 11
+            },
+            "box_weight_g": 520
+        }   
+    ],
+    "list": [
+        {
+            "id" : "oi1",
+            "category": "Olive Oil",
+            "brand" : "Classy Olive Oil",
+            "flavour" : "Olive Oil",
+            "sub_flavour" : "Extra Virgin Olive Oil",
+            "description" : "Pure, aromatic, and cold-pressed from high-quality olives, Classy Extra Virgin Olive Oil delivers a rich flavor and smooth texture. Perfect for salads, cooking, marinades, and healthy everyday meals.",
+            "thumbnail" : "/assets/image/product/oil/olive_oil.webp",
+            "images": [
+                "/assets/image/product/oil/olive_oil.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bottle",
+                    "item_package_contain" : 1,
+                    "item_count_type" : "Bottle",
+                    "product_weight" : "250ml",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 6000
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bottle",
+                    "item_package_contain" : 1,
+                    "item_count_type" : "Bottle",
+                    "product_weight" : "500ml",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 6000
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bottle",
+                    "item_package_contain" : 1,
+                    "item_count_type" : "Bottle",
+                    "product_weight" : "750ml",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 9000
+                },
+                {
+                    "box_contains": "6",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bottle",
+                    "item_package_contain" : 1,
+                    "item_count_type" : "Bottle",
+                    "product_weight" : "1ltr",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 6000
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "extra virgin olive oil", "olive oil", "cold pressed olive oil", "healthy cooking oil", "olive oil for salads", "premium olive oil", "cooking oil", "mediterranean oil", "natural olive oil", "healthy kitchen ingredient" ]
+        },
+        {
+            "id" : "oi2",
+            "category": "Mustard Oil",
+            "brand" : "Classy",
+            "flavour" : "Kachi Ghani Mustard Oil",
+            "sub_flavour" : "Classy Kachi Ghani Mustard Oil",
+            "description" : "Rich in aroma and traditional flavor, Classy Kachi Ghani Mustard Oil is extracted using the cold-press method to preserve its natural nutrients and bold taste. Perfect for cooking, frying, and pickling, it brings authentic flavor and purity to your kitchen.",
+            "thumbnail" : "/assets/image/product/oil/mustard.webp",
+            "images": [
+                "/assets/image/product/oil/mustard.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bottle",
+                    "item_package_contain" : 1,
+                    "item_count_type" : "Bottle",
+                    "product_weight" : "1ltr",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 12000
+                },
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bottle",
+                    "item_package_contain" : 1,
+                    "item_count_type" : "Bottle",
+                    "product_weight" : "500ml",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 12000
+                },
+                {
+                    "box_contains": "30",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bottle",
+                    "item_package_contain" : 1,
+                    "item_count_type" : "Bottle",
+                    "product_weight" : "200ml",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 6000
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "kachi ghani mustard oil", "mustard oil", "cold pressed mustard oil", "cooking oil", "traditional cooking oil", "mustard oil for cooking", "mustard oil for pickles", "premium mustard oil", "healthy cooking oil", "kitchen essential oil" ]
+        },
+        {
+            "id" : "oi3",
+            "category": "Sunflower Oil",
+            "brand" : "Classy",
+            "flavour" : "Sunflower Oil",
+            "sub_flavour" : "Classy Sunflower Oil",
+            "description" : "Light, pure, and naturally rich in nutrients, Classy Sunflower Oil is perfect for everyday cooking. With its mild flavor and high smoke point, it is ideal for frying, sautéing, and preparing a variety of delicious dishes.",
+            "thumbnail" : "/assets/image/product/oil/sunflower.webp",
+            "images": [
+                "/assets/image/product/oil/sunflower.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "4",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bottle",
+                    "item_package_contain" : 1,
+                    "item_count_type" : "Bottle",
+                    "product_weight" : "5ltr",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 20000
+                },
+                {
+                    "box_contains": "6",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bottle",
+                    "item_package_contain" : 1,
+                    "item_count_type" : "Bottle",
+                    "product_weight" : "1.5ltr",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 9000
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "sunflower oil", "cooking oil", "refined sunflower oil", "healthy cooking oil", "oil for frying", "oil for cooking", "kitchen essential oil", "premium sunflower oil", "vegetable oil", "daily cooking oil" ]
+        }
+    ]
+}

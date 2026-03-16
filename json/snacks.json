@@ -240,6 +240,144 @@
             "shelf_life_months": 12,
             "country_of_origin": "India",
             "tags": [ "jeera khari", "cumin khari", "khari biscuit", "jeera puff pastry", "crispy khari", "savory khari snack", "tea time khari", "bakery khari", "cumin puff snack", "indian puff pastry", "tea time snacks", "classy khari" ]
+        },
+        {
+            "id" : "tea7",
+            "category": "Tea",
+            "brand" : "Classy",
+            "flavour" : "Premium CTC Tea",
+            "sub_flavour" : "Classy Premium CTC Tea",
+            "description" : "Strong, rich, and full-bodied, Classy Premium CTC Tea is carefully processed using the Crush, Tear, Curl method to deliver a bold flavor and deep color. Perfect for preparing a refreshing cup of milk tea with a strong aroma and satisfying taste.",
+            "thumbnail" : "/assets/image/product/tea_and_coffee/premium_ctc_tea.webp",
+            "images": [
+                "/assets/image/product/tea_and_coffee/premium_ctc_tea.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Jar",
+                    "product_weight" : "225g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 2700
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Jar",
+                    "product_weight" : "450g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 5400
+                },
+                {
+                    "box_contains": "6",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Jar",
+                    "product_weight" : "900g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 5400
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "ctc tea", "premium tea", "black tea", "strong tea", "milk tea", "indian tea", "tea leaves", "breakfast tea", "aromatic tea", "daily tea" ]
+        },
+        {
+            "id" : "cof8",
+            "category": "Coffee",
+            "brand" : "Classy",
+            "flavour" : "Gold Coffee",
+            "sub_flavour" : "Classy Gold Coffee",
+            "description" : "Smooth, rich, and aromatic, Classy Gold Coffee delivers a premium coffee experience with every cup. Carefully crafted from quality coffee beans, it offers a balanced flavor and delightful aroma, perfect for starting your day or enjoying a relaxing break.",
+            "thumbnail" : "/assets/image/product/tea_and_coffee/gold_coffee.webp",
+            "images": [
+                "/assets/image/product/tea_and_coffee/gold_coffee.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Jar",
+                    "product_weight" : "100g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 2400
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Jar",
+                    "product_weight" : "200g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 24
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "gold coffee", "instant coffee", "premium coffee", "coffee powder", "aromatic coffee", "coffee beverage", "morning coffee", "coffee drink", "premium instant coffee", "daily coffee" ]
+        },
+        {
+            "id" : "cof9",
+            "category": "Coffee",
+            "brand" : "Classy",
+            "flavour" : "Classic Coffee",
+            "sub_flavour" : "Classy Classic Coffee",
+            "description" : "Rich, smooth, and full of aroma, Classy Classic Coffee delivers a timeless coffee experience in every cup. Made from quality coffee beans, it provides a balanced flavor that is perfect for starting your day or enjoying a relaxing coffee break.",
+            "thumbnail" : "/assets/image/product/tea_and_coffee/classic_coffee.webp",
+            "images": [
+                "/assets/image/product/tea_and_coffee/classic_coffee.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "24",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Jar",
+                    "product_weight" : "100g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 2400
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Jar",
+                    "product_weight" : "200g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 24
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "classic coffee", "instant coffee", "coffee powder", "premium coffee", "aromatic coffee", "coffee beverage", "morning coffee", "coffee drink", "daily coffee", "quality coffee" ]
         }
     ]
 }

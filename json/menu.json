@@ -315,7 +315,7 @@
                 ]
             },
             {
-                "title": "Tea Time Snacks",
+                "title": "Tea Time Snacks And Tea Coffee",
                 "route": "#/product/snacks",
                 "submenu": [
                     {
@@ -343,6 +343,24 @@
                     {
                         "title" : "Rice",
                         "route" : "#/product/food/category-rice"
+                    }
+                ]
+            },
+            {
+                "title": "Oil",
+                "route": "#/product/oil",
+                "submenu": [
+                    {
+                        "title" : "Olive Oil",
+                        "route" : "#/product/oil/category-olive oil"
+                    },
+                    {
+                        "title" : "Mustard Oil",
+                        "route" : "#/product/oil/category-mustard oil"
+                    },
+                    {
+                        "title" : "Sunflower Oil",
+                        "route" : "#/product/oil/category-sunflower oil"
                     }
                 ]
             }

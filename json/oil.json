@@ -1,11 +1,11 @@
 {
     "bannerImage" : {
-        "img": "/assets/image/sliding/toffee/toffee_desktop.jpeg",
-        "tablet_img" : "/assets/image/sliding/toffee/toffee_tablet.jpeg",
-        "mobile_img" : "/assets/image/sliding/toffee/toffee_mobile.jpeg",
-        "img_webp" : "/assets/image/sliding/toffee/webp/toffee_desktop.webp",
-        "tablet_webp" : "/assets/image/sliding/toffee/webp/toffee_tablet.webp",
-        "mobile_webp" : "/assets/image/sliding/toffee/webp/toffee_mobile.webp"
+        "img": "/assets/image/sliding/olive_oil/olive_oil_web.jpg",
+        "tablet_img" : "/assets/image/sliding/olive_oil/olive_oil_tab.jpg",
+        "mobile_img" : "/assets/image/sliding/olive_oil/olive_oil_mobile.jpg",
+        "img_webp" : "/assets/image/sliding/olive_oil/webp/olive_oil_web.webp",
+        "tablet_webp" : "/assets/image/sliding/olive_oil/webp/olive_oil_tab.webp",
+        "mobile_webp" : "/assets/image/sliding/olive_oil/webp/olive_oil_mobile.webp"
     },
     "packaging": [
         {

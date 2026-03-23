@@ -1,11 +1,11 @@
 {
     "bannerImage" : {
-        "img": "/assets/image/sliding/cookies/cookies_desktop.jpg",
-        "tablet_img" : "/assets/image/sliding/cookies/cookies_tablet.jpg",
-        "mobile_img" : "/assets/image/sliding/cookies/cookies_mobile.jpg",
-        "img_webp" : "/assets/image/sliding/cookies/webp/cookies_desktop.webp",
-        "tablet_webp" : "/assets/image/sliding/cookies/webp/cookies_tablet.webp",
-        "mobile_webp" : "/assets/image/sliding/cookies/webp/cookies_mobile.webp"
+        "img": "/assets/image/sliding/rusk/rusk_web.jpg",
+        "tablet_img" : "/assets/image/sliding/rusk/rusk_tab.jpg",
+        "mobile_img" : "/assets/image/sliding/rusk/rusk_mobile.jpg",
+        "img_webp" : "/assets/image/sliding/rusk/webp/rusk_web.webp",
+        "tablet_webp" : "/assets/image/sliding/rusk/webp/rusk_tab.webp",
+        "mobile_webp" : "/assets/image/sliding/rusk/webp/rusk_mobile.webp"
     },
     "packaging": [
         {

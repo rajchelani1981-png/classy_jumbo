@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Room (Host)</title>
+</head>
+<body>
+
+<h2>HOST</h2>
+
+<video id="localVideo" autoplay muted playsinline style="width:300px;"></video>
+
+<div id="remoteVideos"></div>
+
+<script>
+
+const ws = new WebSocket("ws://localhost:1007/signal");
+
+let sessionId;
+let localStream;
+
+// outgoing (self)
+let pc;
+let iceQueue = [];
+
+// incoming (others)
+let participants = {};
+let iceQueueMap = {};
+
+let isWsReady = false;
+let isMediaReady = false;
+
+const localVideo = document.getElementById("localVideo");
+const remoteVideos = document.getElementById("remoteVideos");
+
+// ================= WS =================
+ws.onopen = () => {
+    console.log("Connected");
+
+    ws.send(JSON.stringify({
+        type: "joinRoom",
+        roomId: "room1"
+    }));
+};
+
+// ================= MEDIA =================
+navigator.mediaDevices.getUserMedia({ video: true, audio: true })
+.then(stream => {
+    localStream = stream;
+    localVideo.srcObject = stream;
+
+    isMediaReady = true;
+    tryStart();
+});
+
+// ================= START =================
+function tryStart() {
+    if (isWsReady && isMediaReady) {
+        console.log("Starting WebRTC...");
+        publish();
+    }
+}
+
+// ================= WS MESSAGE =================
+ws.onmessage = async (msg) => {
+
+    const data = JSON.parse(msg.data);
+
+    switch (data.type) {
+
+        case "id":
+            sessionId = data.sessionId;
+            isWsReady = true;
+            tryStart();
+            break;
+
+        case "existingUser":
+            subscribe(data.userId);
+            break;
+
+        case "newUser":
+            subscribe(data.userId);
+            break;
+
+        // ===== OUTGOING ANSWER =====
+        case "publishVideoAnswer":
+
+            console.log("Publish answer");
+
+            await pc.setRemoteDescription({
+                type: "answer",
+                sdp: data.sdpAnswer
+            });
+
+            // flush ICE
+            iceQueue.forEach(c => pc.addIceCandidate(c));
+            iceQueue = [];
+
+            break;
+
+        // ===== INCOMING ANSWER =====
+        case "receiveVideoAnswer":
+
+            console.log("Incoming answer from:", data.sender);
+
+            const participant = participants[data.sender];
+
+            if (!participant) {
+                console.error("Participant missing:", data.sender);
+                return;
+            }
+
+            await participant.pc.setRemoteDescription({
+                type: "answer",
+                sdp: data.sdpAnswer
+            });
+
+            // flush ICE
+            if (iceQueueMap[data.sender]) {
+                iceQueueMap[data.sender].forEach(c =>
+                    participant.pc.addIceCandidate(c)
+                );
+                delete iceQueueMap[data.sender];
+            }
+
+            break;
+
+        // ===== ICE =====
+        case "iceCandidate":
+
+            if (data.sender) {
+
+                const participant = participants[data.sender];
+                if (!participant) return;
+
+                const pcIncoming = participant.pc;
+
+                if (!pcIncoming.remoteDescription || !pcIncoming.remoteDescription.type) {
+
+                    console.log("Queue ICE for", data.sender);
+
+                    if (!iceQueueMap[data.sender]) {
+                        iceQueueMap[data.sender] = [];
+                    }
+
+                    iceQueueMap[data.sender].push(data.candidate);
+
+                } else {
+                    pcIncoming.addIceCandidate(data.candidate);
+                }
+
+            } else {
+
+                if (!pc.remoteDescription || !pc.remoteDescription.type) {
+
+                    console.log("Queue ICE for self");
+
+                    iceQueue.push(data.candidate);
+
+                } else {
+                    pc.addIceCandidate(data.candidate);
+                }
+            }
+
+            break;
+    }
+};
+
+// ================= PUBLISH =================
+function publish() {
+
+    pc = new RTCPeerConnection({
+        iceServers: [{ urls: "stun:stun.l.google.com:19302" }]
+    });
+
+    localStream.getTracks().forEach(track => {
+        pc.addTrack(track, localStream);
+    });
+
+    pc.onicecandidate = e => {
+        if (e.candidate) {
+            ws.send(JSON.stringify({
+                type: "iceCandidate",
+                candidate: e.candidate
+            }));
+        }
+    };
+
+    pc.createOffer()
+        .then(o => pc.setLocalDescription(o))
+        .then(() => {
+            ws.send(JSON.stringify({
+                type: "publishVideo",
+                sdpOffer: pc.localDescription.sdp
+            }));
+        });
+}
+
+// ================= SUBSCRIBE =================
+function subscribe(userId) {
+
+    if (userId === sessionId) return;
+
+    console.log("Host subscribing to:", userId);
+
+    const video = document.createElement("video");
+    video.autoplay = true;
+    video.playsInline = true;
+    video.muted = true;           // 🔥 FIX
+    video.style.width = "300px";
+
+    remoteVideos.appendChild(video);
+
+    const pcIncoming = new RTCPeerConnection({
+        iceServers: [{ urls: "stun:stun.l.google.com:19302" }]
+    });
+
+    participants[userId] = { pc: pcIncoming, video };
+
+    pcIncoming.ontrack = e => {
+        console.log("TRACK RECEIVED from", userId);
+
+        const stream = new MediaStream();
+        stream.addTrack(e.track);
+
+        video.srcObject = stream;
+
+        video.onloadedmetadata = () => {
+            video.play().catch(err => {
+                console.warn("Play blocked:", err);
+            });
+        };
+    };
+
+    pcIncoming.onicecandidate = e => {
+        if (e.candidate) {
+            ws.send(JSON.stringify({
+                type: "iceCandidate",
+                candidate: e.candidate,
+                sender: userId
+            }));
+        }
+    };
+
+    pcIncoming.createOffer({ offerToReceiveAudio: true, offerToReceiveVideo: true })
+        .then(o => pcIncoming.setLocalDescription(o))
+        .then(() => {
+            ws.send(JSON.stringify({
+                type: "receiveVideoFrom",
+                sender: userId,
+                sdpOffer: pcIncoming.localDescription.sdp
+            }));
+        });
+}
+
+ws.onerror = err => console.error("WS ERROR", err);
+ws.onclose = () => console.error("WS CLOSED");
+
+</script>
+
+</body>
+</html>

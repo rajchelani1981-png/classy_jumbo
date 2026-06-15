@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Video Room</h2>
+
+<video id="localVideo" autoplay muted playsinline></video>
+<div id="videos"></div>
+
+<script>
+const ws = new WebSocket("ws://localhost:1007/signal");
+
+let sessionId;
+let localStream;
+let outgoingPc;
+let participants = {};
+let iceQueue = {};
+
+let isWsReady = false;
+let isMediaReady = false;
+
+const localVideo = document.getElementById("localVideo");
+const videos = document.getElementById("videos");
+
+// ================= WS =================
+ws.onopen = () => {
+    ws.send(JSON.stringify({ type: "joinRoom", roomId: "room1" }));
+};
+
+ws.onmessage = async (msg) => {
+    const data = JSON.parse(msg.data);
+
+    switch (data.type) {
+
+        case "id":
+            sessionId = data.sessionId;
+            isWsReady = true;
+            tryStart();
+            break;
+
+        case "existingUser":
+            subscribe(data.userId);  // ✅
+            break;
+
+        case "newUser":
+            subscribe(data.userId);  // ✅
+            break;
+
+        case "publishVideoAnswer":
+            console.log("Publish answer");
+
+            await outgoingPc.setRemoteDescription({
+                type: "answer",
+                sdp: data.sdpAnswer
+            });
+
+            // ✅ FLUSH ICE
+            if (iceQueue["self"]) {
+                iceQueue["self"].forEach(c =>
+                    outgoingPc.addIceCandidate(c)
+                );
+                delete iceQueue["self"];
+            }
+
+            break;
+
+        case "receiveVideoAnswer":
+            console.log("FULL ANSWER:", data);
+            if (data.sender) {
+
+                const participant = participants[data.sender];
+
+                if (!participant) {
+                    console.error("Participant missing:", data.sender);
+                    return;
+                }
+
+                await participant.pc.setRemoteDescription({
+                    type: "answer",
+                    sdp: data.sdpAnswer
+                });
+
+                // ✅ FLUSH ICE
+                if (iceQueue[data.sender]) {
+                    iceQueue[data.sender].forEach(c =>
+                        participant.pc.addIceCandidate(c)
+                    );
+                    delete iceQueue[data.sender];
+                }
+
+            }
+            // if (data.sender) {
+            //     // incoming
+            //     await participants[data.sender].pc.setRemoteDescription({
+            //         type: "answer",
+            //         sdp: data.sdpAnswer
+            //     });
+            // } else {
+            //     // outgoing
+            //     await outgoingPc.setRemoteDescription({
+            //         type: "answer",
+            //         sdp: data.sdpAnswer
+            //     });
+            // }
+            break;
+
+        case "iceCandidate":
+
+            if (data.sender) {
+
+                const participant = participants[data.sender];
+
+                if (!participant) {
+                    console.warn("No participant for ICE:", data.sender);
+                    return;
+                }
+
+                const pc = participant.pc;
+
+                if (!pc.remoteDescription || !pc.remoteDescription.type) {
+                    console.log("Queueing ICE for", data.sender);
+
+                    if (!iceQueue[data.sender]) {
+                        iceQueue[data.sender] = [];
+                    }
+
+                    iceQueue[data.sender].push(data.candidate);
+
+                } else {
+                    pc.addIceCandidate(data.candidate);
+                }
+
+            } else {
+
+                if (!outgoingPc.remoteDescription || !outgoingPc.remoteDescription.type) {
+                    console.log("Queueing ICE for outgoing");
+
+                    if (!iceQueue["self"]) {
+                        iceQueue["self"] = [];
+                    }
+
+                    iceQueue["self"].push(data.candidate);
+
+                } else {
+                    outgoingPc.addIceCandidate(data.candidate);
+                }
+            }
+
+            break;
+    }
+};
+
+// ================= MEDIA =================
+navigator.mediaDevices.getUserMedia({ video: true, audio: true })
+.then(stream => {
+    localStream = stream;
+    localVideo.srcObject = stream;
+
+    isMediaReady = true;
+    tryStart();
+});
+
+// ================= START =================
+function tryStart() {
+    if (isWsReady && isMediaReady) {
+        publish();   // ✅ everyone publishes
+    }
+}
+
+// ================= PUBLISH =================
+function publish() {
+
+    outgoingPc = new RTCPeerConnection({
+        iceServers: [{ urls: "stun:stun.l.google.com:19302" }]
+    });
+
+    localStream.getTracks().forEach(track => {
+        outgoingPc.addTrack(track, localStream);
+    });
+
+    outgoingPc.onicecandidate = e => {
+        if (e.candidate) {
+            ws.send(JSON.stringify({
+                type: "iceCandidate",
+                candidate: e.candidate
+            }));
+        }
+    };
+
+    outgoingPc.createOffer()
+        .then(o => outgoingPc.setLocalDescription(o))
+        .then(() => {
+            ws.send(JSON.stringify({
+                type: "publishVideo"   // ✅
+                , sdpOffer: outgoingPc.localDescription.sdp
+            }));
+        });
+}
+
+// ================= SUBSCRIBE =================
+function subscribe(userId) {
+console.log("Subscribing to:", userId);
+    if (userId === sessionId) return;
+
+    const video = document.createElement("video");
+    video.autoplay = true;
+    video.playsInline = true;
+    video.style.width = "300px";
+    videos.appendChild(video);
+
+    const pc = new RTCPeerConnection({
+        iceServers: [{ urls: "stun:stun.l.google.com:19302" }]
+    });
+
+    participants[userId] = { pc, video };
+
+    pc.ontrack = e => {
+        console.log("TRACK RECEIVED from", userId);
+        video.srcObject = e.streams[0];
+    };
+
+    pc.onicecandidate = e => {
+        if (e.candidate) {
+            ws.send(JSON.stringify({
+                type: "iceCandidate",
+                candidate: e.candidate,
+                sender: userId   // ✅ IMPORTANT
+            }));
+        }
+    };
+
+    pc.createOffer({ offerToReceiveVideo: true, offerToReceiveAudio: true })
+        .then(o => pc.setLocalDescription(o))
+        .then(() => {
+            ws.send(JSON.stringify({
+                type: "receiveVideoFrom",  // ✅
+                sender: userId,
+                sdpOffer: pc.localDescription.sdp
+            }));
+        });
+}
+</script>
+
+</body>
+</html>

@@ -781,7 +781,237 @@
             "tags": [ "assorted candies", "coffee candy", "caramel candy", "filled candy", "green apple candy", "sweet treats", "flavored candies", "confectionery", "on the go sweets", "candy lovers" ]
         },
         {
-            "id" : "je21",
+            "id" : "ca22",
+            "category": "Candy",
+            "brand" : "Classy Candy",
+            "flavour" : "Choco Mint Candy",
+            "sub_flavour" : "Classy Choco Mint Candy",
+            "description" : "Classy Choco Mint Candy is a delightful blend of rich chocolate flavor and refreshing mint freshness, crafted to provide a smooth and satisfying taste experience. Perfect for candy lovers of all ages, each piece delivers a balanced combination of sweetness and cool minty goodness. Whether enjoyed as a quick treat, after a meal, or shared with friends and family, Classy Choco Mint Candy offers a premium taste that refreshes your senses and satisfies your sweet cravings.",
+            "thumbnail" : "/assets/image/product/candy/choco_mint_candy.webp",
+            "images": [
+                "/assets/image/product/candy/choco_mint_candy.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bag",
+                    "item_package_contain" : 100,
+                    "item_count_type" : "Pcs",
+                    "product_weight" : "4g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 4800
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bag",
+                    "item_package_contain" : 100,
+                    "item_count_type" : "Pcs",
+                    "product_weight" : "8g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 9600
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "Choco Mint Candy", "Chocolate Candy", "Mint Candy", "Refreshing Candy", "Sweet Treat", "Premium Candy", "Chocolate Mint", "Mint Chocolate", "Confectionery", "Candy Lovers", "After Meal Candy", "Refreshing Sweets", "Chocolate Flavour", "Mint Flavour", "Tasty Candy", "Sweet Snacks", "Kids Candy", "Family Treat", "Cool Mint Candy", "Classy Candy" ]
+        },
+        {
+            "id" : "ca23",
+            "category": "Candy",
+            "brand" : "Classy Candy",
+            "flavour" : "Coffee Candy",
+            "sub_flavour" : "Classy Coffee Candy",
+            "description" : "Classy Coffee Candy is crafted for coffee lovers who enjoy the rich aroma and smooth taste of premium coffee. Each candy is infused with a delightful coffee flavor, offering a perfect balance of sweetness and bold coffee notes. Ideal for a quick refreshment, a midday energy boost, or simply satisfying your coffee cravings anytime, anywhere. Enjoy the authentic coffee experience in a convenient and delicious candy form.",
+            "thumbnail" : "/assets/image/product/candy/coffee_candy.webp",
+            "images": [
+                "/assets/image/product/candy/coffee_candy.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bag",
+                    "item_package_contain" : 100,
+                    "item_count_type" : "Pcs",
+                    "product_weight" : "4g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 4800
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bag",
+                    "item_package_contain" : 100,
+                    "item_count_type" : "Pcs",
+                    "product_weight" : "8g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 9600
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "Coffee Candy", "Coffee Flavour Candy", "Premium Coffee Candy", "Sweet Coffee Treat", "Coffee Lovers", "Coffee Confectionery", "Refreshing Candy", "Coffee Snack", "Aromatic Candy", "Instant Coffee Taste", "Coffee Delight", "Candy Treat", "Sweet Snacks", "Coffee Flavoured Sweets", "Rich Coffee Candy", "Delicious Candy", "Energy Candy", "Coffee Experience", "Classy Candy", "Classy Coffee Candy" ]
+        },
+        {
+            "id" : "ca24",
+            "category": "Candy",
+            "brand" : "Classy Candy",
+            "flavour" : "Happy Hearts",
+            "sub_flavour" : "Classy Happy Hearts Candy",
+            "description" : "Classy Happy Hearts Candy is a fun and flavorful treat designed to bring joy to candy lovers of all ages. Shaped like adorable hearts and packed with delicious fruity flavors, each candy delivers a perfect balance of sweetness and taste. Ideal for sharing with friends, gifting to loved ones, celebrating special moments, or simply enjoying as a cheerful snack, Classy Happy Hearts Candy adds a touch of happiness to every occasion.",
+            "thumbnail" : "/assets/image/product/candy/happy_hearts_candy.webp",
+            "images": [
+                "/assets/image/product/candy/happy_hearts_candy.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bag",
+                    "item_package_contain" : 100,
+                    "item_count_type" : "Pcs",
+                    "product_weight" : "4g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 4800
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bag",
+                    "item_package_contain" : 100,
+                    "item_count_type" : "Pcs",
+                    "product_weight" : "8g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 9600
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "Happy Hearts Candy", "Heart Shaped Candy", "Fruit Candy", "Sweet Candy", "Colorful Candy", "Kids Candy", "Candy Treat", "Fruity Candy", "Delicious Sweets", "Premium Candy", "Party Candy", "Gift Candy", "Valentine Candy", "Fun Candy", "Family Treat", "Confectionery", "Sweet Snacks", "Candy Lovers", "Classy Candy", "Classy Happy Hearts Candy" ]
+        },
+        {
+            "id" : "ca25",
+            "category": "Candy",
+            "brand" : "Classy Candy",
+            "flavour" : "Imli Sour And Sweet",
+            "sub_flavour" : "Classy Imli Sour And Sweet Candy",
+            "description" : "Classy Imli Sour & Sweet Candy is a flavorful treat inspired by the authentic taste of tamarind. Crafted with the perfect combination of tangy and sweet flavors, this candy offers a unique taste experience that excites the taste buds. Whether you're craving a nostalgic childhood favorite or looking for a refreshing snack, Classy Imli Sour & Sweet Candy delivers a burst of mouthwatering flavor that keeps you coming back for more.",
+            "thumbnail" : "/assets/image/product/candy/imli_sour_and_sweet_candy.webp",
+            "images": [
+                "/assets/image/product/candy/imli_sour_and_sweet_candy.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bag",
+                    "item_package_contain" : 100,
+                    "item_count_type" : "Pcs",
+                    "product_weight" : "4g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 4800
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bag",
+                    "item_package_contain" : 100,
+                    "item_count_type" : "Pcs",
+                    "product_weight" : "8g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 9600
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "Imli Candy", "Tamarind Candy", "Sour and Sweet Candy", "Tangy Candy", "Sweet Tamarind Candy", "Indian Candy", "Traditional Candy", "Flavorful Candy", "Candy Treat", "Refreshing Candy", "Kids Candy", "Family Treat", "Confectionery", "Sweet Snacks", "Tangy Treat", "Tamarind Flavour", "Classic Candy", "Premium Candy", "Classy Candy", "Classy Imli Sour & Sweet Candy" ]
+        },
+        {
+            "id" : "ca26",
+            "category": "Candy",
+            "brand" : "Classy Candy",
+            "flavour" : "Mango Center Filled Candy",
+            "sub_flavour" : "Classy Mango Center Filled Candy",
+            "description" : "Classy Mango Center Filled Candy combines the rich, juicy taste of ripe mangoes with an exciting liquid-filled center for a unique candy experience. The outer candy shell delivers a sweet and fruity mango flavor, while the soft center releases an extra burst of deliciousness. Perfect for mango lovers of all ages, this candy is ideal for satisfying sweet cravings, sharing with friends, or enjoying as a refreshing treat anytime.",
+            "thumbnail" : "/assets/image/product/candy/mango_centerfilled_candy.webp",
+            "images": [
+                "/assets/image/product/candy/mango_centerfilled_candy.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bag",
+                    "item_package_contain" : 100,
+                    "item_count_type" : "Pcs",
+                    "product_weight" : "4g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 4800
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bag",
+                    "item_package_contain" : 100,
+                    "item_count_type" : "Pcs",
+                    "product_weight" : "8g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 9600
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "Mango Candy", "Center Filled Candy", "Mango Center Filled Candy", "Liquid Filled Candy", "Fruit Candy", "Tropical Candy", "Sweet Candy", "Mango Flavour", "Juicy Candy", "Candy Treat", "Kids Candy", "Family Treat", "Premium Candy", "Confectionery", "Refreshing Sweets", "Delicious Candy", "Mango Lovers", "Sweet Snacks", "Classy Candy", "Classy Mango Center Filled Candy" ]
+        },
+        {
+            "id" : "je27",
             "category": "Jelly",
             "brand" : "Classy Jelly",
             "flavour" : "Jolly Byte",
@@ -813,7 +1043,7 @@
             "tags": [ "jelly candy", "fruity jelly", "chewy candy", "colorful sweets", "kids candy", "sweet treats", "gummy candy", "confectionery", "fun snacks", "candy lovers" ]
         },
         {
-            "id" : "je22",
+            "id" : "je28",
             "category": "Jelly",
             "brand" : "Classy Jelly",
             "flavour" : "Jolly Snacks",
@@ -845,7 +1075,7 @@
             "tags": [ "jelly snacks", "fruity jelly", "chewy jelly", "kids snacks", "jelly candy", "sweet treats", "colorful candies", "confectionery", "fun snacks", "snack time treats" ]
         },
         {
-            "id" : "je23",
+            "id" : "je29",
             "category": "Jelly",
             "brand" : "Classy Jelly",
             "flavour" : "Ring Joy And Frooty Bytes",
@@ -1617,6 +1847,130 @@
             "shelf_life_months": 12,
             "country_of_origin": "India",
             "tags": [ "assorted toffees", "jelly candy", "milk truffles", "coco truffles", "birthday toffee", "creamy sweets", "sweet treats", "confectionery", "kids favorites", "everyday candies" ]
+        },
+        {
+            "id" : "to44",
+            "category": "Toffee",
+            "brand" : "Classy Toffee",
+            "flavour" : "Butter Toffee",
+            "sub_flavour" : "Classy Butter Toffee",
+            "description" : "Classy Butter Toffee is a timeless confection made with the rich taste of premium butter and a perfectly balanced sweetness. Its smooth texture and delicious flavor create a delightful treat that melts in your mouth and leaves a lasting impression. Perfect for all age groups, this classic toffee is ideal for sharing with family and friends, enjoying as a snack, or satisfying your sweet cravings anytime. Experience the comforting taste of buttery indulgence with every piece of Classy Butter Toffee.",
+            "thumbnail" : "/assets/image/product/toffee/butter_toffee.webp",
+            "images": [
+                "/assets/image/product/toffee/butter_toffee.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bag",
+                    "item_package_contain" : 100,
+                    "item_count_type" : "Pcs",
+                    "product_weight" : "7g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 8400
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bag",
+                    "item_package_contain" : 100,
+                    "item_count_type" : "Pcs",
+                    "product_weight" : "8g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 9600
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "Butter Toffee", "Classy Butter Toffee", "Creamy Toffee", "Butter Candy", "Milk Toffee", "Premium Toffee", "Sweet Treat", "Classic Toffee", "Delicious Candy", "Buttery Candy", "Confectionery", "Kids Candy", "Family Treat", "Traditional Toffee", "Rich Butter Flavor", "Sweet Snacks", "Toffee Lovers", "Soft Toffee", "Classy Candy", "Butter Flavoured Candy" ]
+        },
+        {
+            "id" : "to45",
+            "category": "Toffee",
+            "brand" : "Classy Toffee",
+            "flavour" : "Cream Fudge Toffee",
+            "sub_flavour" : "Classy Cream Fudge Toffee",
+            "description" : "Classy Cream Fudge Toffee is a delightful blend of creamy milk goodness and rich fudge flavor, crafted to deliver a luxurious taste experience. Each piece offers a smooth, velvety texture with the perfect balance of sweetness and creaminess. Ideal for children and adults alike, this premium toffee is perfect for sharing, gifting, or enjoying as a delicious everyday treat. Experience the indulgent taste of creamy fudge in every bite with Classy Cream Fudge Toffee.",
+            "thumbnail" : "/assets/image/product/toffee/cream_fudge_toffee.webp",
+            "images": [
+                "/assets/image/product/toffee/cream_fudge_toffee.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "20",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bag",
+                    "item_package_contain" : 40,
+                    "item_count_type" : "Pcs",
+                    "product_weight" : "10g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 8000
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "Cream Fudge Toffee", "Classy Cream Fudge Toffee", "Fudge Candy", "Cream Toffee", "Milk Toffee", "Creamy Candy", "Premium Toffee", "Sweet Treat", "Delicious Toffee", "Fudge Flavour", "Cream Flavour", "Confectionery", "Kids Candy", "Family Treat", "Soft Toffee", "Rich Cream Candy", "Sweet Snacks", "Toffee Lovers", "Classy Candy", "Creamy Fudge Candy" ]
+        },
+        {
+            "id" : "to46",
+            "category": "Toffee",
+            "brand" : "Classy Toffee",
+            "flavour" : "Creamy Butter Toffee",
+            "sub_flavour" : "Classy Creamy Butter Toffee",
+            "description" : "Classy Creamy Butter Toffee combines the richness of premium butter with a velvety creamy texture to create a truly indulgent treat. Crafted to perfection, each toffee offers a delightful balance of buttery flavor and sweetness that lingers on the palate. Whether enjoyed as a quick snack, shared with loved ones, or offered as a special treat, Classy Creamy Butter Toffee delivers a comforting and satisfying taste experience for all ages.",
+            "thumbnail" : "/assets/image/product/toffee/creamy_butter_toffee.webp",
+            "images": [
+                "/assets/image/product/toffee/creamy_butter_toffee.webp"
+            ],
+            "packaging": [
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bag",
+                    "item_package_contain" : 100,
+                    "item_count_type" : "Pcs",
+                    "product_weight" : "7g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 8400
+                },
+                {
+                    "box_contains": "12",
+                    "box_material" : "Carton",
+                    "item_package_material" : "Bag",
+                    "item_package_contain" : 100,
+                    "item_count_type" : "Pcs",
+                    "product_weight" : "8g",
+                    "box_dimensions_cm": {
+                        "length": 8,
+                        "width": 8,
+                        "height": 11
+                    },
+                    "box_weight_g": 9600
+                }
+            ],
+            "pack_size": "1",
+            "shelf_life_months": 12,
+            "country_of_origin": "India",
+            "tags": [ "Classy Creamy Butter Toffee", "Creamy Butter Toffee", "Butter Toffee", "Cream Toffee", "Milk Toffee", "Premium Toffee", "Buttery Candy", "Creamy Candy", "Sweet Treat", "Delicious Toffee", "Rich Butter Flavor", "Smooth Toffee", "Soft Candy", "Confectionery", "Kids Candy", "Family Treat", "Traditional Toffee", "Sweet Snacks", "Toffee Lovers", "Classy Candy" ]
         },
         {
             "id" : "lol44",

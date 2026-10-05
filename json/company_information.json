@@ -8,7 +8,7 @@
     "contact" : [
         {
             "country" : "in",
-            "phone" : "+919772923303",
+            "phone" : ["+919772923303"],
             "email" : "info@classyjumbo.in"
         }
     ],

@@ -1,3 +1,8 @@
+.branch-title, .footer-col > strong{
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
 .site-footer {
   background: linear-gradient(180deg, #f57c00, #d32f2f);
   color: #fff;

@@ -11,5 +11,14 @@
             "phone" : "+919772923303",
             "email" : "info@classyjumbo.in"
         }
+    ],
+    "branches" : [
+        {
+            "country" : "ae",
+            "branch_name" : "Dubai Branch",
+            "address" : "Shop No. 6, Plot No. 74-0, Near Al Jazeera Hotel, Deira, Al Ras, Dubai, UAE (PO Box 64531)",
+            "phone" : "+971 4 222 3333",
+            "email" : "info@dubai@classyjumbo.in"
+        }
     ]
 }

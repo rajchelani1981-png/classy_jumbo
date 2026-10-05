@@ -32,6 +32,14 @@ async function menuDataLoadForFooter(){
 
 function renderFooter(data, menu) {
   const contact = data.contact?.[0] || {};
+  const branchesHtml = (data.branches || [])
+  .map(branch => `
+    <h5 class="branch-title">${branch.branch_name}</h5>
+    <p>
+      ${branch.address}
+    </p>
+  `)
+  .join('');
 
   return `
     <div class="site-footer">
@@ -52,6 +60,8 @@ function renderFooter(data, menu) {
             <h4>Address</h4><br>
             <strong>${data.parent_company_name}</strong>
             <p>${data.address}</p>
+
+            ${branchesHtml}
           </div>
 
           <!-- Contact -->
